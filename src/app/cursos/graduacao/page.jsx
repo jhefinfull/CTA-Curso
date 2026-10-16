@@ -4,14 +4,14 @@ export const dynamic = "force-dynamic";
 
 export const metadata = metadadosDaModalidade(
   "graduacao",
-  "Graduação EAD em Boa Vista: bacharelado, licenciatura, tecnólogo e superior sequencial com UNIP, FAMAR e Unicorp Faculdades."
+  "Graduação EAD em Boa Vista: bacharelado, licenciatura e tecnólogo com UNIP, FAMAR e Unicorp Faculdades."
 );
 
 const Page = ({ searchParams }) => (
   <PaginaModalidade
     chave="graduacao"
     searchParams={searchParams}
-    chamada="Bacharelado, licenciatura, tecnólogo e curso superior sequencial com as instituições parceiras do CTA: UNIP (Polo Boa Vista II), FAMAR e Unicorp Faculdades."
+    chamada="Bacharelado, licenciatura e tecnólogo com as instituições parceiras do CTA: UNIP (Polo Boa Vista II), FAMAR e Unicorp Faculdades."
   />
 );
 
