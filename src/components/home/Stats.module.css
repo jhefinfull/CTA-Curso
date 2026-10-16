@@ -1,0 +1,104 @@
+.secao {
+  position: relative;
+  padding-block: 56px;
+  background: var(--branco);
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding: 40px 32px;
+  border-radius: var(--r-xl);
+  background: linear-gradient(135deg, var(--azul-600) 0%, var(--azul-800) 55%, var(--escuro-800) 100%);
+  box-shadow: var(--sombra-lg);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Faixa da marca no topo do bloco — amarra o número à identidade. */
+.grade::before {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: 0;
+  height: 4px;
+  background: var(--gradiente-marca);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+  position: relative;
+}
+
+.item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -12px;
+  top: 16%;
+  height: 68%;
+  border-right: 1px solid rgba(255, 255, 255, 0.16);
+}
+
+.icone {
+  display: grid;
+  place-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: var(--r-md);
+  background: rgba(255, 255, 255, 0.12);
+  color: var(--amarelo-400);
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+.valor {
+  font-family: var(--fonte-titulo);
+  font-size: clamp(2rem, 1.4rem + 2vw, 2.85rem);
+  font-weight: 800;
+  color: #fff;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  font-variant-numeric: tabular-nums;
+}
+
+.label {
+  font-size: var(--t-sm);
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 20ch;
+}
+
+@media (max-width: 900px) {
+  .grade {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 16px;
+    padding: 34px 22px;
+  }
+
+  .item:nth-child(odd)::after {
+    right: -8px;
+  }
+
+  .item:nth-child(even)::after {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .secao {
+    padding-block: 40px;
+  }
+
+  .grade {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+
+  .item::after {
+    display: none !important;
+  }
+}

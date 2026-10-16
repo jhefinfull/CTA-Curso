@@ -1,0 +1,781 @@
+.header {
+  position: fixed;
+  inset-inline: 0;
+  top: 0;
+  z-index: 900;
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: saturate(180%) blur(14px);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+  border-bottom: 1px solid transparent;
+  transition: box-shadow 0.25s var(--ease), border-color 0.25s var(--ease),
+    background-color 0.25s var(--ease);
+}
+
+.rolou {
+  background: rgba(255, 255, 255, 0.96);
+  border-bottom-color: var(--cinza-200);
+  box-shadow: 0 6px 24px rgba(12, 24, 38, 0.07);
+}
+
+/* ─── Faixa superior (contato) ─────────────────────────────────────────────── */
+
+.faixa {
+  background: var(--escuro-900);
+  color: rgba(255, 255, 255, 0.78);
+  font-size: var(--t-xs);
+  position: relative;
+}
+
+.faixa::after {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: 2px;
+  background: var(--gradiente-marca);
+  opacity: 0.85;
+}
+
+.faixaInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  height: 36px;
+}
+
+.faixaLinks {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.faixaItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  transition: color 0.2s var(--ease);
+}
+
+a.faixaItem:hover {
+  color: #fff;
+}
+
+.faixaItem i {
+  font-size: 14px;
+  color: var(--amarelo-400);
+}
+
+/* A faixa some antes do menu: em telas pequenas ela é a primeira coisa dispensável. */
+@media (max-width: 900px) {
+  .faixa {
+    display: none;
+  }
+}
+
+/* ─── Barra principal ──────────────────────────────────────────────────────── */
+
+.barra {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: 74px;
+}
+
+.logo {
+  flex-shrink: 0;
+  display: block;
+}
+
+.logo img {
+  height: 44px;
+  width: auto;
+  object-fit: contain;
+}
+
+.nav {
+  margin-inline: auto;
+}
+
+.navLista {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.navItemMega {
+  position: relative;
+}
+
+.navLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  border-radius: var(--r-pill);
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  font-weight: 600;
+  color: var(--cinza-700);
+  white-space: nowrap;
+  transition: color 0.2s var(--ease), background-color 0.2s var(--ease);
+}
+
+.navLink:hover {
+  color: var(--azul-700);
+  background: var(--azul-50);
+}
+
+.navBotao {
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.navBotao i {
+  font-size: 13px;
+  transition: transform 0.25s var(--ease);
+}
+
+.navAberto i {
+  transform: rotate(180deg);
+}
+
+.ativo {
+  color: var(--azul-700);
+  background: var(--azul-50);
+}
+
+/* ─── Mega menu ────────────────────────────────────────────────────────────── */
+
+.mega {
+  position: absolute;
+  top: calc(100% + 14px);
+  left: 50%;
+  transform: translate(-50%, -10px);
+  width: min(940px, calc(100vw - 48px));
+  display: grid;
+  grid-template-columns: 1.55fr 1fr;
+  gap: 0;
+  background: #fff;
+  border: 1px solid var(--cinza-200);
+  border-radius: var(--r-lg);
+  box-shadow: var(--sombra-xl);
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.22s var(--ease), transform 0.22s var(--ease-saida),
+    visibility 0.22s var(--ease);
+}
+
+.megaAberto {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translate(-50%, 0);
+}
+
+.megaTrilhas {
+  padding: 26px 26px 24px;
+}
+
+.megaCabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+  border-bottom: 1px solid var(--cinza-100);
+}
+
+.megaTitulo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  font-weight: 700;
+  color: var(--tinta);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.megaTitulo i {
+  color: var(--azul-500);
+  font-size: 16px;
+}
+
+.megaTitulo:hover {
+  color: var(--azul-600);
+}
+
+.megaContagem {
+  font-size: var(--t-xs);
+  font-weight: 600;
+  color: var(--cinza-500);
+  background: var(--cinza-100);
+  padding: 3px 10px;
+  border-radius: var(--r-pill);
+}
+
+.megaGrade {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+}
+
+.megaArea {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 11px 12px;
+  border-radius: var(--r-md);
+  transition: background-color 0.18s var(--ease), transform 0.18s var(--ease);
+}
+
+.megaArea:hover {
+  background: var(--cinza-50);
+  transform: translateX(2px);
+}
+
+.megaIcone {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 11px;
+  font-size: 19px;
+  color: #fff;
+}
+
+.azul {
+  background: linear-gradient(135deg, var(--azul-400), var(--azul-600));
+}
+
+.verde {
+  background: linear-gradient(135deg, var(--verde-400), var(--verde-600));
+}
+
+.amarelo {
+  background: linear-gradient(135deg, var(--amarelo-400), var(--amarelo-600));
+}
+
+.laranja {
+  background: linear-gradient(135deg, var(--laranja-400), var(--laranja-600));
+}
+
+.megaAreaTexto {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.megaAreaTexto strong {
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  font-weight: 600;
+  color: var(--tinta);
+  line-height: 1.3;
+}
+
+.megaAreaTexto small {
+  font-size: var(--t-xs);
+  color: var(--cinza-500);
+  line-height: 1.4;
+}
+
+/* Ícone menor: com 12 áreas em três colunas, o de 38px estourava a altura do menu. */
+.megaArea .megaIcone {
+  width: 32px;
+  height: 32px;
+  border-radius: 9px;
+  font-size: 16px;
+}
+
+.megaArea {
+  padding: 8px 9px;
+  gap: 10px;
+  align-items: center;
+}
+
+.megaVerAreas {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--cinza-100);
+  width: 100%;
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  font-weight: 600;
+  color: var(--azul-700);
+}
+
+.megaVerAreas:hover {
+  color: var(--azul-800);
+}
+
+.megaVerAreas i {
+  transition: transform 0.2s var(--ease);
+}
+
+.megaVerAreas:hover i {
+  transform: translateX(3px);
+}
+
+/* Vitrine vazia: sem áreas, o menu vira uma coluna só de modalidades. */
+.megaSemAreas {
+  grid-template-columns: 1fr;
+  width: min(380px, calc(100vw - 48px));
+}
+
+.megaSemAreas .megaLateral {
+  border-left: 0;
+  background: #fff;
+}
+
+/* Sete modalidades não cabem abaixo do cabeçalho fixo num notebook de 768 px: a coluna
+   rola em vez de cortar o fim (o "Ver todos os cursos" ficava inalcançável). */
+.megaLateral {
+  padding: 26px 24px 24px;
+  background: var(--cinza-50);
+  border-left: 1px solid var(--cinza-200);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: calc(100vh - 128px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.megaLateralTitulo {
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--cinza-500);
+  margin-bottom: 4px;
+}
+
+.megaCartao {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 14px;
+  background: #fff;
+  border: 1px solid var(--cinza-200);
+  border-radius: var(--r-md);
+  transition: border-color 0.18s var(--ease), transform 0.18s var(--ease),
+    box-shadow 0.18s var(--ease);
+}
+
+.megaCartao:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sombra-md);
+}
+
+/* Cor de cada modalidade (MODALIDADES.cor em config/tiposCurso). */
+.megaCor_azul:hover { border-color: var(--azul-300); }
+.megaCor_verde:hover { border-color: var(--verde-300); }
+.megaCor_noite:hover { border-color: var(--cinza-400); }
+.megaCor_sol:hover { border-color: var(--amarelo-300); }
+
+.megaCartaoIcone {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.megaCor_azul .megaCartaoIcone { background: var(--azul-50); color: var(--azul-600); }
+.megaCor_verde .megaCartaoIcone { background: var(--verde-50); color: var(--verde-700); }
+.megaCor_noite .megaCartaoIcone { background: var(--cinza-100); color: var(--escuro-700); }
+.megaCor_sol .megaCartaoIcone { background: var(--amarelo-50); color: var(--amarelo-700); }
+
+.megaCartao span:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.megaCartao strong {
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  font-weight: 600;
+  color: var(--tinta);
+}
+
+.megaCartao small {
+  font-size: var(--t-xs);
+  color: var(--cinza-500);
+  line-height: 1.4;
+}
+
+.megaVerTodos {
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 16px;
+  border-radius: var(--r-pill);
+  background: var(--azul-500);
+  color: #fff;
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  font-weight: 600;
+  justify-content: center;
+  transition: background-color 0.2s var(--ease);
+}
+
+.megaVerTodos:hover {
+  background: var(--azul-600);
+}
+
+.megaVerTodosTotal {
+  background: rgba(255, 255, 255, 0.22);
+  border-radius: var(--r-pill);
+  padding: 1px 9px;
+  font-size: var(--t-xs);
+}
+
+/* ─── Ações à direita ──────────────────────────────────────────────────────── */
+
+.acoes {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.alunoGrupo {
+  position: relative;
+}
+
+.aluno {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 18px;
+  border: 0;
+  border-radius: var(--r-pill);
+  background: var(--azul-700);
+  color: #fff;
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.2s var(--ease), transform 0.2s var(--ease),
+    box-shadow 0.2s var(--ease);
+}
+
+.aluno:hover {
+  background: var(--azul-800);
+  transform: translateY(-2px);
+  box-shadow: var(--sombra-azul);
+}
+
+.aluno i {
+  font-size: 17px;
+}
+
+.alunoMenu {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 10px);
+  min-width: 230px;
+  display: grid;
+  padding: 8px;
+  background: #fff;
+  border: 1px solid var(--cinza-200);
+  border-radius: var(--r-md);
+  box-shadow: var(--sombra-lg);
+  z-index: 30;
+}
+
+.alunoMenu a {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 11px 12px;
+  border-radius: var(--r-sm);
+}
+
+.alunoMenu a:hover {
+  background: var(--azul-50);
+}
+
+.alunoMenu strong {
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  font-weight: 700;
+  color: var(--tinta);
+}
+
+.alunoMenu small {
+  font-size: var(--t-xs);
+  color: var(--cinza-500);
+}
+
+.inscreva {
+  display: inline-flex;
+  align-items: center;
+  padding: 11px 20px;
+  border-radius: var(--r-pill);
+  background: var(--verde-500);
+  color: #fff;
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  font-weight: 700;
+  white-space: nowrap;
+  box-shadow: var(--sombra-laranja);
+  transition: background-color 0.2s var(--ease), transform 0.2s var(--ease);
+}
+
+.inscreva:hover {
+  background: var(--verde-600);
+  transform: translateY(-2px);
+}
+
+.burger {
+  display: none;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--cinza-200);
+  border-radius: var(--r-md);
+  background: #fff;
+  color: var(--tinta);
+  font-size: 22px;
+  cursor: pointer;
+  transition: border-color 0.2s var(--ease), color 0.2s var(--ease);
+}
+
+.burger:hover {
+  border-color: var(--azul-300);
+  color: var(--azul-600);
+}
+
+/* ─── Mobile ───────────────────────────────────────────────────────────────── */
+
+.painelMobile {
+  display: none;
+}
+
+.overlay {
+  display: none;
+}
+
+@media (max-width: 1160px) {
+  .navLink {
+    padding: 10px 11px;
+    font-size: 0.8125rem;
+  }
+
+  .barra {
+    gap: 14px;
+  }
+}
+
+/* Notebook pequeno: com os dois botões à direita o menu inteiro não cabia mais. */
+@media (max-width: 1100px) {
+  .navLink {
+    padding-inline: 8px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav {
+    display: none;
+  }
+
+  .burger {
+    display: inline-flex;
+  }
+
+  .barra {
+    height: 68px;
+    justify-content: space-between;
+  }
+
+  .logo img {
+    height: 38px;
+  }
+
+  .painelMobile {
+    display: block;
+    position: fixed;
+    top: 68px;
+    right: 0;
+    width: min(360px, 88vw);
+    height: calc(100dvh - 68px);
+    background: #fff;
+    border-left: 1px solid var(--cinza-200);
+    box-shadow: var(--sombra-xl);
+    transform: translateX(100%);
+    transition: transform 0.28s var(--ease-saida);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    display: flex;
+    flex-direction: column;
+    z-index: 950;
+  }
+
+  .painelAberto {
+    transform: translateX(0);
+  }
+
+  .overlay {
+    display: block;
+    position: fixed;
+    inset: 68px 0 0;
+    background: rgba(7, 19, 32, 0.5);
+    border: 0;
+    z-index: 940;
+    cursor: default;
+  }
+
+  .listaMobile {
+    padding: 14px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+  }
+
+  .linkMobile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 14px;
+    border: 0;
+    background: none;
+    border-radius: var(--r-md);
+    font-family: var(--fonte-titulo);
+    font-size: var(--t-md);
+    font-weight: 600;
+    color: var(--tinta);
+    cursor: pointer;
+    text-align: left;
+    transition: background-color 0.18s var(--ease), color 0.18s var(--ease);
+  }
+
+  .linkMobile:hover {
+    background: var(--azul-50);
+    color: var(--azul-700);
+  }
+
+  .linkMobile > i:first-child {
+    font-size: 18px;
+    color: var(--azul-500);
+    width: 20px;
+  }
+
+  .linkMobileSeta {
+    margin-left: auto;
+    font-size: 14px;
+    color: var(--cinza-400);
+  }
+
+  .subListaMobile {
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0 8px 46px;
+    border-left: 2px solid var(--cinza-200);
+    margin-left: 22px;
+  }
+
+  .subLinkMobile {
+    padding: 10px 12px;
+    border-radius: var(--r-sm);
+    font-size: var(--t-sm);
+    color: var(--cinza-600);
+    transition: color 0.18s var(--ease), background-color 0.18s var(--ease);
+  }
+
+  .subLinkMobile:hover {
+    color: var(--azul-700);
+    background: var(--azul-50);
+  }
+
+  .subLinkTotal {
+    margin-left: 8px;
+    padding: 1px 8px;
+    border-radius: var(--r-pill);
+    background: var(--cinza-100);
+    color: var(--cinza-500);
+    font-size: 0.6875rem;
+    font-weight: 600;
+  }
+
+  .rodapeMobile {
+    padding: 16px;
+    border-top: 1px solid var(--cinza-200);
+    background: var(--cinza-50);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .alunoMobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px;
+    border-radius: var(--r-pill);
+    background: var(--laranja-500);
+    color: #fff;
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+  }
+
+  .telefoneMobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px;
+    border-radius: var(--r-pill);
+    border: 1px solid var(--cinza-300);
+    color: var(--cinza-700);
+    font-weight: 600;
+    font-size: var(--t-sm);
+  }
+
+  .acoes .alunoGrupo {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .inscreva {
+    display: none;
+  }
+}
+
+/* Celular bem estreito (320px): logo, botão e menu só cabem lado a lado assim. */
+@media (max-width: 359px) {
+  .barra {
+    gap: 10px;
+  }
+
+  .logo img {
+    height: 30px;
+  }
+
+  .acoes {
+    gap: 6px;
+  }
+}

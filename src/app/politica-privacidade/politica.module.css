@@ -1,0 +1,162 @@
+.documento {
+  display: block;
+  padding-block: 64px 96px;
+  background: var(--branco);
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  padding-bottom: 24px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid var(--cinza-200);
+  font-size: var(--t-sm);
+  color: var(--cinza-500);
+}
+
+.meta span {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.meta i {
+  color: var(--azul-500);
+  font-size: 16px;
+}
+
+.indice {
+  padding: 26px 28px;
+  margin-bottom: 44px;
+  border: 1px solid var(--cinza-200);
+  border-radius: var(--r-lg);
+  background: var(--cinza-50);
+}
+
+.indiceTitulo {
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--cinza-500);
+  margin-bottom: 14px;
+}
+
+.indice ol {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px 24px;
+}
+
+.indice a {
+  font-size: var(--t-sm);
+  color: var(--cinza-700);
+  transition: color 0.18s var(--ease);
+}
+
+.indice a:hover {
+  color: var(--azul-700);
+  text-decoration: underline;
+}
+
+.secao {
+  margin-bottom: 40px;
+  scroll-margin-top: 120px;
+}
+
+.secao h2 {
+  font-size: var(--t-xl);
+  margin-bottom: 14px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--azul-100);
+}
+
+.secao p {
+  color: var(--cinza-600);
+  line-height: 1.85;
+  margin-bottom: 12px;
+}
+
+.secao ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-block: 14px;
+}
+
+.secao li {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  color: var(--cinza-600);
+  line-height: 1.7;
+}
+
+.secao li i {
+  flex-shrink: 0;
+  color: var(--verde-500);
+  font-size: 18px;
+  margin-top: 3px;
+}
+
+.contato {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 56px;
+  padding: 30px 32px;
+  border-radius: var(--r-lg);
+  background: linear-gradient(135deg, var(--escuro-800), var(--azul-800));
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.contato > i {
+  font-size: 38px;
+  color: var(--amarelo-400);
+  flex-shrink: 0;
+}
+
+.contato h2 {
+  color: #fff;
+  font-size: var(--t-lg);
+  margin-bottom: 6px;
+}
+
+.contato p {
+  font-size: var(--t-sm);
+  line-height: 1.7;
+}
+
+.contato a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  .documento {
+    padding-block: 44px 64px;
+  }
+
+  .indice {
+    padding: 22px 20px;
+    margin-bottom: 34px;
+  }
+
+  .indice ol {
+    grid-template-columns: 1fr;
+  }
+
+  .secao h2 {
+    font-size: var(--t-lg);
+  }
+
+  .contato {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 26px 22px;
+  }
+}

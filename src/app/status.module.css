@@ -1,0 +1,193 @@
+/* Telas de estado (404 e erro) — mesmo visual, para o site nunca "trocar de marca"
+   justamente na hora em que algo deu errado. */
+
+.tela {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  min-height: 78vh;
+  padding-block: 148px 96px;
+  background:
+    radial-gradient(800px 420px at 50% 0%, rgba(22, 112, 176, 0.28), transparent 62%),
+    var(--escuro-900);
+  color: rgba(255, 255, 255, 0.72);
+  text-align: center;
+}
+
+.malha {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.045) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.045) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(ellipse 80% 70% at 50% 30%, #000 25%, transparent 78%);
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.codigo {
+  font-family: var(--fonte-titulo);
+  font-size: clamp(5rem, 3rem + 10vw, 10rem);
+  font-weight: 800;
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+  background: var(--gradiente-marca);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.icone {
+  display: grid;
+  place-items: center;
+  width: 84px;
+  height: 84px;
+  border-radius: var(--r-lg);
+  background: rgba(233, 168, 0, 0.14);
+  border: 1px solid rgba(233, 168, 0, 0.3);
+  color: var(--amarelo-400);
+  font-size: 42px;
+}
+
+.titulo {
+  color: #fff;
+  font-size: clamp(1.6rem, 1.1rem + 2vw, 2.5rem);
+}
+
+.texto {
+  max-width: 54ch;
+  font-size: var(--t-lg);
+  line-height: 1.7;
+}
+
+.acoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 10px;
+}
+
+/* Botões locais: error.jsx é client component e não deve arrastar o <Link> do Button. */
+
+.botaoClaro,
+.botaoFantasma {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px 30px;
+  border-radius: var(--r-pill);
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-md);
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s var(--ease), background-color 0.2s var(--ease),
+    border-color 0.2s var(--ease);
+}
+
+.botaoClaro {
+  border: 2px solid transparent;
+  background: #fff;
+  color: var(--escuro-900);
+}
+
+.botaoClaro:hover {
+  transform: translateY(-2px);
+  background: var(--azul-50);
+}
+
+.botaoFantasma {
+  border: 2px solid rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+}
+
+.botaoFantasma:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Atalhos do 404 */
+
+.atalhos {
+  margin-top: 34px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  width: 100%;
+  max-width: 760px;
+}
+
+.atalhosTitulo {
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255, 255, 255, 0.42);
+  margin-bottom: 16px;
+}
+
+.atalhosGrade {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.atalho {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: var(--r-pill);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  font-size: var(--t-sm);
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.82);
+  transition: background-color 0.2s var(--ease), border-color 0.2s var(--ease),
+    transform 0.2s var(--ease);
+}
+
+.atalho:hover {
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+  color: #fff;
+}
+
+.atalho i {
+  color: var(--azul-300);
+  font-size: 16px;
+}
+
+@media (max-width: 640px) {
+  .tela {
+    padding-block: 118px 64px;
+    min-height: 70vh;
+  }
+
+  .texto {
+    font-size: var(--t-md);
+  }
+
+  .acoes {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .botaoClaro,
+  .botaoFantasma {
+    justify-content: center;
+  }
+}

@@ -1,0 +1,132 @@
+.secao {
+  padding-block: 96px;
+  background: var(--branco);
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: 0.85fr 1.15fr;
+  gap: 56px;
+  align-items: start;
+}
+
+.lateral {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  position: sticky;
+  top: 130px;
+}
+
+.olho {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 16px;
+  border-radius: var(--r-pill);
+  background: var(--amarelo-50);
+  border: 1px solid var(--amarelo-200);
+  color: var(--amarelo-800);
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-xs);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.titulo {
+  font-size: clamp(1.6rem, 1.1rem + 1.8vw, 2.35rem);
+  max-width: 18ch;
+}
+
+.chamada {
+  color: var(--cinza-600);
+  max-width: 42ch;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 340px;
+  margin-block: 6px;
+}
+
+.contatoItem {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding: 13px 16px;
+  border: 1px solid var(--cinza-200);
+  border-radius: var(--r-md);
+  transition: border-color 0.2s var(--ease), transform 0.2s var(--ease),
+    box-shadow 0.2s var(--ease);
+}
+
+.contatoItem:hover {
+  border-color: var(--azul-300);
+  transform: translateX(3px);
+  box-shadow: var(--sombra-sm);
+}
+
+.contatoIcone {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--r-sm);
+  background: var(--azul-50);
+  color: var(--azul-600);
+  font-size: 20px;
+  flex-shrink: 0;
+}
+
+.contatoItem span:last-child {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.contatoItem strong {
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  color: var(--tinta);
+}
+
+.contatoItem small {
+  font-size: var(--t-xs);
+  color: var(--cinza-500);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.lista {
+  min-width: 0;
+}
+
+@media (max-width: 940px) {
+  .grade {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+
+  .lateral {
+    position: static;
+  }
+
+  .titulo {
+    max-width: 24ch;
+  }
+}
+
+@media (max-width: 640px) {
+  .secao {
+    padding-block: 64px;
+  }
+
+  .contato {
+    max-width: 100%;
+  }
+}

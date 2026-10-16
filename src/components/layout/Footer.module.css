@@ -1,0 +1,223 @@
+.rodape {
+  position: relative;
+  background: var(--escuro-900);
+  color: rgba(255, 255, 255, 0.68);
+  font-size: var(--t-sm);
+}
+
+.topo {
+  height: 4px;
+  background: var(--gradiente-marca);
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr 1fr 1fr 1.3fr;
+  gap: 40px 32px;
+  padding-block: 64px 56px;
+}
+
+/* ─── Coluna da marca ──────────────────────────────────────────────────────── */
+
+.marca {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.logo {
+  height: 46px;
+  width: auto;
+  object-fit: contain;
+  object-position: left center;
+}
+
+.chamada {
+  line-height: 1.7;
+  max-width: 42ch;
+}
+
+.redes {
+  display: flex;
+  gap: 10px;
+}
+
+.redes a {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--r-md);
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #fff;
+  font-size: 18px;
+  transition: background-color 0.2s var(--ease), transform 0.2s var(--ease),
+    border-color 0.2s var(--ease);
+}
+
+.redes a:hover {
+  background: var(--azul-500);
+  border-color: var(--azul-500);
+  transform: translateY(-3px);
+}
+
+/* ─── Colunas de links ─────────────────────────────────────────────────────── */
+
+.coluna h2 {
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  margin-bottom: 18px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.coluna h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 28px;
+  height: 2px;
+  background: var(--amarelo-500);
+  border-radius: 2px;
+}
+
+.coluna ul {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.coluna a {
+  transition: color 0.2s var(--ease), padding-left 0.2s var(--ease);
+  display: inline-block;
+}
+
+.coluna a:hover {
+  color: #fff;
+  padding-left: 4px;
+}
+
+/* ─── Contato ──────────────────────────────────────────────────────────────── */
+
+.contato li {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+  line-height: 1.6;
+}
+
+.contato i {
+  flex-shrink: 0;
+  color: var(--azul-400);
+  font-size: 16px;
+  margin-top: 3px;
+}
+
+.contato a:hover {
+  padding-left: 0;
+  text-decoration: underline;
+}
+
+.portais {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 22px;
+}
+
+.portais a {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  padding: 10px 14px;
+  border-radius: var(--r-pill);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  color: rgba(255, 255, 255, 0.86);
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  font-size: var(--t-xs);
+  transition: background-color 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+
+.portais a:hover {
+  padding-left: 14px;
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.28);
+  color: #fff;
+}
+
+.portais i {
+  font-size: 15px;
+  color: var(--amarelo-400);
+}
+
+/* ─── Base ─────────────────────────────────────────────────────────────────── */
+
+.base {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.22);
+}
+
+.baseInner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  flex-wrap: wrap;
+  padding-block: 20px;
+  font-size: var(--t-xs);
+}
+
+.baseLinks {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.baseLinks a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* ─── Responsivo ───────────────────────────────────────────────────────────── */
+
+@media (max-width: 1080px) {
+  .grade {
+    grid-template-columns: 1.6fr 1fr 1fr;
+  }
+
+  .marca {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 720px) {
+  .grade {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 34px 24px;
+    padding-block: 48px 40px;
+  }
+
+  .marca {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 480px) {
+  .grade {
+    grid-template-columns: 1fr;
+  }
+
+  .baseInner {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+}

@@ -1,0 +1,128 @@
+.botao {
+  --botao-fundo: var(--azul-500);
+  --botao-texto: #fff;
+  --botao-borda: transparent;
+  --botao-sombra: var(--sombra-azul);
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid var(--botao-borda);
+  border-radius: var(--r-pill);
+  background: var(--botao-fundo);
+  color: var(--botao-texto);
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  cursor: pointer;
+  text-align: center;
+  transition: transform 0.2s var(--ease), box-shadow 0.2s var(--ease),
+    background-color 0.2s var(--ease), color 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+
+.botao:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--botao-sombra);
+}
+
+.botao:active {
+  transform: translateY(0);
+}
+
+.iconeDepois {
+  transition: transform 0.2s var(--ease);
+}
+
+.botao:hover .iconeDepois {
+  transform: translateX(3px);
+}
+
+/* Tamanhos */
+.sm {
+  padding: 9px 18px;
+  font-size: var(--t-sm);
+}
+
+.md {
+  padding: 13px 26px;
+  font-size: var(--t-md);
+}
+
+.lg {
+  padding: 17px 34px;
+  font-size: var(--t-lg);
+}
+
+/* Variantes */
+.primario {
+  --botao-fundo: var(--azul-500);
+  --botao-texto: #fff;
+}
+
+.primario:hover {
+  --botao-fundo: var(--azul-600);
+}
+
+.laranja {
+  --botao-fundo: var(--laranja-500);
+  --botao-texto: #fff;
+  --botao-sombra: var(--sombra-laranja);
+}
+
+.laranja:hover {
+  --botao-fundo: var(--laranja-600);
+}
+
+.verde {
+  --botao-fundo: var(--verde-500);
+  --botao-texto: #fff;
+  --botao-sombra: 0 12px 28px rgba(0, 160, 16, 0.3);
+}
+
+.verde:hover {
+  --botao-fundo: var(--verde-600);
+}
+
+.contorno {
+  --botao-fundo: transparent;
+  --botao-texto: var(--azul-700);
+  --botao-borda: var(--azul-200);
+  --botao-sombra: var(--sombra-md);
+}
+
+.contorno:hover {
+  --botao-fundo: var(--azul-50);
+  --botao-borda: var(--azul-400);
+  --botao-texto: var(--azul-800);
+}
+
+/* Para uso sobre fundo escuro (hero, faixas, rodapé) */
+.claro {
+  --botao-fundo: #fff;
+  --botao-texto: var(--escuro-900);
+  --botao-sombra: 0 14px 34px rgba(0, 0, 0, 0.3);
+}
+
+.claro:hover {
+  --botao-fundo: var(--azul-50);
+}
+
+.fantasma {
+  --botao-fundo: rgba(255, 255, 255, 0.06);
+  --botao-texto: #fff;
+  --botao-borda: rgba(255, 255, 255, 0.28);
+  --botao-sombra: 0 14px 34px rgba(0, 0, 0, 0.28);
+}
+
+.fantasma:hover {
+  --botao-fundo: rgba(255, 255, 255, 0.14);
+  --botao-borda: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 480px) {
+  .lg {
+    padding: 15px 26px;
+    font-size: var(--t-md);
+  }
+}

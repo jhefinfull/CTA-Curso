@@ -1,0 +1,245 @@
+.cartao {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  border: 1px solid var(--cinza-200);
+  border-radius: var(--r-lg);
+  overflow: hidden;
+  height: 100%;
+  transition: transform 0.25s var(--ease-saida), box-shadow 0.25s var(--ease),
+    border-color 0.25s var(--ease);
+}
+
+.cartao:hover {
+  transform: translateY(-6px);
+  border-color: transparent;
+  box-shadow: var(--sombra-lg);
+}
+
+.destaque {
+  border-color: var(--azul-200);
+}
+
+/* ─── Capa ─────────────────────────────────────────────────────────────────── */
+
+.capa {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  background: var(--cinza-100);
+  overflow: hidden;
+}
+
+.capa img {
+  transition: transform 0.5s var(--ease-saida);
+}
+
+.cartao:hover .capa img {
+  transform: scale(1.06);
+}
+
+.capaVazia {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.iniciais {
+  font-family: var(--fonte-titulo);
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: rgba(255, 255, 255, 0.95);
+  letter-spacing: -0.03em;
+  text-shadow: 0 4px 18px rgba(0, 0, 0, 0.22);
+  z-index: 1;
+}
+
+/* Ícone da área como marca d'água, estourando a borda. */
+.capaVazia i {
+  position: absolute;
+  right: -14px;
+  bottom: -18px;
+  font-size: 92px;
+  color: rgba(255, 255, 255, 0.18);
+  transition: transform 0.5s var(--ease-saida);
+}
+
+.cartao:hover .capaVazia i {
+  transform: scale(1.12) rotate(-6deg);
+}
+
+.selos {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  z-index: 2;
+}
+
+.selo {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 11px;
+  border-radius: var(--r-pill);
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-xs);
+  font-weight: 600;
+  backdrop-filter: blur(6px);
+}
+
+.seloProprio {
+  background: rgba(255, 255, 255, 0.94);
+  color: var(--azul-700);
+}
+
+.seloPromo {
+  background: var(--laranja-500);
+  color: #fff;
+}
+
+.seloEsgotado {
+  background: rgba(12, 24, 38, 0.82);
+  color: #fff;
+}
+
+/* ─── Corpo ────────────────────────────────────────────────────────────────── */
+
+.corpo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  flex: 1;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.area {
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--azul-600);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.carga {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0;
+  font-size: var(--t-xs);
+  font-weight: 500;
+  color: var(--cinza-500);
+}
+
+.titulo {
+  font-size: var(--t-lg);
+  line-height: 1.32;
+  /* Título de curso do catálogo pode ser longo demais e desalinhar a grade. */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.resumo {
+  font-size: var(--t-sm);
+  color: var(--cinza-600);
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.rodape {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid var(--cinza-100);
+}
+
+.preco {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-md);
+  font-weight: 700;
+  color: var(--tinta);
+  line-height: 1.3;
+}
+
+.precoAntigo {
+  font-size: var(--t-xs);
+  font-weight: 500;
+  color: var(--cinza-400);
+}
+
+.precoConsultar {
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  font-weight: 600;
+  color: var(--cinza-500);
+}
+
+.acao {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--azul-50);
+  color: var(--azul-600);
+  font-size: 17px;
+  transition: background-color 0.25s var(--ease), color 0.25s var(--ease),
+    transform 0.25s var(--ease);
+}
+
+.cartao:hover .acao {
+  background: var(--azul-500);
+  color: #fff;
+  transform: translateX(3px);
+}
+
+@media (max-width: 640px) {
+  .corpo {
+    padding: 17px;
+  }
+
+  .titulo {
+    font-size: var(--t-md);
+  }
+}
+
+/* Curso do CTA que ainda não está na loja: a matrícula é pelo WhatsApp. */
+.precoWhats {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--fonte-titulo);
+  font-weight: 700;
+  font-size: var(--t-sm);
+  color: var(--verde-700);
+}
+
+.precoWhats i {
+  font-size: 1.1em;
+  color: #25d366;
+}

@@ -1,0 +1,1393 @@
+{
+ "cursos": [
+  {
+   "slug": "auxiliar-veterinario",
+   "wpSlug": "auxiliar-veterinario",
+   "titulo": "Auxiliar Veterinário",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 18 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 280,
+   "duracao": "18 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "O curso de Auxiliar Veterinário prepara o aluno para auxiliar profissionais da área em clínicas, hospitais e estabelecimentos veterinários, desenvolvendo conhecimentos em manejo e cuidados com animais, higiene,…",
+   "imagem": "/imagens/cursos/auxiliar-veterinario.jpg",
+   "conteudoHtml": "<p><strong><em>AUXILIAR VETERINÁRIO</em></strong></p> <p><strong>TITULAÇÃO:</strong> Auxiliar Veterinário</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 18 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO</strong>: 280h.</p> <p><strong>INÍCIO DO CURSO</strong>: Imediato.</p> <p>O curso de <strong>Auxiliar Veterinário</strong> prepara o aluno para auxiliar profissionais da área em clínicas, hospitais e estabelecimentos veterinários, desenvolvendo conhecimentos em <strong>manejo e cuidados com animais, higiene, alimentação, contenção e rotina de atendimento</strong>.</p> <p>O aluno aprenderá noções essenciais para atuar com <strong>responsabilidade, organização e cuidado</strong>, prestando suporte nas atividades e procedimentos da rotina veterinária.</p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>Bem-Estar e Comportamento animal </em></strong></li> <li><strong><em>Deontologia E Legislação médica Veterinária </em></strong></li> <li><strong><em>Epidemiologia Veterinária</em></strong></li> <li><strong><em>Imunologia Veterinária</em></strong></li> <li><strong><em>M</em></strong><strong><em>icrobiologia veterinária</em></strong></li> <li><strong><em>Parasitologia Veterinária</em></strong></li> <li><strong><em>Patologias Veterinárias</em></strong></li> </ul>"
+  },
+  {
+   "slug": "operador-de-caixa",
+   "wpSlug": "operador-de-caixa",
+   "titulo": "Operador de Caixa",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 122,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "O curso de Operador de Caixa prepara o aluno para atuar no atendimento e nas operações de caixa em estabelecimentos comerciais, desenvolvendo conhecimentos em atendimento ao cliente, abertura e fechamento de caixa,…",
+   "imagem": "/imagens/cursos/operador-de-caixa.jpg",
+   "conteudoHtml": "<p><strong><em>OPERADOR DE CAIXA </em></strong></p> <p><strong>TITULAÇÃO:</strong> Operador de Caixa</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO</strong>: 122h.</p> <p><strong>INÍCIO DO CURSO</strong>: Imediato.</p> <p>O curso de <strong>Operador de Caixa</strong> prepara o aluno para atuar no atendimento e nas operações de caixa em estabelecimentos comerciais, desenvolvendo conhecimentos em <strong>atendimento ao cliente, abertura e fechamento de caixa, recebimento de pagamentos, conferência de valores e organização das operações</strong>.</p> <p>O aluno aprenderá técnicas para realizar as atividades com <strong>agilidade, segurança, organização e qualidade no atendimento</strong>, contribuindo para o bom funcionamento do estabelecimento.</p> <p><strong>Módulos:</strong></p> <ul> <li><strong><em>Operador de Caixa</em></strong></li> <li><strong><em>Técnica de Vendas </em></strong></li> <li><strong><em>Técnicas de Atendimento e Teleatendimento ao Cliente</em></strong></li> <li><strong><em>Excel 2019 </em></strong></li> <li><strong><em>Libras – Língua Brasileira de Sinais </em></strong></li> </ul>"
+  },
+  {
+   "slug": "gestao-de-lojas",
+   "wpSlug": "gestao-de-lojas-2",
+   "titulo": "Gestão de Lojas",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 98,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "O curso de Gestão de Lojas prepara o aluno para atuar na organização e administração de estabelecimentos comerciais, desenvolvendo conhecimentos em gestão de vendas, atendimento ao cliente, estoque, organização da loja,…",
+   "imagem": "/imagens/cursos/gestao-de-lojas.jpg",
+   "conteudoHtml": "<p><strong><em>GESTÃO DE LOJAS</em></strong></p> <p><strong>TITULAÇÃO:</strong> Gestão de Lojas</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO</strong>: 98h.</p> <p><strong>INÍCIO DO CURSO</strong>: Imediato.</p> <p>O curso de <strong>Gestão de Lojas</strong> prepara o aluno para atuar na organização e administração de estabelecimentos comerciais, desenvolvendo conhecimentos em <strong>gestão de vendas, atendimento ao cliente, estoque, organização da loja, controle financeiro e liderança de equipes</strong>.</p> <p>O aluno aprenderá técnicas para melhorar os resultados do negócio, proporcionando uma gestão mais <strong>organizada, eficiente e focada em vendas e satisfação dos clientes</strong>.</p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>Gestão Administrativa </em></strong></li> <li><strong><em>Gestão de RH </em></strong></li> <li><strong><em>Assistente Contábil</em></strong></li> <li><strong><em>Técnicas de vendas</em></strong></li> <li><strong><em>Telemarketing</em></strong></li> <li><strong><em>Operador de Caixa</em></strong></li> <li><strong><em>Fiscal de Loja</em></strong></li> <li><strong><em>Empreendedorismo</em></strong></li> </ul>"
+  },
+  {
+   "slug": "assistente-administrativo",
+   "wpSlug": "assistente-administrativo",
+   "titulo": "Assistente Administrativo",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 117,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "O curso de Assistente Administrativo prepara o aluno para atuar nas principais rotinas administrativas de empresas e instituições, desenvolvendo conhecimentos em organização de documentos, atendimento, comunicação,…",
+   "imagem": "/imagens/cursos/assistente-administrativo.jpg",
+   "conteudoHtml": "<p><strong><em>ASSISTENTE ADMINISTRATIVO</em></strong></p> <p><strong>TITULAÇÃO:</strong> Assistente Administrativo</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO</strong>: 117h.</p> <p><strong>INÍCIO DO CURSO</strong>: Imediato.</p> <p>O curso de <strong>Assistente Administrativo</strong> prepara o aluno para atuar nas principais rotinas administrativas de empresas e instituições, desenvolvendo conhecimentos em <strong>organização de documentos, atendimento, comunicação, relatórios, controle de informações e ferramentas do Microsoft Office</strong>.</p> <p>Ao final, o aluno estará preparado para desempenhar atividades de apoio administrativo com <strong>organização, eficiência e produtividade</strong>.</p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>Introdução a informática </em></strong></li> <li><strong><em>Windows 11 </em></strong></li> <li><strong><em>Word 2019</em></strong></li> <li><strong><em>Excel 2019 </em></strong></li> <li><strong><em>Gestão Administrativa </em></strong></li> <li><strong><em>Técnica de Vendas </em></strong></li> <li><strong><em>Telemarketing </em></strong></li> <li><strong><em>Normas da ABNT </em></strong></li> </ul>"
+  },
+  {
+   "slug": "auxiliar-de-recursos-humanos",
+   "wpSlug": "auxiliar-de-recursos-humanos",
+   "titulo": "Auxiliar de Recursos Humanos",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 121,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "O mercado de trabalho evolui constantemente, e a gestão de pessoas se tornou o coração de qualquer organização de sucesso. Se você quer se destacar, fazer a diferença nas empresas e construir um futuro sólido, nosso…",
+   "imagem": "/imagens/cursos/auxiliar-de-recursos-humanos.jpg",
+   "conteudoHtml": "<p><strong><em>AUXILIAR DE RECURSOS HUMANOS </em></strong></p> <p><strong>TITULAÇÃO:</strong> Auxiliar de Recursos Humanos</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO:</strong> 121h.</p> <p><strong>INÍCIO DO CURSO:</strong> Imediato.</p> <p>Dê Um Salto na Sua Carreira em Recursos Humanos!</p> <p>O mercado de trabalho evolui constantemente, e a gestão de pessoas se tornou o coração de qualquer organização de sucesso. Se você quer se destacar, fazer a diferença nas empresas e construir um futuro sólido, nosso curso presencial de Gestão de Recursos Humanos é para você!</p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>Introdução a Informática</em></strong></li> <li><em><strong>Windows 11</strong></em></li> <li><em><strong>Internet </strong></em></li> <li><em><strong>Word 2019</strong></em></li> <li><em><strong>Excel</strong></em></li> <li><em><strong>Gestão em RH</strong></em></li> <li><em><strong>Recursos Humanos – Dep. Pessoal</strong></em></li> <li><em><strong>Normas da Abnt</strong></em><strong></strong></li> </ul>"
+  },
+  {
+   "slug": "atendente-de-farmacia",
+   "wpSlug": "atendente-de-farmacia",
+   "titulo": "Atendente de Farmácia",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 147,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 97,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "Você sonha em ter uma carreira estável e com propósito em uma área que está sempre em crescimento? Quer fazer a diferença na vida das pessoas e trabalhar em um ambiente dinâmico? Então, o curso presencial de Atendente…",
+   "imagem": "/imagens/cursos/atendente-de-farmacia.jpg",
+   "conteudoHtml": "<p><strong><em>ATENDENTE DE FARMÁCIA </em></strong></p> <p><strong>TITULAÇÃO:</strong> Atendente de Farmácia</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO:</strong> 97h.</p> <p><strong>INÍCIO DO CURSO:</strong> Imediato.</p> <p>Transforme seu Futuro: Curso Presencial de Atendente de Farmácia em Boa Vista!</p> <p>Você sonha em ter uma carreira estável e com propósito em uma área que está sempre em crescimento? Quer fazer a diferença na vida das pessoas e trabalhar em um ambiente dinâmico? Então, o curso presencial de Atendente de Farmácia é a sua porta de entrada para o sucesso!</p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>Atendente de Farmácia </em></strong></li> <li><strong><em>Introdução a informática </em></strong></li> <li><strong><em>Normas da ABNT </em></strong></li> <li><strong><em>PowerPoint 2019 </em></strong></li> <li><strong><em>Técnica de Vendas </em></strong></li> <li><strong><em>Telemarketing </em></strong></li> <li><strong><em>Windows 11 </em></strong></li> <li><strong><em>Word 2019</em></strong></li> </ul>"
+  },
+  {
+   "slug": "atendimento-ao-cliente",
+   "wpSlug": "atendimento-ao-cliente",
+   "titulo": "Atendimento ao Cliente",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 135,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "O curso de Atendimento ao Cliente prepara o aluno para atuar no relacionamento com o público, desenvolvendo habilidades em comunicação, abordagem, atendimento, resolução de problemas e relacionamento com clientes .",
+   "imagem": "/imagens/cursos/atendimento-ao-cliente.jpg",
+   "conteudoHtml": "<p><strong><em>ATENDIMENTO AO CLIENTE</em></strong></p> <p><strong>TITULAÇÃO:</strong> Atendimento ao Cliente</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO:</strong> 135h.</p> <p><strong>INÍCIO DO CURSO:</strong> Imediato.</p> <p>O curso de <strong>Atendimento ao Cliente</strong> prepara o aluno para atuar no relacionamento com o público, desenvolvendo habilidades em <strong>comunicação, abordagem, atendimento, resolução de problemas e relacionamento com clientes</strong>.</p> <p>O aluno aprenderá técnicas para oferecer um atendimento <strong>cordial, profissional e eficiente</strong>, contribuindo para a satisfação e fidelização dos clientes.</p> <p><strong>Módulos:</strong></p> <ul> <li><strong><em>Introdução a informática </em></strong></li> <li><strong><em>Word 2019</em></strong></li> <li><strong><em>Excel 2019 </em></strong></li> <li><strong><em>Inteligência Artificial </em></strong></li> <li><strong><em>Técnica de Vendas </em></strong></li> <li><strong><em>Inglês Instrumental Aplicado ao Turismo e Hospitalidade – Módulo complementar </em></strong></li> </ul>"
+  },
+  {
+   "slug": "office-microsoft-basico",
+   "wpSlug": "office-microsoft-basico",
+   "titulo": "Office Microsoft Básico",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 74,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "O Pacote Office Microsoft Office abrange aplicativos da Microsoft, e é muito utilizado por profissionais, bem como para o uso pessoal. Atualmente é a ferramenta mais utilizada na rotina de empresas, pois conta com…",
+   "imagem": "/imagens/cursos/office-microsoft-basico.jpg",
+   "conteudoHtml": "<p><strong><em>OFFICE BÁSICO </em></strong></p> <p><strong>TITULAÇÃO:</strong> Office Microsoft Básico</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO</strong>: 74h.</p> <p><strong>INÍCIO DO CURSO</strong>: Imediato.</p> <p>O Pacote Office Microsoft Office abrange aplicativos da Microsoft, e é muito utilizado por profissionais, bem como para o uso pessoal. Atualmente é a ferramenta mais utilizada na rotina de empresas, pois conta com programas para apresentações gráficas, processamento de texto, planilha de cálculos, aplicativos de emails,e muito mais!</p> <p><strong>MÓDULOS:</strong><strong></strong></p> <ul> <li><strong><em>Excel 2019 </em></strong></li> <li><strong><em>Introdução a informática </em></strong></li> <li><strong><em>Normas da ABNT </em></strong></li> <li><strong><em>PowerPoint 2019 </em></strong></li> <li><strong><em>Word 2019</em></strong></li> </ul>"
+  },
+  {
+   "slug": "informatica-basica",
+   "wpSlug": "informatica-basica",
+   "titulo": "Informática Básica",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 112,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "Atualmente, informatização está presente em praticamente todos os setores da vida moderna. Neste curso de informática, você terá acesso aos principais conhecimentos da informática. É ideal para todos que desejam…",
+   "imagem": "/imagens/cursos/informatica-basica.jpg",
+   "conteudoHtml": "<p><em><strong>INFORMÁTICA BÁSICA </strong></em></p> <p><strong>TITULAÇÃO: </strong>Informática Básica</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO</strong>: 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO</strong>: 112 h</p> <p><strong>INÍCIO DO CURSO</strong>: Imediato.</p> <p>Atualmente, informatização está presente em praticamente todos os setores da vida moderna. Neste curso de informática, você terá acesso aos principais conhecimentos da informática. É ideal para todos que desejam aprender corretamente como utilizar o computador, assim como para aqueles que desejam aprimorar ou testar seus conhecimentos.</p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>Introdução a informática </em></strong></li> <li><strong><em>Windows 11 </em></strong></li> <li><strong><em>Word 2019</em></strong></li> <li><strong><em>Excel 2019</em></strong></li> <li><strong><em>PowerPoint 2019</em></strong></li> <li><strong><em>Mídias Sociais</em></strong></li> <li><strong><em>Normas da ABNT</em></strong></li> <li><strong><em>Elaboração de Currículo</em></strong></li> </ul>"
+  },
+  {
+   "slug": "informatica-avancada-profissional",
+   "wpSlug": "informatica-profissional",
+   "titulo": "Informática Avançada Profissional",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 137,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "Com este pacote, o aluno fica habilitado a trabalhar com os principais softwares do mercado, além de uma formação inicial completa em lógica e programação, essenciais para que possa adquirir conhecimentos avançados em…",
+   "imagem": "/imagens/cursos/informatica-avancada-profissional.jpg",
+   "conteudoHtml": "<p><strong><em>INFORMÁTICA AVANÇADA PROFISSIONAL</em></strong></p> <p><strong>TITULAÇÃO: </strong>Informática Avançada Profissional</p> <p><strong>MODALIDADE DO CURSO: </strong>Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO: </strong>6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO: </strong>137h</p> <p><strong>INÍCIO DO CURSO: </strong>Imediato.</p> <p>Com este pacote, o aluno fica habilitado a trabalhar com os principais softwares do mercado, além de uma formação inicial completa em lógica e programação, essenciais para que possa adquirir conhecimentos avançados em informática para se tornar mais produtivo no meio digital.</p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>Empreendedorismo Digital </em></strong></li> <li><strong><em>Excel 2016 Avançado </em></strong></li> <li><strong><em>Inteligência Artificial </em></strong></li> <li><strong><em>Power BI</em></strong></li> </ul>"
+  },
+  {
+   "slug": "informatica-na-melhor-idade",
+   "wpSlug": "informatica-na-melhor-idade",
+   "titulo": "Informática na Melhor Idade",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 84,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "Chegou a sua vez de dominar o mundo digital. Nossos cursos de informática para a melhor idade são feitos sob medida para você se conectar com seus netos, explorar a internet, e desvendar o universo online com facilidade…",
+   "imagem": "/imagens/cursos/informatica-na-melhor-idade.jpg",
+   "conteudoHtml": "<p><em><strong>INFORMÁTICA NA MELHOR IDADE</strong></em></p> <p><strong>TITULAÇÃO:</strong> Informática na Melhor Idade</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO:</strong> 84h</p> <p><strong>INÍCIO DO CURSO:</strong> Imediato</p> <p>Conecte-se ao Futuro: Informática para a Melhor Idade!</p> <p>Chegou a sua vez de dominar o mundo digital. Nossos cursos de informática para a melhor idade são feitos sob medida para você se conectar com seus netos, explorar a internet, e desvendar o universo online com facilidade e segurança.</p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>Introdução a informática</em></strong><strong><em>Melhor Idade</em></strong></li> <li><strong><em>Word 2019</em></strong></li> <li><strong><em>Excel 2019 </em></strong></li> <li><strong><em>Mídias Sociais</em></strong></li> </ul>"
+  },
+  {
+   "slug": "informatica-para-criancas",
+   "wpSlug": "informatica-para-criancas-kids",
+   "titulo": "Informática para Crianças (Kids)",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 72,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "A criança que tem a oportunidade de aprender informática estará pronta para enfrentar um mundo tecnológico onde quase tudo está sistematizado. Este curso tem como objetivo orientar os estudantes para que aprendam a usar…",
+   "imagem": "/imagens/cursos/informatica-para-criancas.jpg",
+   "conteudoHtml": "<p><em><strong>INFORMÁTICA KIDS </strong></em></p> <p><strong>TITULAÇÃO:</strong> Informática par Crianças (Kids)</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO:</strong> 72h.</p> <p><strong>INÍCIO DO CURSO:</strong> Imediato</p> <p>A criança que tem a oportunidade de aprender informática estará pronta para enfrentar um mundo tecnológico onde quase tudo está sistematizado. Este curso tem como objetivo orientar os estudantes para que aprendam a usar os computadores de maneira inteligente e contribuindo para que elas saibam como se desenvolver e como se defender nesta era virtual.</p> <p><strong>MÓDULOS:</strong><strong></strong></p> <ul> <li><strong><em>W</em></strong><strong><em>indows 10 Kids</em></strong></li> <li><strong><em>Internet Kids </em></strong></li> <li><strong><em>Word Kids 20164</em></strong></li> <li><strong><em>Multimídia </em></strong></li> </ul>"
+  },
+  {
+   "slug": "manutencao-de-computadores",
+   "wpSlug": "manutencao-de-computadores",
+   "titulo": "Manutenção de Computadores",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 3 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 28,
+   "duracao": "3 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "Com este pacote você aprenderá cada função dos componentes de um computador e como montar, diagnosticar e resolver problemas, fazer upgrade e formatação, entre outros procedimentos. Qualifique-se neste ramo que cresce a…",
+   "imagem": "/imagens/cursos/manutencao-de-computadores.jpg",
+   "conteudoHtml": "<p><em><strong>MANUTENÇÃO DE COMPUTADORES </strong></em></p> <p><strong>TITULAÇÃO:</strong> Manutenção de Computadores</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO</strong>: 3 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO:</strong> 28h.</p> <p><strong>INÍCIO DO CURSO:</strong> Imediato.</p> <p>Com este pacote você aprenderá cada função dos componentes de um computador e como montar, diagnosticar e resolver problemas, fazer upgrade e formatação, entre outros procedimentos. Qualifique-se neste ramo que cresce a cada dia, fique por dentro das inovações tecnológicas de hardware e software e trabalhe em lojas especializadas ou monte seu próprio negócio.</p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>Introdução a informática </em></strong></li> <li><strong><em>Manutenção de Computadores</em></strong></li> </ul>"
+  },
+  {
+   "slug": "desenvolvedor-de-aplicativos-android",
+   "wpSlug": "desenvolvedor-de-app-e-game",
+   "titulo": "Desenvolvedor de Aplicativos Android",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 102,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "Com este pacote, o estudante que tem várias ideias de aplicativos e não sabe como começar ou quer iniciar sua carreira como desenvolvedor pode dar início a esta jornada. Trabalhando diretamente com os diversos…",
+   "imagem": "/imagens/cursos/desenvolvedor-de-aplicativos-android.jpg",
+   "conteudoHtml": "<p><strong><em>DESENVOLVEDOR DE APLICATIVOS ANDRÓIDE</em> </strong></p> <p><strong>TITULAÇÃO:</strong> Densenvolvedor de Aplicativos Andróide</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO</strong>: 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO</strong>: 102h.</p> <p><strong>INÍCIO DO CURSO:</strong> Imediato.</p> <p>Com este pacote, o estudante que tem várias ideias de aplicativos e não sabe como começar ou quer iniciar sua carreira como desenvolvedor pode dar início a esta jornada. Trabalhando diretamente com os diversos softwares, o aluno terá uma noção muito ampla do funcionamento dos aplicativos e jogos, das ferramentas disponíveis e do próprio sistema Android, oferecendo assim um conhecimento vital para a capacitação profissional.</p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>Adobe Illustrator CC 2019 </em></strong></li> <li><strong><em>Coreldraw 2021 </em></strong></li> <li><strong><em>Desenvolvedor Android </em></strong></li> <li><strong><em>Indesign CC 2020 </em></strong></li> <li><strong><em>Photoshop CC 2020</em></strong></li> </ul>"
+  },
+  {
+   "slug": "design-grafico",
+   "wpSlug": "design-grafico-2",
+   "titulo": "Design Gráfico",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 110,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "Este curso promove o estudo sobre a importância de novas tecnologias. Nele, o aluno aprenderá a apresentar soluções com o uso de novas tecnologias da informação, além de implementar recursos para o desenvolvimento…",
+   "imagem": "/imagens/cursos/design-grafico.jpg",
+   "conteudoHtml": "<p><strong><em>DESIGNE GRÁFICO </em></strong></p> <p><strong>TITULAÇÃO:</strong> Designer Gráfico</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO:</strong> 110h.</p> <p><strong>INÍCIO DO CURSO</strong>: Imediato.</p> <p>Este curso promove o estudo sobre a importância de novas tecnologias. Nele, o aluno aprenderá a apresentar soluções com o uso de novas tecnologias da informação, além de implementar recursos para o desenvolvimento tecnológico informatizado. Reconhecer a importância da informatização em nosso dia a dia é fundamental para a aplicação de todos os conhecimentos agregados até aqui.</p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>Adobe Illustrator CC 2019</em></strong><strong></strong></li> <li><strong><em>Coreldraw 2021 </em></strong></li> <li><em><strong>Photoshop CC 2020</strong></em></li> <li><strong><em>Indesign CC 2020 </em></strong><em></em></li> <li><em><strong>AutoCad 2021 – Módulo Complementar </strong> </em></li> </ul>"
+  },
+  {
+   "slug": "movie-maker",
+   "wpSlug": "movie-maker",
+   "titulo": "Movie Maker",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [],
+   "cargaHoraria": 63,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "O aluno será capaz de produzir seus próprios vídeos, definindo seu roteiro, planejando os enquadramentos e planos de gravação, escolha de equipamentos para captura de imagens e o mais necessário para garantir o melhor…",
+   "imagem": "/imagens/cursos/movie-maker.jpg",
+   "conteudoHtml": "<p><strong><em>MOVER MAKER </em></strong></p> <p><strong>TITULAÇÃO:</strong> Mover Maker</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO:</strong> 63h.</p> <p><strong>INÍCIO DO CURSO:</strong> Imediato.</p> <p>O aluno será capaz de produzir seus próprios vídeos, definindo seu roteiro, planejando os enquadramentos e planos de gravação, escolha de equipamentos para captura de imagens e o mais necessário para garantir o melhor dos vídeos para seus espectadores.</p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>After Effects CC 2020 </em></strong></li> <li><strong><em>Multimídia </em></strong></li> <li><strong><em>Photoshop CC 2020 </em></strong></li> <li><strong><em>Video Design</em></strong></li> </ul>"
+  },
+  {
+   "slug": "operador-de-drone",
+   "wpSlug": "operador-de-drone",
+   "titulo": "Operador de Drone",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 58,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "Este pacote objetiva gerar conhecimentos técnicos, de natureza teórica e especializada dos fatores relacionados à atividade de voo não tripulado. E como objetivo principal, o curso busca orientar os futuros…",
+   "imagem": "/imagens/cursos/operador-de-drone.jpg",
+   "conteudoHtml": "<p><strong><em>OPERADOR DE DRONE </em></strong></p> <p><strong>TITULAÇÃO:</strong> Operador de Drone</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO:</strong> 58h.</p> <p><strong>INÍCIO DO CURSO</strong>: Imediato.</p> <p>Este pacote objetiva gerar conhecimentos técnicos, de natureza teórica e especializada dos fatores relacionados à atividade de voo não tripulado. E como objetivo principal, o curso busca orientar os futuros profissionais, com atenção multidisciplinar, para que no final estes possam aplicar todo o conhecimento, identificar oportunidades deste promissor setor da economia e pilotar atentos às normas vigentes, sobretudo às Regras do Ar.</p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>Operador de Drone </em></strong></li> <li><strong><em>Photoshop CC 2020 </em></strong></li> <li><strong><em>Vídeo Design</em></strong></li> </ul>"
+  },
+  {
+   "slug": "robotica",
+   "wpSlug": "robotica",
+   "titulo": "Robótica",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 12 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 90,
+   "duracao": "12 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "A robótica educacional promove o estudo de conceitos multidisciplinares, como física, matemática, geografia, raciocínio lógico entre outros. Além disso, há variações no modo de aplicação e interação entre os alunos,…",
+   "imagem": "/imagens/cursos/robotica.jpg",
+   "conteudoHtml": "<p><strong><em>ROBÓTICA </em></strong></p> <p>A robótica educacional promove o estudo de conceitos multidisciplinares, como física, matemática, geografia, raciocínio lógico entre outros. Além disso, há variações no modo de aplicação e interação entre os alunos, estimulando a criatividade e a inteligência e promovendo a interdisciplinaridade.</p> <p><strong>TITULAÇÃO:</strong> Robótica</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 12 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO:</strong> 90h.</p> <p><strong>INÍCIO DO CURSO:</strong> Imediato.</p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>Robótica – Jobs In The Future</em></strong></li> </ul>"
+  },
+  {
+   "slug": "english-kids",
+   "wpSlug": "idiomas-englesh-kids-de-7-a-12-anos",
+   "titulo": "English Kids (7 a 12 anos)",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 95,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "Aprender inglês pode ser divertido! 🧒👧📚 Um curso pensado para crianças desenvolverem fala, compreensão e vocabulário de forma leve, dinâmica e envolvente.",
+   "imagem": "/imagens/cursos/english-kids.jpg",
+   "conteudoHtml": "<p><strong><em>IDIOMAS ENGLISH KIDS – de 7 a 12 anos</em></strong></p> <p><strong>TITULAÇÃO:</strong> English Kids</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO</strong>: 95h.</p> <p><strong>INÍCIO DO CURSO</strong>: Imediato.</p> <p>Aprender inglês pode ser divertido! 🧒👧📚<br> Um curso pensado para crianças desenvolverem <strong>fala, compreensão e vocabulário</strong> de forma leve, dinâmica e envolvente.</p> <p>🚀 <strong>Prepare seu filho para novas oportunidades!</strong></p> <p><strong>Invista no seu inglês e prepare-se para novas oportunidades!</strong></p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>English Kids – Módulo 01 </em></strong></li> <li><strong><em>English Kids – Módulo 02 </em></strong></li> </ul>"
+  },
+  {
+   "slug": "english-teens",
+   "wpSlug": "idiomas-teens-de-13-a-16-anos",
+   "titulo": "English Teens (13 a 16 anos)",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 117,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "Aprender inglês pode ser leve, moderno e divertido! 🚀 Desenvolva fala, compreensão, leitura e vocabulário para se comunicar com mais confiança e abrir novas oportunidades.",
+   "imagem": "/imagens/cursos/english-teens.jpg",
+   "conteudoHtml": "<p><strong><em>IDIOMAS ENGLISH TEENS – de 13 a 16 anos</em></strong></p> <p><strong>TITULAÇÃO:</strong> English Teens</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO</strong>: 117h.</p> <p><strong>INÍCIO DO CURSO</strong>: Imediato.</p> <p>Aprender inglês pode ser leve, moderno e divertido! 🚀<br> Desenvolva <strong>fala, compreensão, leitura e vocabulário</strong> para se comunicar com mais confiança e abrir novas oportunidades.</p> <p><strong>Invista no seu inglês e prepare-se para novas oportunidades!</strong></p> <p><strong>MÓDULOS:</strong></p> <ul> <li><strong><em>English 1 Foundations </em></strong></li> <li><strong><em>English Bteens – Módulo 01 </em></strong></li> <li><strong><em>English Bteens – Módulo 02</em></strong></li> </ul>"
+  },
+  {
+   "slug": "english-inter-adulto",
+   "wpSlug": "idiomas-english-inter-adulto-presencial",
+   "titulo": "English Inter Adulto (a partir de 17 anos)",
+   "grupo": "presencial",
+   "tipo": "PRESENCIAL",
+   "rotulo": "Presencial no CTA",
+   "instituicao": "CTA",
+   "inscricao": "R$ 150,00",
+   "pagamento": [
+    {
+     "rotulo": "Pix automático/boleto",
+     "linhas": [
+      "Inscrição: 150,00 + 6 x R$ 200,00"
+     ]
+    },
+    {
+     "rotulo": "Dias",
+     "linhas": [
+      "Terças e Quintas Feiras"
+     ]
+    },
+    {
+     "rotulo": "Horários",
+     "linhas": [
+      "Manhã: 8 as 10h / 10 as 12h",
+      "Tarde: 14 as 16h / 16 as 18h",
+      "Noite: 19 as 21h"
+     ]
+    }
+   ],
+   "cargaHoraria": 128,
+   "duracao": "6 meses",
+   "modalidade": "Presencial híbrida",
+   "resumo": "Aprenda inglês de forma prática, dinâmica e adequada à sua rotina. O curso English Inter Adulto foi desenvolvido para quem deseja desenvolver suas habilidades de fala, compreensão, leitura e escrita em inglês ,…",
+   "imagem": "/imagens/cursos/english-inter-adulto.jpg",
+   "conteudoHtml": "<p><strong><em>IDIOMAS ENGLISH INTER ADULTO – A partir de 17 anos</em></strong></p> <p><strong>TITULAÇÃO:</strong> English Inter Adulto</p> <p><strong>MODALIDADE DO CURSO:</strong> Presencial Híbrida</p> <p><strong>DURAÇÃO DO CURSO:</strong> 6 meses.</p> <p><strong>CARGA HORÁRIA DO CURSO</strong>: 128h.</p> <p><strong>INÍCIO DO CURSO</strong>: Imediato.</p> <p>Aprenda inglês de forma prática, dinâmica e adequada à sua rotina. O curso <strong>English Inter Adulto</strong> foi desenvolvido para quem deseja desenvolver suas habilidades de <strong>fala, compreensão, leitura e escrita em inglês</strong>, ampliando oportunidades pessoais, acadêmicas e profissionais.</p> <p>Com uma metodologia voltada para situações do dia a dia, você aprenderá a se comunicar com mais <strong>confiança e segurança</strong>, evoluindo gradualmente do básico ao nível intermediário.</p> <p><strong>Invista no seu inglês e prepare-se para novas oportunidades!</strong></p> <p><strong>MÓDULOS:</strong></p> <ul> <li><em><strong>English 1 Foundations </strong></em></li> <li><em><strong>Ingleês Instrumental</strong></em></li> <li><em><strong>Inglês Instrumental Aplicado ao Turismo e Hospitalidade</strong></em></li> </ul>"
+  },
+  {
+   "slug": "tecnico-em-eletrotecnica-semipresencial",
+   "wpSlug": "curso-tecnico-em-eletrotecnica-semipresencial",
+   "titulo": "Técnico em Eletrotécnica (semipresencial)",
+   "grupo": "semipresencial",
+   "tipo": "TECNICO",
+   "rotulo": "Técnico semipresencial",
+   "instituicao": "CTA",
+   "inscricao": "R$ 99,00",
+   "pagamento": [
+    {
+     "rotulo": null,
+     "linhas": [
+      "Matricula R$ 99,00"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "10 x R$ 300,00 Mensais"
+     ]
+    }
+   ],
+   "cargaHoraria": 1200,
+   "duracao": "10 meses",
+   "modalidade": "Semipresencial",
+   "resumo": "O que você vai aprender: ✔️ Instalações elétricas residenciais, comerciais e industriais ✔️ Leitura de projetos e diagramas elétricos ✔️ Comandos elétricos e painéis ✔️ Manutenção elétrica preventiva e corretiva ✔️…",
+   "imagem": "/imagens/cursos/tecnico-em-eletrotecnica-semipresencial.jpg",
+   "conteudoHtml": "<p>Quer uma profissão técnica valorizada e com alta empregabilidade? Esse curso é pra você 👇</p> <p>📌 Informações do curso:</p> <p>📅 Início previsto: 09 de março de 2026<br> ⏳ Duração: 10 meses<br> 📚 Carga horária: 1.200 horas<br> 🕢 Aulas presenciais: Terça e Quinta – 19h às 21h<br> 📍 Modalidade: Semipresencial (O curso <strong>Semipresencial</strong> combina <strong>aulas presenciais e estudos online pela plataforma</strong>, com encontros em dias e horários previamente definidos pela instituição)</p> <p>📌 Autorizado ≠ Reconhecido pelo MEC/ Sistec</p> <p>✅ Pré-requisito: Ensino Médio completo</p> <p>🔌 O que você vai aprender:<br> ✔️ Instalações elétricas residenciais, comerciais e industriais<br> ✔️ Leitura de projetos e diagramas elétricos<br> ✔️ Comandos elétricos e painéis<br> ✔️ Manutenção elétrica preventiva e corretiva<br> ✔️ Normas de segurança elétrica (NR básica)</p> <p>🛠️ Como funciona:<br> ✔️ Aulas práticas presenciais<br> ✔️ Conteúdo teórico com apoio online<br> ✔️ Professores experientes<br> ✔️ Certificado técnico válido em todo o Brasil</p> <p>🚀 Para quem é o curso:<br> ✔️ Quem quer entrar rápido no mercado<br> ✔️ Quem já trabalha na área<br> ✔️ Quem busca renda melhor e estabilidade</p> <p>📲 Vagas limitadas!</p> <p>💰 Investimento:<br> ✔️ Inscrição promocional: R$ 99,00<br> ✔️ Mensalidade: 10x de R$ 300,00</p> <p>Quer garantir sua vaga agora?</p> <h3>TURMA EM ANDAMENTO !!!</h3>"
+  },
+  {
+   "slug": "tecnico-em-eletrotecnica-semipresencial-turma-2",
+   "wpSlug": "tecnico-em-eletrotecnica-turma-semi-presencial",
+   "titulo": "Técnico em Eletrotécnica (semipresencial) · Turma 2",
+   "grupo": "semipresencial",
+   "tipo": "TECNICO",
+   "rotulo": "Técnico semipresencial",
+   "instituicao": "CTA",
+   "inscricao": null,
+   "pagamento": [],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "Semipresencial",
+   "resumo": "O curso Técnico em Eletrotécnica prepara você para projetar, instalar, operar e manter sistemas elétricos em indústrias, comércios e residências, garantindo eficiência e segurança.",
+   "imagem": "/imagens/cursos/tecnico-em-eletrotecnica-semipresencial-turma-2.jpg",
+   "conteudoHtml": "<p>⚡ <strong>Curso Técnico em Eletrotécnica</strong></p> <p><br><strong>Energia, inovação e tecnologia para o seu futuro!</strong></p> <p>O curso Técnico em Eletrotécnica prepara você para projetar, instalar, operar e manter sistemas elétricos em indústrias, comércios e residências, garantindo eficiência e segurança.</p> <p>Com uma formação prática e atualizada, você estará pronto para atuar em setores como manutenção industrial, automação, geração e distribuição de energia elétrica.</p> <p>🔌 <strong>Você vai aprender:</strong><br> ✅ Instalações elétricas residenciais, comerciais e industriais<br>✅ Sistemas de automação e controle<br>✅ Leitura e interpretação de diagramas elétricos<br>✅ Normas técnicas e segurança no trabalho<br>✅ Manutenção preventiva e corretiva de equipamentos elétricos</p> <p>💼 <strong>Ideal para quem deseja:</strong><br> ✔ Trabalhar em indústrias, empresas de energia, construtoras e prestadores de serviços<br>✔ Atuar em projetos e manutenção elétrica<br>✔ Ingressar rapidamente no mercado com uma profissão em alta demanda<br>✔ Ter uma carreira técnica sólida e valorizada</p> <p>🎓 Certificação válida em todo o Brasil | 💰 Curso acessível | ⚙️ Aulas práticas e atualizadas</p> <p>🚀 Conecte-se à energia do mercado!<br><strong>Matricule-se no Curso Técnico em Eletrotécnica e prepare-se para uma carreira eletrizante!</strong></p> <table> <tbody> <tr> <td><strong>MÓDULOS</strong></td> <td><strong>COMPONENTES CURRICULARES</strong></td> <td><strong>CARGA HORÁRIA</strong></td> </tr> <tr> <td> </p> <p><strong>Módulo I – 220 horas</strong></td> <td>Introdução ao EAD</td> <td>20</td> </tr> <tr> <td>Gestão de Recursos Humanos</td> <td>40</td> </tr> <tr> <td>Introdução à Libras</td> <td>20</td> </tr> <tr> <td>Eletricidade I</td> <td>20</td> </tr> <tr> <td>Introdução ao Autocad 2D</td> <td>20</td> </tr> <tr> <td>Matemática Aplicada</td> <td>60</td> </tr> <tr> <td>Física Aplicada</td> <td>40</td> </tr> <tr> <td> </p> <p><strong>Módulo II –180 horas</strong></td> <td>Empreendedorismo</td> <td>20</td> </tr> <tr> <td>Lógica de Programação</td> <td>20</td> </tr> <tr> <td>Gestão Empresarial</td> <td>20</td> </tr> <tr> <td>NR 10 – Segurança em Instalações Elétricas</td> <td>20</td> </tr> <tr> <td>Projetos Elétricos</td> <td>40</td> </tr> <tr> <td>Projetos de Automação Industrial</td> <td>60</td> </tr> <tr> <td>Interpretação do Desenho Técnico</td> <td>40</td> </tr> <tr> <td>Eletrônica Digital</td> <td>20</td> </tr> <tr> <td> </p> <p><strong>Módulo III – 480 horas</strong></td> <td>Instalações Elétricas de Baixa Tensão</td> <td>80</td> </tr> <tr> <td>Eletrônica Industrial</td> <td>20</td> </tr> <tr> <td>Energias Renováveis</td> <td>60</td> </tr> <tr> <td>Geração, conservação de eficiência energética</td> <td>40</td> </tr> <tr> <td>Tecnologia Mecânica</td> <td>20</td> </tr> <tr> <td>Princípios de máquinas elétricas</td> <td>40</td> </tr> <tr> <td>Ensaios de máquinas elétricas</td> <td>60</td> </tr> <tr> <td>Comandos eletroeletrônicos</td> <td>40</td> </tr> <tr> <td>Segurança do trabalho na indústria e na logística</td> <td>20</td> </tr> <tr> <td>Sistemas de comunicação e telecomunicações</td> <td>40</td> </tr> <tr> <td><strong>Módulo IV – 160 horas</strong></td> <td>Análise de Circuitos Eletroeletrônicos</td> <td>40</td> </tr> <tr> <td>Ergonomia e Medicina do Trabalho</td> <td>40</td> </tr> <tr> <td>Programação CLP</td> <td>20</td> </tr> <tr> <td>Metodologia da Manutenção</td> <td>60</td> </tr> <tr> <td> </p> <p><strong>Módulo V – 400 horas</strong></td> <td>Instalações elétricas de média e alta tensão</td> <td>40</td> </tr> <tr> <td>Elementos de Máquinas</td> <td>20</td> </tr> <tr> <td>Controle e acionamento de máquinas</td> <td>20</td> </tr> <tr> <td>Proteção de Sistemas Elétricos</td> <td>20</td> </tr> <tr> <td>Transferência de Calor</td> <td>60</td> </tr> <tr> <td>Estágio Supervisionado</td> <td>240</td> </tr> </tbody> </table>"
+  },
+  {
+   "slug": "tecnico-em-seguranca-do-trabalho-semipresencial",
+   "wpSlug": "tecnico-em-seguranca-do-trabalho-turma-semi-presencial",
+   "titulo": "Técnico em Segurança do Trabalho (semipresencial)",
+   "grupo": "semipresencial",
+   "tipo": "TECNICO",
+   "rotulo": "Técnico semipresencial",
+   "instituicao": "CTA",
+   "inscricao": null,
+   "pagamento": [],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "Semipresencial",
+   "resumo": "O Técnico em Segurança do Trabalho é o profissional responsável por prevenir acidentes, promover a saúde ocupacional e garantir o bem-estar dos trabalhadores em empresas de todos os setores.",
+   "imagem": "/imagens/cursos/tecnico-em-seguranca-do-trabalho-semipresencial.jpg",
+   "conteudoHtml": "<p>🦺 <strong>Curso Técnico em Segurança do Trabalho</strong></p> <p><br><strong>Proteja vidas, promova segurança e conquiste seu espaço no mercado!</strong></p> <p>O Técnico em Segurança do Trabalho é o profissional responsável por prevenir acidentes, promover a saúde ocupacional e garantir o bem-estar dos trabalhadores em empresas de todos os setores.</p> <p>🔧 <strong>Você vai aprender:</strong><br> ✅ Normas de segurança (NRs)<br>✅ Prevenção de acidentes e riscos ambientais<br>✅ Gestão de saúde e segurança no trabalho<br>✅ Primeiros socorros e combate a incêndios<br>✅ Elaboração de laudos e relatórios técnicos</p> <p>💼 <strong>Indicado para quem deseja:</strong><br> ✔ Atuar em indústrias, hospitais, comércios, construção civil e mais<br>✔ Trabalhar com estabilidade e boa remuneração<br>✔ Fazer a diferença no ambiente de trabalho<br>✔ Conquistar uma profissão com alta demanda no mercado</p> <p>🎓 Curso reconhecido | 📄 Certificação válida em todo o Brasil | 💰 Custo acessível</p> <p>🚀 Invista no seu futuro e na segurança de todos.<br><strong>Faça o Técnico em Segurança do Trabalho!</strong></p> <table> <tbody> <tr> <td><strong>MÓDULOS</strong></td> <td><strong>COMPONENTES CURRICULARES</strong></td> <td><strong>CARGA HORÁRIA</strong></td> </tr> <tr> <td> </p> <p><strong>Módulo I</strong></p> <p><strong>Educação para a Saúde e Segurança do Trabalho – 380 horas</strong></td> <td>Introdução ao EAD</td> <td>80</td> </tr> <tr> <td>Gestão de Recursos Humanos</td> <td>80</td> </tr> <tr> <td>Introdução à Segurança do Trabalho</td> <td>60</td> </tr> <tr> <td>Psicologia do Trabalho</td> <td>40</td> </tr> <tr> <td>Higiene do Trabalho</td> <td>80</td> </tr> <tr> <td>Empreendedorismo</td> <td>40</td> </tr> <tr> <td><strong>Módulo II Prevenção e Segurança em</strong></p> <p><strong>Processos Industriais – 220 horas</strong></td> <td>Prevenção e Combate a Incêndio</td> <td>80</td> </tr> <tr> <td>Ergonomia</td> <td>60</td> </tr> <tr> <td>Medicina do Trabalho</td> <td>40</td> </tr> <tr> <td>Gestão Ambiental</td> <td>40</td> </tr> <tr> <td>Gestão da Qualidade</td> <td>40</td> </tr> <tr> <td> </p> <p><strong>Módulo III</strong></p> <p><strong>Gestão e Programas de Saúde e Segurança do Trabalho – 300 horas</strong></td> <td>Legislação e Normas Técnicas</td> <td>80</td> </tr> <tr> <td>Certificação da Qualidade</td> <td>60</td> </tr> <tr> <td>Segurança, meio ambiente, saúde e responsabilidade social</td> <td>80</td> </tr> <tr> <td>Segurança do trabalho na construção civil NR18</td> <td>80</td> </tr> <tr> <td> </p> <p><strong>Módulo IV – 540 horas</strong></td> <td>Gestão de Riscos</td> <td>80</td> </tr> <tr> <td>Planejamento Estratégico</td> <td>80</td> </tr> <tr> <td>Auditorias, Perícias e Laudos</td> <td>60</td> </tr> <tr> <td>Ética e Cidadania</td> <td>80</td> </tr> <tr> <td>Estágio Supervisionado</td> <td>240</td> </tr> </tbody> </table>"
+  },
+  {
+   "slug": "tecnico-em-automacao-industrial-semipresencial",
+   "wpSlug": "tecnico-em-automacao-industrial-turma-semi-presencial",
+   "titulo": "Técnico em Automação Industrial (semipresencial)",
+   "grupo": "semipresencial",
+   "tipo": "TECNICO",
+   "rotulo": "Técnico semipresencial",
+   "instituicao": "CTA",
+   "inscricao": null,
+   "pagamento": [],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "Semipresencial",
+   "resumo": "O curso Técnico em Automação Industrial capacita você para projetar, instalar, programar e manter sistemas automatizados usados na indústria moderna, integrando tecnologias como sensores, controladores lógicos…",
+   "imagem": "/imagens/cursos/tecnico-em-automacao-industrial-semipresencial.jpg",
+   "conteudoHtml": "<p>🤖 <strong>Curso Técnico em Automação Industrial</strong></p> <p><br><strong>Tecnologia, inovação e controle para a indústria do futuro!</strong></p> <p>O curso Técnico em Automação Industrial capacita você para projetar, instalar, programar e manter sistemas automatizados usados na indústria moderna, integrando tecnologias como sensores, controladores lógicos programáveis (CLPs), robótica e eletrônica.</p> <p>Com uma formação prática e altamente valorizada, você estará pronto para atuar em linhas de produção, sistemas automatizados e processos industriais dos mais diversos setores.</p> <p>⚙️ <strong>Você vai aprender:</strong><br> ✅ Programação de CLPs e sistemas supervisórios<br>✅ Instalação e manutenção de sensores, atuadores e interfaces<br>✅ Robótica industrial e controle de processos<br>✅ Leitura e interpretação de diagramas elétricos e pneumáticos<br>✅ Normas técnicas, segurança e eficiência energética</p> <p>💼 <strong>Ideal para quem deseja:</strong><br> ✔ Trabalhar em indústrias, empresas de manutenção, tecnologia e automação<br>✔ Atuar com sistemas automatizados e inteligentes<br>✔ Ingressar em uma carreira com alta empregabilidade e bons salários<br>✔ Participar da transformação digital da indústria 4.0</p> <p>🎓 Certificação válida em todo o Brasil | 💰 Curso acessível | 🚀 Aulas práticas e foco no mercado de trabalho</p> <p>🔋 Construa o seu futuro com tecnologia de ponta!<br><strong>Matricule-se no Curso Técnico em Automação Industrial e torne-se um profissional essencial para a indústria moderna!</strong></p> <table> <tbody> <tr> <td><strong>MÓDULOS</strong></td> <td><strong>COMPONENTES</strong> <strong>CURRICULARES</strong></td> <td><strong>CARGA HORÁRIA</strong></td> <td><strong>Data de oferta</strong></td> </tr> <tr> <td> </p> <p><strong>Módulo I – 200 horas</strong></td> <td>Introdução ao EAD</td> <td>20</td> </tr> <tr> <td>Gestão de Recursos Humanos</td> <td>40</td> </tr> <tr> <td>Introdução à Libras</td> <td>20</td> </tr> <tr> <td>Comportamento Organizacional</td> <td>40</td> </tr> <tr> <td>Segurança do Trabalho</td> <td>60</td> </tr> <tr> <td>Empreendedorismo</td> <td>20</td> </tr> <tr> <td> </p> <p><strong>Módulo II – 580 horas</strong></td> <td>Lógica de Programação</td> <td>40</td> </tr> <tr> <td>Ética nas Organizações</td> <td>20</td> </tr> <tr> <td>Meio ambiente, desenvolvimento e sustentabilidade</td> <td>80</td> </tr> <tr> <td>Mecânica Técnica</td> <td>40</td> </tr> <tr> <td>Interpretação do desenho técnico</td> <td>60</td> </tr> <tr> <td>Eletricidade I</td> <td>40</td> </tr> <tr> <td>Eletrônica digital</td> <td>60</td> </tr> <tr> <td>Resistência de materiais</td> <td>40</td> </tr> <tr> <td>Metodologia da manutenção</td> <td>60</td> </tr> <tr> <td>Comandos eletroeletrônicos</td> <td>80</td> </tr> <tr> <td>Projetos elétricos</td> <td>20</td> </tr> <tr> <td>Metrologia e Normatização</td> <td>40</td> </tr> <tr> <td> </p> <p><strong>Módulo III – 660 horas</strong></td> <td>Projetos de automação industrial</td> <td>80</td> </tr> <tr> <td>Sistemas Digitais</td> <td>20</td> </tr> <tr> <td>Eletrônica analógica</td> <td>60</td> </tr> <tr> <td>Instalações Elétricas</td> <td>40</td> </tr> <tr> <td>Ensaios de máquinas elétricas</td> <td>20</td> </tr> <tr> <td>Hidropneumática</td> <td>40</td> </tr> <tr> <td>Controle e acionamento de máquinas</td> <td>60</td> </tr> </tbody> </table> <table> <tbody> <tr> <td>Controle de qualidade industrial</td> <td>40</td> </tr> <tr> <td>Eletrônica industrial</td> <td>20</td> </tr> <tr> <td>NR – 10 – Segurança em instalações elétricas</td> <td>40</td> </tr> <tr> <td>Estágio Supervisionado</td> <td>240</td> </tr> </tbody> </table>"
+  },
+  {
+   "slug": "tecnicos-unicorp-com-estagio",
+   "wpSlug": "cursos-tecnicos-unicorp-c-estagio-obrigatorio",
+   "titulo": "Técnicos Unicorp com estágio obrigatório",
+   "grupo": "tecnico-unicorp",
+   "tipo": "TECNICO",
+   "rotulo": "Técnico Unicorp",
+   "instituicao": "Unicorp",
+   "inscricao": "R$ 99,00",
+   "pagamento": [
+    {
+     "rotulo": null,
+     "linhas": [
+      "A Vista R$ 1.650,00"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "Pix Automático 6 x 330,00"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "Cartão 6 x"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "Tempo 6 a 8 Meses"
+     ]
+    }
+   ],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "",
+   "imagem": "/imagens/cursos/tecnicos-unicorp-com-estagio.jpg",
+   "conteudoHtml": "<table> <tbody> <tr> <td><strong>CURSOS</strong></td> <td><strong>CH</strong></td> </tr> <tr> <td><strong>1</strong></td> <td><a href=\"https://drive.google.com/file/d/1BD1CnSW-4ssfcI3XWdyf8O6ZBcH7eCyR/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Desenvolvimento de Sistemas</strong></a></td> <td><strong>1440h</strong></td> </tr> <tr> <td><strong>2</strong></td> <td><a href=\"https://drive.google.com/file/d/1l7QRWeSdUTzKbNMrQ4O3O710J6XzTh2_/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Informática para Internet</strong></a></td> <td><strong>1240h</strong></td> </tr> <tr> <td><strong>3</strong></td> <td><a href=\"https://drive.google.com/file/d/1JKmXme0UGbHkgajScwvWIqlON4UIT-y1/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Redes de Computadores</strong></a></td> <td><strong>1440h</strong></td> </tr> <tr> <td><strong>4</strong></td> <td><a href=\"https://drive.google.com/file/d/1Nx1hm26qlIjIoGHaK8QUKhMizm30z5A_/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Computação Gráfica</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>5</strong></td> <td><a href=\"https://drive.google.com/file/d/1p_J_9hTWnu3ZBzriGaT_YQdfxva-qdgU/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Programação de Jogos Digitais</strong></a></td> <td><strong>1440h</strong></td> </tr> <tr> <td><strong>6</strong></td> <td><a href=\"https://drive.google.com/file/d/1p_J_9hTWnu3ZBzriGaT_YQdfxva-qdgU/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Manutenção e Suporte para Informática</strong></a></td> <td><strong>1440h</strong></td> </tr> <tr> <td><strong>7</strong></td> <td><strong>T<a href=\"https://drive.google.com/file/d/1PqfyxXqovQTjtv_rkDRBy100woPtvgIG/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">écnico em Informática</a></strong></td> <td><strong>1260h</strong></td> </tr> <tr> <td><strong>8</strong></td> <td><a href=\"https://drive.google.com/file/d/19wH3MffwDopZZWZt6f1VnuiKPMqZUzZ3/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Edificações</strong></a></td> <td><strong>1440h</strong></td> </tr> <tr> <td><strong>9</strong></td> <td><a href=\"https://drive.google.com/file/d/1p_J_9hTWnu3ZBzriGaT_YQdfxva-qdgU/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Nutrição e Dietética</strong></a></td> <td><strong>1440h</strong></td> </tr> <tr> <td><strong>10</strong></td> <td><a href=\"https://drive.google.com/file/d/1hfy-1vspbjfPDewOOsvmHCSkt_6Oa8nr/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Estética e Cosmetologia</strong></a></td> <td><strong>1440h</strong></td> </tr> <tr> <td><strong>11</strong></td> <td><a href=\"https://drive.google.com/file/d/17Ct-qkgtqHRoBJwbhRXry0MrMGgOcU5j/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Automação Industrial</strong></a></td> <td><strong>14400h</strong></td> </tr> <tr> <td><strong>12</strong></td> <td><a href=\"https://drive.google.com/file/d/1S-yrkWIQEXweQJjVmh57JIPzQLDAfJQE/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Eletrônica</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>13</strong></td> <td><a href=\"https://drive.google.com/file/d/1p_J_9hTWnu3ZBzriGaT_YQdfxva-qdgU/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Mecânica Industrial</strong></a></td> <td><strong>1440h</strong></td> </tr> <tr> <td><strong>14</strong></td> <td><a href=\"https://drive.google.com/file/d/1eNgJY-1c0WBNghp5RkPegm_0HntNpXRv/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Eletrotécnica</strong></a></td> <td><strong>1440h</strong></td> </tr> <tr> <td><strong>15</strong></td> <td><a href=\"https://drive.google.com/file/d/1fUe_WYo3sbXRuAxynuXMNjGZpZPqHVSq/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Administração</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>16</strong></td> <td><a href=\"https://drive.google.com/file/d/1wd8neCWTlQ88-BoBzDbOcahBrak5LdZy/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Contabilidade</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>17</strong></td> <td><a href=\"https://drive.google.com/file/d/1ZIUl5XWsRJ6KEwPTwAeWEVVj1scRhcuK/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Logística</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>18</strong></td> <td><strong>Técnico em Marketing</strong></td> <td><strong>1000h</strong></td> </tr> <tr> <td><strong>19</strong></td> <td><a href=\"https://drive.google.com/file/d/1whQAOMLj9AeiH6EEnZxMBlgJkvQJeaym/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Recursos Humanos</strong></a></td> <td><strong>1000h</strong></td> </tr> <tr> <td><strong>20</strong></td> <td><a href=\"https://drive.google.com/file/d/1Qca_Sw1KttdU-cV_hgjHsPnUX0sCoiQq/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Serviços Jurídicos</strong></a></td> <td><strong>1220h</strong></td> </tr> <tr> <td><strong>21</strong></td> <td><a href=\"https://drive.google.com/file/d/1U5Eikg-m9ubkbjkY-0Za2EU8l5nKZIbt/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Transações Imobiliárias</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>22</strong></td> <td><a href=\"https://drive.google.com/file/d/1NpBJLlSi0FnbCk5D6MLQwSIE7cuSsoua/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Vendas</strong></a></td> <td><strong>1000h</strong></td> </tr> <tr> <td><strong>23</strong></td> <td><a href=\"https://drive.google.com/file/d/17etrvDdiPe5pVb0lLwio3LioXVUmbmcD/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Guia de Turismo</strong></a></td> <td><strong>1000h</strong></td> </tr> <tr> <td><strong>24</strong></td> <td><a href=\"https://drive.google.com/file/d/1Pd_AfRcAmhb4jmAuQBIq0lcTUI9EM5dd/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Secretaria Escolar</strong></a></td> <td><strong>1000h</strong></td> </tr> <tr> <td><strong>25</strong></td> <td><a href=\"https://drive.google.com/file/d/1p_J_9hTWnu3ZBzriGaT_YQdfxva-qdgU/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Meio Ambiente</strong></a></td> <td><strong>1440h</strong></td> </tr> </tbody> </table>"
+  },
+  {
+   "slug": "tecnicos-unicorp-sem-estagio",
+   "wpSlug": "cursos-tecnicos-unicorp-s-estagio-obrigatorio",
+   "titulo": "Técnicos Unicorp sem estágio obrigatório",
+   "grupo": "tecnico-unicorp",
+   "tipo": "TECNICO",
+   "rotulo": "Técnico Unicorp",
+   "instituicao": "Unicorp",
+   "inscricao": "R$ 99,00",
+   "pagamento": [
+    {
+     "rotulo": null,
+     "linhas": [
+      "A Vista R$ 1.650,00"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "Pix Automático 6 x 330,00"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "Cartão 6 x"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "Tempo 6 a 8 Meses"
+     ]
+    }
+   ],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "",
+   "imagem": "/imagens/cursos/tecnicos-unicorp-sem-estagio.jpg",
+   "conteudoHtml": "<table> <tbody> <tr> <td><strong>CURSOS TÉCNICOS </strong></td> <td><strong>CH</strong></td> </tr> <tr> <td><strong>1</strong></td> <td><a href=\"https://drive.google.com/file/d/1AWBSkxYlNz710HcpkGu3J6lcei7LKdGk/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Biotecnologia</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>2</strong></td> <td><a href=\"https://drive.google.com/file/d/1tu_C9mXERAWrsD1ae7WRs_PH3nqB1RkV/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Sistemas de Energia Renovável</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>3</strong></td> <td><a href=\"https://drive.google.com/file/d/1vi1qqsdY70o3l1tvQSx59imR83IKF26n/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Telecomunicações</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>4</strong></td> <td><a href=\"https://drive.google.com/file/d/1S7Z9M5FBq_SYiawdAPmmBeVq-8J9GDug/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Design Gráfico</strong></a></td> <td><strong>1000h</strong></td> </tr> <tr> <td><strong>5</strong></td> <td><a href=\"https://drive.google.com/file/d/1kZnzCB1PUzg77pE4yJBtVI5Y4VpD0wMi/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Tradução e Interpretação de Libras</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>6</strong></td> <td><strong>Técnico em Agrimensura</strong></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>7</strong></td> <td><a href=\"https://drive.google.com/file/d/1xRP90-HFxwK-8U5Su5Tuylu_Hm96iPRk/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Mineração</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>8</strong></td> <td><a href=\"https://drive.google.com/file/d/1SgZge6HJ4lumtSoG9a57obAWRZYmhcLE/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Prevenção e Combate ao Incêndio</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>9</strong></td> <td><a href=\"https://drive.google.com/file/d/1LTdEP2UU_hU5EPT2oAYjySvYukoWYVSY/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Defesa Civil </strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>10</strong></td> <td><a href=\"https://drive.google.com/file/d/1JGJjYbKC-dWQ71G6FNCTPctTr7_WWgTe/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Trânsito</strong></a></td> <td><strong>1000h</strong></td> </tr> <tr> <td><strong>11</strong></td> <td><a href=\"https://drive.google.com/file/d/1jom1UYcDFc-2kGXRi9wVNYaQJMX6d4AD/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Gerência em Saúde</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>12</strong></td> <td><a href=\"https://drive.google.com/file/d/1BBKhmlWQ2iVVkB_HpjQcu9CSAIRNr2FJ/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Agente Comunitário de Saúde</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>13</strong></td> <td><a href=\"https://drive.google.com/file/d/1LTdEP2UU_hU5EPT2oAYjySvYukoWYVSY/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Eletromecânica</strong></a></td> <td><strong>1360h</strong></td> </tr> <tr> <td><strong>14</strong></td> <td><a href=\"https://drive.google.com/file/d/1GyS_TkbMNixNMvCrGE_8I5T-awmaEh8i/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Refrigeração e Climatização</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>15</strong></td> <td><a href=\"https://drive.google.com/file/d/18qgPmPYG5RSZTmMus7UajhESHjvT1i0f/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Soldagem</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>16</strong></td> <td><a href=\"https://drive.google.com/file/d/1-joLCEsQxTZ45t4U6nhEfyLVRYZTOaWU/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Metalurgia</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>17</strong></td> <td><a href=\"https://drive.google.com/file/d/18qh2Ps-4TeB_iZV8zz2lZ2uNhQDuGfdv/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Petróleo e Gás</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>18</strong></td> <td><a href=\"https://drive.google.com/file/d/1iVPCRXg8ixq7GBOnDoRVlfPGSUzTiSHI/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Qualidade</strong></a></td> <td><strong> 800h</strong></td> </tr> <tr> <td><strong>19</strong></td> <td><a href=\"https://drive.google.com/file/d/1SMReeLl3-QJBcuV-vjdDiu4eOQ4s8m2Y/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Manutenção de Máquinas Industriais</strong></a></td> <td><strong>800h</strong></td> </tr> <tr> <td><strong>20</strong></td> <td><a href=\"https://drive.google.com/file/d/1Kz8MSX27G30a8vrBSAEE4p2UM0Jo8BXQ/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Manutenção de Máquinas Navais</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>21</strong></td> <td><strong>Técnico em Estradas</strong></td> <td><strong>1200</strong></td> </tr> <tr> <td><strong>22</strong></td> <td><a href=\"https://drive.google.com/file/d/1M9Bmc4FuSfMOe6RP2qxORznkoSHFodJL/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Mecatrônica</strong></a></td> <td><strong>1000h</strong></td> </tr> <tr> <td><strong>23</strong></td> <td><a href=\"https://drive.google.com/file/d/1zEEcUobW_F5b47GSLj9dOez94x-CfN3I/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Máquinas Pesadas</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>24</strong></td> <td><a href=\"https://drive.google.com/file/d/1J6lAJ6yzk4lMRbGTOIls8z1Gi2aR_Bg3/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Agricultura</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>25</strong></td> <td><a href=\"https://drive.google.com/file/d/1obCtRkjyTgbCF5qHzs6lnxaCiShqGXNe/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Agropecuária</strong></a></td> <td><strong>1280h</strong></td> </tr> <tr> <td><strong>26</strong></td> <td><a href=\"https://drive.google.com/file/d/1ELQ5PrUeFxkPwpzWlessntktalglXwk-/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Agroindústria</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>27</strong></td> <td><strong>Técnico em Aquicultura</strong></td> <td><strong>1000h</strong></td> </tr> <tr> <td><strong>28</strong></td> <td><a href=\"https://drive.google.com/file/d/1Epmocqai9Z64mGKM_h3prznN1USngnNn/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Saneamento</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>29</strong></td> <td><a href=\"https://drive.google.com/file/d/1Fpxe1wSIJPMPbjebbKuqlniNrp2iED1W/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Meio Ambiente</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>30</strong></td> <td><a href=\"https://drive.google.com/file/d/1VwhKkAVi3HZN89f7GwsxWMVZLlDFVeba/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Design de Interiores</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>31</strong></td> <td><a href=\"https://drive.google.com/file/d/1daRl6JBg0a3d9N4GpPB2tQintasnRUQF/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Eventos</strong></a></td> <td><strong>800h</strong></td> </tr> <tr> <td><strong>32</strong></td> <td><a href=\"https://drive.google.com/file/d/1jtCJ2L_Blw_wxGMhq51yckrV-CiRkJjj/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Finanças</strong></a></td> <td><strong>800h</strong></td> </tr> <tr> <td><strong>33</strong></td> <td><strong>Técnico em Gastronomia</strong></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>34</strong></td> <td><strong>Técnico em Confeitaria</strong></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>35</strong></td> <td><a href=\"https://drive.google.com/file/d/19-O9annTirLOlpk4Un0jK6tpJqfxkvs7/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Seguros</strong></a></td> <td><strong>800h</strong></td> </tr> <tr> <td><strong>36</strong></td> <td><a href=\"https://drive.google.com/file/d/1m8rxv45xd3X8lEceSWUKE53zpyYt3T6t/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Geoprocessamento</strong></a></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>37</strong></td> <td><strong>Técnico em Segurança do Trabalho</strong></td> <td><strong>1200h</strong></td> </tr> <tr> <td><strong>38</strong></td> <td><a href=\"https://drive.google.com/file/d/1HKhfO5VLV0yjeUYteUw99tikgQHO-zY4/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Técnico em Agronegócio</strong></a></td> <td><strong>1200h</strong></td> </tr> </tbody> </table>"
+  },
+  {
+   "slug": "graduacao-unicorp",
+   "wpSlug": "graduacao-unicorp-faculdades",
+   "titulo": "Graduação Unicorp Faculdades",
+   "grupo": "graduacao",
+   "tipo": "GRADUACAO",
+   "rotulo": "Graduação",
+   "instituicao": "Unicorp",
+   "inscricao": "R$ 99,00",
+   "pagamento": [],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "",
+   "imagem": "/imagens/cursos/graduacao-unicorp.jpg",
+   "conteudoHtml": "<table> <tbody> <tr> <td><strong>CURSOS GRADES (NOSSO SISTEMA)</strong></td> <td><strong>CH</strong></td> <td><strong>TEMPO DE DURAÇÃO</strong></td> <td><strong>PRESENCIALIDADE</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão De Recursos Humanos</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão Em Negócios Imobiliários</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão Do Agronegócio</strong></td> <td><strong>2.400 horas</strong></td> <td><strong>2 anos e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão Ambiental</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Marketing</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Logística</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Design Gráfico</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Segurança Do Trabalho</strong></td> <td><strong>2.400 horas</strong></td> <td><strong>2 anos e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão Hospitalar</strong></td> <td><strong>2.400 horas</strong></td> <td><strong>2 anos e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Análise E Desenvolvimento De Sistemas</strong></td> <td><strong>2.000 horas</strong></td> <td><strong>2 anos</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Redes De Computadores</strong></td> <td><strong>2.000 horas</strong></td> <td><strong>2 anos</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Segurança Da Informação</strong></td> <td><strong>2.000 horas</strong></td> <td><strong>2 anos</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Processos Escolares</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Secretariado</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Comércio Exterior</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão Pública</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Jogos Digitais</strong></td> <td><strong>2.000 horas</strong></td> <td><strong>2 anos</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Hotelaria</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão De Eventos</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Processos Gerenciais</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão Comercial</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão Financeira</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão Da Produção Industrial</strong></td> <td><strong>2.400 horas</strong></td> <td><strong>2 anos e Meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão Da Qualidade</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão da Informação</strong></td> <td><strong>2.000 horas</strong></td> <td><strong>2 anos</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão De Cooperativas</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão De Segurança Privada</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Redes De Telecomunicações</strong></td> <td><strong>2.400 horas</strong></td> <td><strong>2 anos e Meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão De Turismo</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão Desportiva e de Lazer</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Serviços Penais</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Design De Animação</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Design De Interiores</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Design De Moda</strong></td> <td><strong>1.680 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Design De Produtos</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Produção Audiovisual</strong></td> <td><strong>1.680 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Produção Cultural</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Produção Multimídia</strong></td> <td><strong>1.680 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Produção Publicitária</strong></td> <td><strong>1.680 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Petróleo E Gás</strong></td> <td><strong>2.400 horas</strong></td> <td><strong>2 anos e Meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Sistemas Elétricos</strong></td> <td><strong>2.300 horas</strong></td> <td><strong>2 anos e Meio</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Banco De Dados</strong></td> <td><strong>2.000 horas</strong></td> <td><strong>2 anos</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Sistemas Para Internet</strong></td> <td><strong>2.000 horas</strong></td> <td><strong>2 anos</strong></td> <td><strong>20%</strong></td> </tr> <tr> <td><strong>Tecnólogo em Gestão De Serviços Judiciais E Notariais</strong></td> <td><strong>1.600 horas</strong></td> <td><strong>1 ano e meio</strong></td> <td><strong>20%</strong></td> </tr> </tbody> </table>"
+  },
+  {
+   "slug": "graduacao-unip",
+   "wpSlug": "letras-portugues-e-ingles",
+   "titulo": "Graduação UNIP · Polo Boa Vista II",
+   "grupo": "graduacao",
+   "tipo": "GRADUACAO",
+   "rotulo": "Graduação",
+   "instituicao": "UNIP",
+   "inscricao": null,
+   "pagamento": [],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "O profissional colocado no mercado pela Universidade Paulista tem uma formação ampla, o que lhe permite grande versatilidade nos diferentes campos possíveis de trabalho. Esse especialista cuida da análise e concepção…",
+   "imagem": "/imagens/cursos/graduacao-unip.jpg",
+   "conteudoHtml": "<h4>1. Objetivos do curso de Letras (Licenciatura em Língua Portuguesa e Língua Inglesa)</h4> <p>O profissional colocado no mercado pela Universidade Paulista tem uma formação ampla, o que lhe permite grande versatilidade nos diferentes campos possíveis de trabalho.<br> Esse especialista cuida da análise e concepção histórica da linguagem escrita e falada e do desenvolvimento de técnicas e conhecimentos relativos à linguagem.<br> Como a língua é o principal instrumento de expressão, o curso de Letras (Licenciatura em Língua Portuguesa e Língua Inglesa) torna-se fundamental ao estudo das ciências humanas, das expressões literárias e do desenvolvimento cultural de uma sociedade.</p> <h4>2. Atividades Principais</h4> <ul> <li>Atuar no ensino das línguas portuguesa e inglesa, das literaturas portuguesa e brasileira, das literaturas em língua portuguesa; das literaturas em língua inglesa;</li> <li>Trabalhar na elaboração, revisão e correção de textos em editoras e órgãos de imprensa;</li> <li>Desenvolver pesquisas, estudos, análises, dissertações e teses de linguística e literatura.</li> </ul> <h4>3. Mercado de Trabalho</h4> <p>O profissional dessa área pode atuar em escolas públicas e privadas de ensino fundamental e médio, empresas jornalísticas, editoras, universidades, empresas privadas e também como autônomo preparando relatórios, pautas e atas para reuniões importantes do empresariado.</p> <h4>4. Práticas</h4> <ul> <li>Laboratório de informática para Línguas e Linguagem</li> <li>Concurso de Contos e Poesias</li> <li>Semana de Letras</li> <li>Trabalho de Curso – TC</li> <li>Palestras e Debates</li> <li>Monitoria</li> <li>Atividade de Nivelamento – Projeto Helper</li> <li>Atividade de Nivelamento – Projeto Prolip</li> <li>Atividade de Nivelamento – Projeto Prolit</li> <li>Coordenadoria de Estágios – Estágio Supervisionado</li> <li>Projetos para a comunidade</li> <li>Metodologias ativas de aprendizagem</li> <li>Projetos de Extensão</li> <li>Magistério nos ensinos fundamental e médio</li> <li>Saraus</li> <li>Criação de Blogs Reflexivos e canal no youtube</li> <li>Grupos de Pesquisa</li> <li>Congressos</li> </ul> <h4>5. Duração</h4> <p>4 anos</p> <h4><a href=\"https://inscricoes.unip.br/inscricao/unidade/boavistaii\" target=\"_blank\" rel=\"noopener noreferrer\"></a></h4>"
+  },
+  {
+   "slug": "pos-unicorp-direito",
+   "wpSlug": "pos-graduacao-unicorp",
+   "titulo": "Pós-Graduação Unicorp em Direito",
+   "grupo": "pos",
+   "tipo": "POS_LATO_SENSU",
+   "rotulo": "Pós-Graduação Unicorp",
+   "instituicao": "Unicorp",
+   "inscricao": "R$ 99,00",
+   "pagamento": [
+    {
+     "rotulo": null,
+     "linhas": [
+      "A Vista R$ 598,80"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "Pix Automático 99,90 + 5 x 99,90 Mês"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "TEMPO: 4 a 8 MESES"
+     ]
+    }
+   ],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "Invista no seu crescimento profissional com a Pós-Graduação EAD da UNICORP. Nossa plataforma moderna oferece videoaulas, trilhas de aprendizagem, e-books, slides, podcasts, simulados e atividades avaliativas,…",
+   "imagem": "/imagens/cursos/pos-unicorp-direito.jpg",
+   "conteudoHtml": "<h3>Pós-Graduação EAD UNICORP</h3> <p>Invista no seu crescimento profissional com a Pós-Graduação EAD da UNICORP. Nossa plataforma moderna oferece videoaulas, trilhas de aprendizagem, e-books, slides, podcasts, simulados e atividades avaliativas, proporcionando uma experiência dinâmica e flexível.</p> <p>Estude quando e onde quiser, com cursos organizados em módulos e duração de 4 a 8 meses. Sem obrigatoriedade de TCC, você tem mais praticidade para concluir sua especialização com qualidade e excelência.</p> <p>Ao finalizar o curso, o aluno recebe Certificado de Especialista na área escolhida.</p> <table> <tbody> <tr> <td><strong>PÓS-GRADUAÇÕES EM DIREITO</strong></td> <td><strong>CH</strong></td> </tr> <tr> <td><strong>Especialização em Arbitragem e Mediação de Conflitos</strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1t6yqGMl7FT6OCOI7ELWJt60DVh4vTDgO/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Compliance</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1DkFBQtvYVS_-ysLGa1eFy5Ni054UBlCA/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Administrativo</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1WEz2kgx3PMktcHkrFgiAfsuKQ2YvzSS7/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Aduaneiro</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1dVYn-fO_1_5oeiybmiAW9JrdhNPrvIY5/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Ambiental</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1QZNq0_QG-V0UMMZmm4dh4i6u7LxnEuYI/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Civil e Processual Civil</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1mf_QEgDQocL0HUQFb-r-Cxe0uZRHzH1Y/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Constitucional</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1SFCn2zksKFgME0CXtfJLEbtGSzdMWG3C/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Contratual</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1P1HGp2CFvTUpXLwKMUKExRJlVj8GA2Np/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito de Família e Sucessões</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1YlUezkLy5xb6KAeQTaWnUoxlBSw9jI1x/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Digital</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1lWtnMdtA4_AMimHWEVDP2X6HOteUiT97/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito do Trabalho e Processual Trabalhista</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1UhVPhrf0Ra7TH8dJt4nCsFn5OW5VRddq/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito dos Novos Negócios</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1zURo77HX0j4JVOw77MEJkLf3jIT3I7wT/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Educacional</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1IjhrLO0ry2BDxq-tJyl90zGNmPl8IXgX/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Eleitoral</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1ZOeROnzxJPhWaevaS5I6A2aJwjrFIiqm/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Empresarial</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1pvZJoPIOtYFCQDnq8Qw2yMxa7ORpLbUt/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Imobiliário</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1ecpO4eFm366GzzNh_e3WtKXj5MkJTLIV/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Internacional</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/11e4xA0iQ3_hf82dXax_W6Oo05uDX4jiO/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Notarial e Registral</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1s5gG5NrDFz4NTSJA5QRz_I6qjxUr4Gwi/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Penal e Processual Penal</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1Ml19vi_5M3lzBJPkqNYUNGLai3M_8y8p/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Previdenciário</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1p7rv2UHk26-vMMU2FRJk5N9lQeaP3C3C/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Público Constitucional, Administrativo e Tributário</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1bEAbr__7tXm7e3qdX9CQ773KMNPkPz57/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Informática Forense</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1v9d7TZRT9tOJTqY5GlVmC-edGUNZPKbi/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Tributário e Processual Tributário</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1mJLhVq3IUsAhqcRt3rSZ6cGc-damvBZI/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direito Público Licitatório</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1BjV9sEd5XLWeqjmm_-s-EiVLNu7AHa89/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Direitos LGBT+</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1rn8icIDGbb4mbZxFd4Cg1osy_MzyfJ7W/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Segurança Pública e Política Criminal (Criminologia)</a></strong></td> <td><strong>560h</strong></td> </tr> </tbody> </table>"
+  },
+  {
+   "slug": "pos-unicorp-educacao",
+   "wpSlug": "pos-graduacao-unicorp-em-educacao",
+   "titulo": "Pós-Graduação Unicorp em Educação",
+   "grupo": "pos",
+   "tipo": "POS_LATO_SENSU",
+   "rotulo": "Pós-Graduação Unicorp",
+   "instituicao": "Unicorp",
+   "inscricao": "R$ 99,00",
+   "pagamento": [
+    {
+     "rotulo": null,
+     "linhas": [
+      "A Vista R$ 598,80"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "Pix Automático 99,90 + 5 x 99,90 Mês"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "TEMPO: 4 a 8 MESES"
+     ]
+    }
+   ],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "Invista no seu crescimento profissional com a Pós-Graduação EAD da UNICORP. Nossa plataforma moderna oferece videoaulas, trilhas de aprendizagem, e-books, slides, podcasts, simulados e atividades avaliativas,…",
+   "imagem": null,
+   "conteudoHtml": "<h3>Pós-Graduação EAD UNICORP</h3> <p>Invista no seu crescimento profissional com a Pós-Graduação EAD da UNICORP. Nossa plataforma moderna oferece videoaulas, trilhas de aprendizagem, e-books, slides, podcasts, simulados e atividades avaliativas, proporcionando uma experiência dinâmica e flexível.</p> <p>Estude quando e onde quiser, com cursos organizados em módulos e duração de 4 a 8 meses. Sem obrigatoriedade de TCC, você tem mais praticidade para concluir sua especialização com qualidade e excelência.</p> <p>Ao finalizar o curso, o aluno recebe Certificado de Especialista na área escolhida.</p> <table> <tbody> <tr> <td><strong>PÓS-GRADUAÇÕES EM EDUCAÇÃO</strong></td> <td><strong>CH</strong></td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1eBwX_7_pUvgcAROw2Yh9jAVhlmX-FHJa/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Educação Especial</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1G0IoWMaNJAGC0JDa7rt8Qb-0HHuvXZDD/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Educação 5.0</a></td> <td>560h</td> </tr> <tr> <td>Especialização em Alfabetização e Letramento</td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/17EFtD92-rkjHdSw29X8ObRMudIawdkhB/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Alfabetização, Letramento e Psicopedagogia</a></td> <td>560h</td> </tr> <tr> <td>Especialização em Literatura Brasileira</td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1UIARvJnL3PFGsN70HzrMxe2afAmWIg_R/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Coordenação e Orientação Escolar</a></td> <td>560h</td> </tr> <tr> <td>Especialização em Coordenação Educacional</td> <td>560h</td> </tr> <tr> <td>Especialização em Transtorno do Espectro Autista</td> <td>560h</td> </tr> <tr> <td>Especialização em Psicologia Escolar</td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/15j09C_Lq3oFQK3nOBScSyUtqOS5nDoIe/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Serviço Social na Educação</a></td> <td>560h</td> </tr> <tr> <td>Especialização em Sociologia</td> <td>560h</td> </tr> <tr> <td>Especialização em Teologia</td> <td>560h</td> </tr> <tr> <td>Especialização em Gestão de Inovação e Empreendedorismo</td> <td>560h</td> </tr> <tr> <td>Especialização em Filosofia</td> <td>560h</td> </tr> <tr> <td>Especialização em Ensino da Química</td> <td>560h</td> </tr> <tr> <td>Especialização em Ensino da Física</td> <td>560h</td> </tr> <tr> <td>Especialização em Ensino da Biologia</td> <td>560h</td> </tr> <tr> <td>Especialização em Enfermagem em Saúde e Auditoria</td> <td>560h</td> </tr> <tr> <td>Especialização em Educação Física para grupos especiais</td> <td>560h</td> </tr> <tr> <td>Especialização em Educação Física Escolar</td> <td>560h</td> </tr> <tr> <td>Especialização em Educação Física</td> <td>800h</td> </tr> <tr> <td>Especialização em Biblioteconomia Escolar e Gestão da Informação</td> <td>560h</td> </tr> <tr> <td>Especialização em Artes Visuais</td> <td>560h</td> </tr> <tr> <td>curso de aperfeiçoamento em Educação Inclusiva</td> <td>240h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1ESgo9BejWwg86tkAKcyhQbm1TlISnt0n/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Educação a Distância</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1mdsIky-HvpDoDS1740c0_7b3a_pW3GZ8/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Educação Ambiental e Sustentabilidade</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1fFjChKYzw32OzwUSbE4iv5Rhneluvk7b/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Educação Corporativa</a></td> <td>640h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1LCpRi7eYnlxPdr_anUZpVWT4xFFH-1bd/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Educação de Jovens e Adultos</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1GmBuSmSdfOvAqYDr6ioDrizmY5EdHThi/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Educação e Direitos Humanos</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1eBwX_7_pUvgcAROw2Yh9jAVhlmX-FHJa/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Educação Especial</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/11b891KPhJwnxS9pO3X4FRahJ8nYUao_0/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Educação Financeira</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1j6RjEfIBRs2Whn7BnVZzv2iC4PvlWj8K/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Educação Inclusiva</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1bWbHphl0k-3ze-KQWjewyEAmVEKegrxS/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Educação Inclusiva e Diversidade</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/17FVPrZtsrd5dVRaiMue0vCArp-BauxUz/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Educação Infantil</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1DW58OSmIXJ-xP1YLgai0MKC7jtWhlVQk/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Ensino da História e Geografia</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/108y2u2LiW-nB11YHEGqm68glbELRb4zT/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Ensino da Língua Espanhola</a></td> <td>560h</td> </tr> <tr> <td>Especialização em Ensino da Língua Inglesa</td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1k6pZZI4S5YxotmTBq7AFhsDeio24GNmB/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Ensino da Língua Portuguesa</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1QIvid3mWSd9q0RXgRkgEPEYc2qg3jYT1/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Ensino da Língua Portuguesa e Literatura</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1fF43zHRw_AF5CsFapc8ZCt9REoFdzsSZ/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Ensino da Literatura e Produção de Textos em Língua Espanhola</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1Q1blOUXOa9jFCrPR6HMJ6WiMz5Mdf7Q1/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Ensino da Literatura e Produção de Textos em Língua Inglesa</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/16K65XvHV3A9dyfim6bje8OI6uQ3rVW50/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Ensino da Literatura e Produção de Textos em Língua Portuguesa</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1ZJQVIi2ZP_RV3qG6rXbeqU3XA1a_xSX2/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Ensino de Artes</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1dhZ8o8S4XN1I2Fu0E3-3gm0dREvr-vbe/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Ensino de Ciências</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/11cAZWSmqdVHVjrBg6fL489v8B2ckx3qf/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Ensino de Geografia</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/19UUjnvuYTd6P_GVpzmfdk7hLJXBTIXQU/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Ensino de História</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/149WmjZkenqLPcGj5okP3Tm2PzUpLFRWl/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Ensino de Matemática</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/18xXNpqLORbn4ulXa-7x9Cx5E_jXOzdw2/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Letramento e Produção de Textos para o Ensino Fundamental</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1kSY8_B-Rlux0z0-oo1wd-Wd2HGiVhL8n/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Letras com Ênfase em Linguística</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1dM98aL1rQ3ngMnJOkRcQqPHcjbZ1dcR0/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em LIBRAS – Língua Brasileira de Sinais</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1a6iyyF_LtwOD29OCEpBPD-E1vQPpexBE/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Língua Portuguesa – Redação e Oratória</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1ikVnM9HvVHUtJFCEP3v7AMv2peaXefpO/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Metodologia do Ensino Superior nas Várias Modalidades</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1npIqEVUOOkj-H2hLeXQghXTpqRWJhNwE/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Metodologias Ativas e Tecnologias Educacionais</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1qiDIlDyxQAqEuhEOl5JaJ0QURCCrkzj2/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Neuroeducação</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1udG0Nlnux2bYRKCUOtWeBjcbdrJkUm4g/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Projetos Pedagógicos</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1G2Dltkhb7xgDbUVTjCxrHTeNSNKqhsYh/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Psicomotricidade</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1Nx_1HP1P78P0ePt_nOAyZEYkoMIxv7h0/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Psicomotricidade e Educação Especial</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1NaW4U0hqou2PoDjwaCKAn0Braz1qtaoK/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Psicomotricidade na Educação Infantil</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/18ZcwupcXhu36QYNuTmRin74x65z-O3h5/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Psicopedagogia em Educação Especial</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1pFMHFirjizc-5VmKeNiDln7WsmEenyL9/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Psicopedagogia Escolar</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1Il5WnDm_7df8MnrDtw_mS7U8LANkgZYY/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Secretariado Escolar</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1hvJ6nZgph6YhhWKc6Vf-vC9EPgdQ5tyH/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Supervisão e Orientação Escolar</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1XMCfwTk5guD5Ll0XWwHDNZkIik4982lI/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Supervisão e Orientação Escolar em Educação Infantil</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1IIDuu-_Ji8oUtm-jYqMHYNREkWHKgEZR/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Tecnologias Educacionais</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1WbakKybr_CyWtVLiBp3MPFtZMA8Bmb3p/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Transtornos e Problemas na Aprendizagem</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1-5h2dOkK4o1A6jcfZR5Ys4txUf83aTpZ/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Tutoria em Educação a Distância</a></td> <td>560h</td> </tr> </tbody> </table> <p></p>"
+  },
+  {
+   "slug": "pos-unicorp-saude",
+   "wpSlug": "pos-graduacao-unicorp-em-saude",
+   "titulo": "Pós-Graduação Unicorp em Saúde",
+   "grupo": "pos",
+   "tipo": "POS_LATO_SENSU",
+   "rotulo": "Pós-Graduação Unicorp",
+   "instituicao": "Unicorp",
+   "inscricao": "R$ 99,00",
+   "pagamento": [
+    {
+     "rotulo": null,
+     "linhas": [
+      "A Vista R$ 598,80"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "Pix Automático 99,90 + 5 x 99,90 Mês"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "TEMPO: 4 a 8 MESES"
+     ]
+    }
+   ],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "Invista no seu crescimento profissional com a Pós-Graduação EAD da UNICORP. Nossa plataforma moderna oferece videoaulas, trilhas de aprendizagem, e-books, slides, podcasts, simulados e atividades avaliativas,…",
+   "imagem": null,
+   "conteudoHtml": "<h3>Pós-Graduação EAD UNICORP</h3> <p>Invista no seu crescimento profissional com a Pós-Graduação EAD da UNICORP. Nossa plataforma moderna oferece videoaulas, trilhas de aprendizagem, e-books, slides, podcasts, simulados e atividades avaliativas, proporcionando uma experiência dinâmica e flexível.</p> <p>Estude quando e onde quiser, com cursos organizados em módulos e duração de 4 a 8 meses. Sem obrigatoriedade de TCC, você tem mais praticidade para concluir sua especialização com qualidade e excelência.</p> <p>Ao finalizar o curso, o aluno recebe Certificado de Especialista na área escolhida.</p> <table> <tbody> <tr> <td><strong>PÓS-GRADUAÇÕES EM SAÚDE</strong></td> <td><strong>CH</strong></td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1OptAhhqWA46Hk3aQwg4VxQmW1S59CtKK/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Análises Clínicas e Diagnóstico Laboratorial</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1aV82zrcQAQKJul61T9dfz9_dWnk2i2D0/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Atenção e Cuidados com Idosos</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1H2-rIbC0YBpmJNzBe08QD200AOeXtqJl/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Atendimento na Unidade Básica de Saúde</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/17GFWCQUpRMbE5QMRyBTHcARKoAIlJPaj/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Atendimento na Unidade Básica de Saúde – Enfermagem</a></td> <td>800h</td> </tr> <tr> <td>Especialização em Atendimento na Unidade Básica de Saúde – Farmácia</td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1j_PXvP3dZ0QsiGijHVNghzTkfB6vOvwB/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Atendimento na Unidade Básica de Saúde – Nutrição</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/15Z_KVJkWP0KQZieoL3HaIiaSGS_9iB1Z/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Cuidados Básicos em Hospitais Municipais</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1vsCGLgTFEb-pexSkPdEz7tFDnDOBoHsI/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Enfermagem do Trabalho</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1gyTLd2wbyJHf-LfW1P2Deu9gxYe3GfzV/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Enfermagem do Trabalho e Saúde Ocupacional</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/14QaUIXwfrP3NbDZVkiapLkN1VzohS9mt/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Enfermagem Oncológica</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1U2auKpzHOBcPmTBOfm2nSiXWxmY3hQoK/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Estética e Cosmetologia</a></td> <td>400h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1p3awFnXgOfmfxrk1j9xQ7mClVgNzI55B/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Farmacologia Clínica</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1t0DX2I6zJeZV4tggQ3J1fOfQBUtm8yYY/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Fisioterapia aplicada às atividades Físicas</a></td> <td>800h</td> </tr> <tr> <td>Especialização em Fisioterapia em Geriatria e Gerontologia</td> <td>800h</td> </tr> <tr> <td>Especialização em Vigilância Epidemiológica</td> <td>560h</td> </tr> <tr> <td>Especialização em Treinamento Físico para Terceira Idade</td> <td>560h</td> </tr> <tr> <td>Especialização em Terapias Alternativas</td> <td>560h</td> </tr> <tr> <td>Especialização em Terapia Ocupacional Pediátrica</td> <td>560h</td> </tr> <tr> <td>Especialização em Nutrição em Oncologia</td> <td>560h</td> </tr> <tr> <td>Especialização em Neuropsicologia</td> <td>800h</td> </tr> <tr> <td>Especialização em Motricidade e Desenvolvimento Motor Infantil</td> <td>560h</td> </tr> <tr> <td>Especialização em Enfermagem em Geriatria e Gerontologia</td> <td>560h</td> </tr> <tr> <td>Especialização em Enfermagem em Vigilância Sanitária</td> <td>560h</td> </tr> <tr> <td>Especialização em Enfermagem Intensivista</td> <td>560h</td> </tr> <tr> <td>Especialização em Fisioterapia Respiratória</td> <td>800h</td> </tr> <tr> <td>Especialização em Fisioterapia Pediátrica</td> <td>560h</td> </tr> <tr> <td>Especialização em Fisioterapia Neurofuncional</td> <td>800h</td> </tr> <tr> <td>Especialização em Fisioterapia Intensiva</td> <td>560h</td> </tr> <tr> <td>Especialização em Fisioterapia Home Care</td> <td>800h</td> </tr> <tr> <td>Especialização em Fisioterapia do Trabalho e Ergonomia</td> <td>800h</td> </tr> <tr> <td>Especialização em Fisioterapia Desportiva e Ortopédica</td> <td>800h</td> </tr> <tr> <td>Especialização em Fisioterapia Dermato Funcional</td> <td>800h</td> </tr> <tr> <td>Especialização em Fisiologia do Exercício</td> <td>800h</td> </tr> <tr> <td>Especialização em Arteterapia</td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1wQ6MTWQ-9ZY27NA3srLQslJrQjUGMmA_/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Fitoterapia e Suplementação Nutricional</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1urCoeuAQeIZwEgpgrH1Yts-H92ybAYh7/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Nutrição Clínica</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1cC7m18rQ7lJAgQxalEvYzxPH1tVntz5p/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Nutrição e Dietética</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1X9wVBmyxRABROFypCrJPLSTfU6XTXOqF/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Nutrição Esportiva</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1bb0kiDkgFEzeHML3BVkkf59iDPd7vQJo/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Segurança do Paciente e Gestão dos Riscos Assistenciais</a></td> <td>800h</td> </tr> </tbody> </table>"
+  },
+  {
+   "slug": "pos-unicorp-psicologia",
+   "wpSlug": "pos-graduacao-unicorp-em-psicologia",
+   "titulo": "Pós-Graduação Unicorp em Psicologia",
+   "grupo": "pos",
+   "tipo": "POS_LATO_SENSU",
+   "rotulo": "Pós-Graduação Unicorp",
+   "instituicao": "Unicorp",
+   "inscricao": "R$ 99,00",
+   "pagamento": [
+    {
+     "rotulo": null,
+     "linhas": [
+      "A Vista R$ 598,80"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "Pix Automático 99,90 + 5 x 99,90 Mês"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "TEMPO: 4 a 8 MESES"
+     ]
+    }
+   ],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "Invista no seu crescimento profissional com a Pós-Graduação EAD da UNICORP. Nossa plataforma moderna oferece videoaulas, trilhas de aprendizagem, e-books, slides, podcasts, simulados e atividades avaliativas,…",
+   "imagem": null,
+   "conteudoHtml": "<h3>Pós-Graduação EAD UNICORP</h3> <p>Invista no seu crescimento profissional com a Pós-Graduação EAD da UNICORP. Nossa plataforma moderna oferece videoaulas, trilhas de aprendizagem, e-books, slides, podcasts, simulados e atividades avaliativas, proporcionando uma experiência dinâmica e flexível.</p> <p>Estude quando e onde quiser, com cursos organizados em módulos e duração de 4 a 8 meses. Sem obrigatoriedade de TCC, você tem mais praticidade para concluir sua especialização com qualidade e excelência.</p> <p>Ao finalizar o curso, o aluno recebe Certificado de Especialista na área escolhida.</p> <table> <tbody> <tr> <td><strong>PÓS-GRADUAÇÕES EM PSICOLOGIA</strong></td> <td><strong>CH</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1DGGbwtPoGttdU_J_XC2qKSAT-pz3XMHx/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Avaliação Psicológica e Psicodiagnóstico</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1Qvt9C9cx_QCHjCeUH9-3N5jkR9g2nuKY/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Neuropsicopedagogia</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1B73XiO0DmWDasUQxrmnagmy8Uo4ZT1Gm/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Psicologia Hospitalar</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1oqgmWSoUTBOeSb9WyzxeDTAALYTJHFeg/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Psicologia do Ttransito</a></strong></td> <td><strong>560h</strong></td> </tr> </tbody> </table>"
+  },
+  {
+   "slug": "pos-unicorp-engenharia",
+   "wpSlug": "pos-graduacao-unicorp-em-engenharia",
+   "titulo": "Pós-Graduação Unicorp em Engenharia",
+   "grupo": "pos",
+   "tipo": "POS_LATO_SENSU",
+   "rotulo": "Pós-Graduação Unicorp",
+   "instituicao": "Unicorp",
+   "inscricao": "R$ 99,00",
+   "pagamento": [
+    {
+     "rotulo": null,
+     "linhas": [
+      "A Vista R$ 598,80"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "Pix Automático 99,90 + 5 x 99,90 Mês"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "TEMPO: 4 a 8 MESES"
+     ]
+    }
+   ],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "Invista no seu crescimento profissional com a Pós-Graduação EAD da UNICORP. Nossa plataforma moderna oferece videoaulas, trilhas de aprendizagem, e-books, slides, podcasts, simulados e atividades avaliativas,…",
+   "imagem": null,
+   "conteudoHtml": "<h3>Pós-Graduação EAD UNICORP</h3> <p>Invista no seu crescimento profissional com a Pós-Graduação EAD da UNICORP. Nossa plataforma moderna oferece videoaulas, trilhas de aprendizagem, e-books, slides, podcasts, simulados e atividades avaliativas, proporcionando uma experiência dinâmica e flexível.</p> <p>Estude quando e onde quiser, com cursos organizados em módulos e duração de 4 a 8 meses. Sem obrigatoriedade de TCC, você tem mais praticidade para concluir sua especialização com qualidade e excelência.</p> <p>Ao finalizar o curso, o aluno recebe Certificado de Especialista na área escolhida.</p> <table> <tbody> <tr> <td><strong>PÓS-GRADUAÇÕES EM ENGENHARIA</strong></td> <td><strong>CH</strong></td> </tr> <tr> <td>Especialização em Engenharia de Produção</td> <td>560h</td> </tr> <tr> <td>Especialização em Engenharia Ambiental</td> <td>560h</td> </tr> <tr> <td>Especialização em Engenharia Ambiental e Energias Renováveis</td> <td>560h</td> </tr> <tr> <td>Especialização em Engenharia Ambiental e Saneamento Básico</td> <td>560h</td> </tr> <tr> <td>Especialização em Engenharia da Manutenção</td> <td>560h</td> </tr> <tr> <td>Especialização em Engenharia da Qualidade</td> <td>560h</td> </tr> <tr> <td>Especialização em Engenharia de Negócios</td> <td>560h</td> </tr> <tr> <td>Especialização em Engenharia de Redes e Segurança de Dados</td> <td>560h</td> </tr> <tr> <td>Especialização em Engenharia de Segurança do Trabalho</td> <td>640h</td> </tr> <tr> <td>Especialização em Engenharia de Software</td> <td>560h</td> </tr> <tr> <td>Especialização em Engenharia de Suprimentos</td> <td>560h</td> </tr> <tr> <td>Especialização em Engenharia Econômica e Financeira</td> <td>560h</td> </tr> <tr> <td>Especialização em Engenharia Elétrica</td> <td>560h</td> </tr> <tr> <td>Especialização em Engenharia Logística</td> <td>560h</td> </tr> <tr> <td>Especialização em Indústria 4.0</td> <td>560h</td> </tr> <tr> <td>Especialização em Desenho Mecânico e Projetos Industriais</td> <td>800h</td> </tr> </tbody> </table>"
+  },
+  {
+   "slug": "pos-unicorp-servico-social",
+   "wpSlug": "pos-graduacao-unicorp-em-servico-social",
+   "titulo": "Pós-Graduação Unicorp em Serviço Social",
+   "grupo": "pos",
+   "tipo": "POS_LATO_SENSU",
+   "rotulo": "Pós-Graduação Unicorp",
+   "instituicao": "Unicorp",
+   "inscricao": "R$ 99,00",
+   "pagamento": [
+    {
+     "rotulo": null,
+     "linhas": [
+      "A Vista R$ 598,80"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "Pix Automático 99,90 + 5 x 99,90 Mês"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "TEMPO: 4 a 8 MESES"
+     ]
+    }
+   ],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "Invista no seu crescimento profissional com a Pós-Graduação EAD da UNICORP. Nossa plataforma moderna oferece videoaulas, trilhas de aprendizagem, e-books, slides, podcasts, simulados e atividades avaliativas,…",
+   "imagem": "/imagens/cursos/pos-unicorp-servico-social.jpg",
+   "conteudoHtml": "<h3>Pós-Graduação EAD UNICORP</h3> <p>Invista no seu crescimento profissional com a Pós-Graduação EAD da UNICORP. Nossa plataforma moderna oferece videoaulas, trilhas de aprendizagem, e-books, slides, podcasts, simulados e atividades avaliativas, proporcionando uma experiência dinâmica e flexível.</p> <p>Estude quando e onde quiser, com cursos organizados em módulos e duração de 4 a 8 meses. Sem obrigatoriedade de TCC, você tem mais praticidade para concluir sua especialização com qualidade e excelência.</p> <p>Ao finalizar o curso, o aluno recebe Certificado de Especialista na área escolhida.</p> <table> <tbody> <tr> <td><strong>PÓS-GRADUAÇÕES EM SERVIÇO SOCIAL</strong></td> <td><strong>CH</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1cVDMzMMt3u7PglX6fxa-g9-N28ik3kSE/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Serviço Social na Administração Pública</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/15j09C_Lq3oFQK3nOBScSyUtqOS5nDoIe/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Serviço Social na Educação</a></strong></td> <td><strong>440h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/13ePU1lJhAiRmkL3pdrk4fbMO8KoQ3rJ7/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Serviço Social na Saúde</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1zCp9vnAbEMbaWKyb3-FZfkYhWVfND6UR/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Serviço Social no Terceiro Setor</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1124lttmgU3Ji93-jXTh1ahckHJO58yTk/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Perícial Social</a></strong></td> <td><strong>560h</strong></td> </tr> </tbody> </table>"
+  },
+  {
+   "slug": "pos-unicorp-tic",
+   "wpSlug": "pos-graduacao-unicorp-em-tic",
+   "titulo": "Pós-Graduação Unicorp em TIC",
+   "grupo": "pos",
+   "tipo": "POS_LATO_SENSU",
+   "rotulo": "Pós-Graduação Unicorp",
+   "instituicao": "Unicorp",
+   "inscricao": "R$ 99,00",
+   "pagamento": [
+    {
+     "rotulo": null,
+     "linhas": [
+      "A Vista R$ 598,80"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "Pix Automático 99,90 + 5 x 99,90 Mês"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "TEMPO: 4 a 8 MESES"
+     ]
+    }
+   ],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "Na UNICORP nossa plataforma EAD, traz o que há de mais moderno disponibilizando aos alunos vídeo aulas, trilha de aprendizagem, e-books, slides, simulados, podcasts, atividades avaliativas, dentre outros de forma…",
+   "imagem": null,
+   "conteudoHtml": "<p>Na UNICORP nossa plataforma EAD, traz o que há de mais moderno disponibilizando aos alunos vídeo aulas, trilha de aprendizagem, e-books, slides, simulados, podcasts, atividades avaliativas, dentre outros de forma dinâmica, onde o aluno poderá fazer seu curso online em qualquer horário e em qualquer lugar. Os nossos cursos possuem uma carga horária estimada que permite o aluno cumprir as etapas do curso com tranquilidade e com o melhor aproveitamento possível.</p> <p><strong>TEMPO DO CURSO EAD</strong></p> <p>Com duração de 4 à 1 2 meses, o conteúdo do curso é dividido por módulos, sem obrigatoriedade para entrega do trabalho de conclusão de curso (TCC) ao final.</p> <p><strong>PÓS-GRADUAÇÃOEAD</strong></p> <p>O curso de pós-graduação pode ser de tipo lato sensu (que diz respeito aos cursos de especialização e MBA) ou stricto sensu (que compreende o mestrado, mestrado profissional e doutorado).</p> <p>OBSERVAÇÃO: Ao realizar qualquer um de nossos cursos o aluno receberá o certificado de especialista na área.</p> <p>Na UNICORP Faculdades oferecemos os cursos de Especializações e MBA´s. Definições abaixo:</p> <p><em><strong>TIC – TECNOLOGIA DA INFORMAÇÃO E COMUNICAÇÃO</strong></em></p> <table> <tbody> <tr> <td><strong>PÓS-GRADUAÇÕES EM TIC</strong></td> <td><strong>CH</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1cNZgvnEls1xAx2ln6vH9DLLqnyBab3l1/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Desenvolvimento Web</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/11decV3b7OBn0nqyCgW88upxnqRRowHgJ/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Administração de Dados</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1J8K2F4yw8IhVbvC_QTQK4l-oxyopwCSq/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Administração de Redes</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1iNcymJ9neRG-BwTRcL-AI2CyxaLY7UtE/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Administração de Servidores Linux</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1thgCe_pk4NYb_d-g4JL_2W4AEZBM2T74/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Administração de Servidores Windows</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong>Especialização em Cidades Inteligentes</strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1dJtOxxnjuCAzW-Ch1Ludz_WrwDmrVvbe/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Análise e Projeto de Software</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1wmUx2goG_xwNt0a5Akin5vtHhoBhfU9U/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Ciência de Dados</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1CU-MB40YZFCN_tZLL0TSLReDZmyGwrcD/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Desenvolvimento Mobile</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1X090CTuPhcCPOmyqFruivVZ_jRuc-WGg/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Inteligência Artificial</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1X6dJyjRYi3aaOZChg1LL-jDqzZ7rUvYH/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Internet das Coisas</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1_cG2NirSyX_VpelYLIT7c9IEveddJmm3/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Segurança da Informação</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1pOHvJPgY7o-wUpjqwSjWKmgzy6NqJKi9/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Sistemas de Informações Gerenciais</a></strong></td> <td><strong>560h</strong></td> </tr> <tr> <td><strong><a href=\"https://drive.google.com/file/d/1BVi_DJsUby-rT4CB3bb2vtPxfSGoOLCB/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">Especialização em Web Design</a></strong></td> <td><strong>560h</strong></td> </tr> </tbody> </table>"
+  },
+  {
+   "slug": "pos-unicorp-mba",
+   "wpSlug": "pos-graduacao-unicorp-em-mbas",
+   "titulo": "Pós-Graduação Unicorp em MBAs",
+   "grupo": "pos",
+   "tipo": "POS_LATO_SENSU",
+   "rotulo": "Pós-Graduação Unicorp",
+   "instituicao": "Unicorp",
+   "inscricao": "R$ 99,00",
+   "pagamento": [
+    {
+     "rotulo": null,
+     "linhas": [
+      "A Vista R$ 598,80"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "Pix Automático 99,90 + 5 x 99,90 Mês"
+     ]
+    },
+    {
+     "rotulo": null,
+     "linhas": [
+      "TEMPO: 4 a 8 MESES"
+     ]
+    }
+   ],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "Invista no seu crescimento profissional com a Pós-Graduação EAD da UNICORP. Nossa plataforma moderna oferece videoaulas, trilhas de aprendizagem, e-books, slides, podcasts, simulados e atividades avaliativas,…",
+   "imagem": null,
+   "conteudoHtml": "<h3>Pós-Graduação EAD UNICORP</h3> <p>Invista no seu crescimento profissional com a Pós-Graduação EAD da UNICORP. Nossa plataforma moderna oferece videoaulas, trilhas de aprendizagem, e-books, slides, podcasts, simulados e atividades avaliativas, proporcionando uma experiência dinâmica e flexível.</p> <p>Estude quando e onde quiser, com cursos organizados em módulos e duração de 4 a 8 meses. Sem obrigatoriedade de TCC, você tem mais praticidade para concluir sua especialização com qualidade e excelência.</p> <p>Ao finalizar o curso, o aluno recebe Certificado de Especialista na área escolhida.</p> <table> <tbody> <tr> <td><strong>PÓS-GRADUAÇÕES EM MBA´s</strong></td> <td><strong>CH</strong></td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/17H6wA9wMHZkzb93y0xGFymT_YyYVZE3T/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Administração de Pessoal</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1lMhXfqW32y5tZ403dCpgNSqi2cBZ9YT9/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Administração Pública</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/18OBRi0G-CHFP7rZzJZfc680YoGqA09Yz/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Auditoria Contábil</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1i_6HZ_hLgSzmZWA-dSSAmTQMRE_gAuZJ/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Contabilidade Gerencial</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/18O3FQqHz0aHKE7ePPZOlFMk5sVmAjtg-/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Controladoria Financeira</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1iAdnR3LnZ4oSK0YdwDjgxyuQwbEQj5q2/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Finanças Corporativas e Controladoria</a></td> <td>800h</td> </tr> <tr> <td>MBA Executivo em Gestão Comercial e Marketing</td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1wUryZoZahLKXnyJTC7G1Ud90-Kc3xMvH/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Comercial e Vendas</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1QBuPFy-MKsQznLZcYiL5-VTe6CjQFvfS/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão de Custos</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1x0Nyq31Lzj2a1pkHEoiyB0Soj4JsTMdu/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Financeira e Contábil</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1HDKZC8CohubH2E83TWHZts0NSR5fLrG6/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Pública</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1wloQz_I0sks-1jvhdiJyDFBjhlPD8IVX/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Empresarial</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1RM0_ys2VGdxlBmWb9ibKEA4-Ybz5SIzx/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Jurídica</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1fb4TS_lNvwtUS2Ug1qJnTH6YfxUQ_hVL/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Perícia e Auditoria Contábil</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1f3wvuPYxqNiS-A6SErWu18GtfZIhgas5/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Psicologia Organizacional e do Trabalho</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1ApoHMc3rxjX2U3tT2uPJS56arD-RuAu0/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Social</a></td> <td>800h</td> </tr> <tr> <td>MBA em Gestão Esportiva</td> <td>560h</td> </tr> <tr> <td>MBA em Gestão do Sistema Prisional</td> <td>560h</td> </tr> <tr> <td>MBA em Economia do Setor Público</td> <td>560h</td> </tr> <tr> <td>Especialização em Projetos Sociais e Políticas Públicas</td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1nqb0JcGPYZ_nHgY8cBWAnqTzxoU-Eosu/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Liderança e Desenvolvimento de Pessoas</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1RPyL2kcLe__JZ0-QkEk7kScp2NqMuf-5/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Social Estratégica</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1V9mG0AHEZznc2ktyxhiDqV1cHI5yr2dp/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Planejamento e Gestão no Trânsito</a></td> <td>640h</td> </tr> </tbody> </table> <table> <tbody> <tr> <td><strong>MBA EM PROCESSOS E PRODUÇÕES</strong></td> <td><strong>CH</strong></td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1z3PVs25IYCGbZMSmV6C56bNfM7iN4u_e/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Agronegócios</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1SIRc4QnpHsMej144zxaf9LYRA1vD0zbK/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Ambiental</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1IQ5NvWJd_viOynWAzhcywMMbHTdii1p0/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Ambiental Sustentável</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1wUryZoZahLKXnyJTC7G1Ud90-Kc3xMvH/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão da Cadeia de Suprimentos</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1wUryZoZahLKXnyJTC7G1Ud90-Kc3xMvH/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão da Logística Empresarial</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1HlqCpXSXXi6tmQ0O52yf1ynKwDTtCXxm/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão da Produção</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/10NnjA_RQR8NVZX9ouZ3HVZMyyQx0fhoe/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão de Processos</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1Uwzk-lLm5-C-n5BENJJW4FOCbsU1KNng/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão de Processos de Produção</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1GQBwgsXA_GAvPcsX0vHJiCarVIMasnT5/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão de Projetos</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1nxGw2xfepmuVsd3tNx1qgnDU37XtEbux/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão em Construção Civil</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/14R5_cJtLDr8Da4INuoIIcPC3R7bEaKfU/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Modelagem e Gestão de Processos</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1JsvLmy6yQ3p2VHm0efijSI2Iytf1X0iL/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão de Startups</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/14NBmJHPXdKo28yIaNHE9MqcIicAVg5BG/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Estratégica e Inovação</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1QUaw5QGaFWsXOWi637F0_RN9duDWTbOW/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão do Processo de Inovação</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1frXqxrctqtItjYvsOTQKchGzocfkpTvr/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão do Supply Chain</a></td> <td>560h</td> </tr> </tbody> </table> <p></p> <table> <tbody> <tr> <td><strong>MBA EM MKT E TIC</strong></td> <td><strong>CH</strong></td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1_TnN8bXiFwJMQ9812_Sju4T9OQsfUMit/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Empreendedorismo e Marketing</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1HfwcQFf5C1li2xpqebILk9EsAoCyp9yh/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão da Tecnologia da Informação</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1PRTpKA790A6J9IHeU2cPSIWfkZsjQIuE/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão da Tecnologia da Informação e Comunicação</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/10FwDrLF1-wSlruIREqMGtyxoCBWAy7Xq/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão de Pessoal e Pagadoria</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1kJNC4j2AHXkw_L42F46wUGe6Dse8B43S/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão de Pessoas e Talentos</a></td> <td>800h</td> </tr> <tr> <td>Especialização em Neuromarketing</td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/16zfGaUbFSir7m0CpfBazo1gkRzkq8SV-/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão de Marketing Digital</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1UbBLQk0fJ-SXfTPABLFRxwoY08SCH7II/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Estratégica de Pessoas</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1TZd4dJgOA9LARuqNBz6_Z4mXmg75m5P7/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Estratégica de Marketing</a></td> <td>560h</td> </tr> <tr> <td>MBA em Marketing Estratégico</td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1PLHIYnzV4BQmjPKjM1TYkCggHXKbkeHY/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Marketing Político</a></td> <td>560h</td> </tr> </tbody> </table> <table> <tbody> <tr> <td><strong>MBA EM SAÚDE</strong></td> <td><strong>CH</strong></td> </tr> <tr> <td>MBA em Gestão em Psicologia Organizacional e do Trabalho</td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/15zCxdHFo6V3z8V-NcsjQHkUU27olku2n/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Farmacêutica</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1bbfcWiTfZ-nZcR2J7DttsaVft-PQuKzi/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão de Farmácias</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1s0JParU2cG_Lc66hfAB0dj6tkXKqKmXc/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão de Farmácias e drogarias</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1gtLp-PiP-MtRrls5eGEzEC91Q-tHBJjO/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão de Hospitais</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/14CIr85yNvqSDw97_lBQF915t4kP-ea_6/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Hospitalar</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1zDJNdhL-HKl_9d0wAuMBzxH9rtXczaPZ/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão de Pandemias</a></td> <td>560h</td> </tr> <tr> <td>MBA em Gestão de Recursos Humanos no Setor Público</td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/15w2YyjRQhCmhMaaOo2X_HyKhKmIycRgT/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão da Saúde Municipal</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1h2t454dqncS5LKw0U7rWx4SC7fetRy7u/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão de Serviços Laboratoriais</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1QgX4FtL7SIGTbajswrDIYoIh_cc3DSHu/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão de Unidades Oncológicas</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1e1jsJPH53Kh18gabLoPNihyohhLrSRoH/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão em Saúde</a></td> <td>800h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1MTIUuUxTJSLF5Me2c_Gfc9CjjjKVGorh/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão em Saúde Pública</a></td> <td>800h</td> </tr> </tbody> </table> <table> <tbody> <tr> <td><strong>MBA EM EDUCAÇÃO</strong></td> <td><strong>CH</strong></td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/12Z9b75wE8DP_vmUHGzKJ0CILxPcxuwEj/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão e Orientação Escolar</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/12Z9b75wE8DP_vmUHGzKJ0CILxPcxuwEj/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Educacional</a></td> <td>560h</td> </tr> <tr> <td><a href=\"https://drive.google.com/file/d/1Jcjr2WGtubCbBq6IRQ_i6T2Abk7EUyFp/view?usp=sharing\" target=\"_blank\" rel=\"noopener noreferrer\">MBA em Gestão Educacional Pública</a></td> <td>560h</td> </tr> </tbody> </table>"
+  },
+  {
+   "slug": "pedagogia-para-graduados",
+   "wpSlug": "pedagogia-para-graduados",
+   "titulo": "Pedagogia para Graduados",
+   "grupo": "certificacao",
+   "tipo": "CERTIFICACAO",
+   "rotulo": "Certificação",
+   "instituicao": null,
+   "inscricao": "R$ 99,00",
+   "pagamento": [
+    {
+     "rotulo": "Investimento",
+     "linhas": [
+      "Consulte Valores e Condições"
+     ]
+    }
+   ],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "Pedagogia & Educação Especial ✅ Para licenciados ✅ Para portadores de magistério ✅ Para quem busca segunda graduação",
+   "imagem": null,
+   "conteudoHtml": "<p>🎓 PROFESSORES, ESSA OPORTUNIDADE É PRA VOCÊ!</p> <p>📚 Pedagogia &amp; Educação Especial<br> ✅ Para licenciados<br> ✅ Para portadores de magistério<br> ✅ Para quem busca segunda graduação</p> <p>🔥 VANTAGENS:<br> ✔ Conclusão em menos tempo<br> ✔ Diploma reconhecido pelo MEC<br> ✔ Amplie sua atuação na Educação</p> <p>📢 MATRÍCULAS ABERTAS<br> 🚀 Vagas ilimitadas!</p> <p>💬 Garanta sua vaga agora e invista no seu futuro profissional.</p> <p>📲 Chame no WhatsApp e saiba mais!</p>"
+  },
+  {
+   "slug": "formacao-pedagogica-r2",
+   "wpSlug": "formacao-pedagogica",
+   "titulo": "Formação Pedagógica (R2)",
+   "grupo": "certificacao",
+   "tipo": "CERTIFICACAO",
+   "rotulo": "Certificação",
+   "instituicao": null,
+   "inscricao": "R$ 99,00",
+   "pagamento": [
+    {
+     "rotulo": "Investimento",
+     "linhas": [
+      "Duração 18 meses – 19 parcelas R$ 198,00*",
+      "Duração 12 meses – 15 parcelas R$ 250,00*",
+      "*Desconto concedido para pagamentos realizados até o vencimento."
+     ]
+    }
+   ],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "A Formação Pedagógica para Graduados é a oportunidade ideal para quem deseja lecionar e construir uma carreira sólida na educação, mesmo sem ter uma licenciatura.",
+   "imagem": "/imagens/cursos/formacao-pedagogica-r2.jpg",
+   "conteudoHtml": "<p><strong>Formação Pedagógica: Transforme sua Vocação em Carreira na Educação</strong></p> <p>Você tem uma graduação e sonha em atuar como professor?</p> <p>A <strong>Formação Pedagógica para Graduados</strong> é a oportunidade ideal para quem deseja lecionar e construir uma carreira sólida na educação, mesmo sem ter uma licenciatura.</p> <p>Voltada para <strong>Bacharéis e Tecnólogos</strong>, essa formação oferece os conhecimentos pedagógicos necessários para que você atue como docente no <strong>Ensino Fundamental II e no Ensino Médio</strong>, com habilitação reconhecida pelo MEC.</p> <p><strong>Cursos Disponíveis:</strong></p> <p>Oferecemos formação pedagógica em diversas áreas do conhecimento, para que você atue com excelência na sua área de formação:</p> <table> <tbody> <tr> <td><strong><a href=\"https://www.exataeducacional.com.br/r2artesvisuais\" target=\"_blank\" rel=\"noopener noreferrer\">Artes Visuais</a></strong></td> <td><strong>1120h</strong></td> </tr> <tr> <td><strong><a href=\"https://www.exataeducacional.com.br/r2biologia\" target=\"_blank\" rel=\"noopener noreferrer\">Biologia</a></strong></td> <td><strong>1120h</strong></td> </tr> <tr> <td><strong><a href=\"https://www.exataeducacional.com.br/r2filosofia\" target=\"_blank\" rel=\"noopener noreferrer\">Filosofia</a></strong></td> <td><strong>1120h</strong></td> </tr> <tr> <td><strong><a href=\"https://www.exataeducacional.com.br/r2f%C3%ADsica\" target=\"_blank\" rel=\"noopener noreferrer\">Fisica</a></strong></td> <td><strong>1120h</strong></td> </tr> <tr> <td><strong><a href=\"https://www.exataeducacional.com.br/r2hist%C3%B3ria\" target=\"_blank\" rel=\"noopener noreferrer\">Historia</a></strong></td> <td><strong>1120h</strong></td> </tr> <tr> <td><strong><a href=\"https://www.exataeducacional.com.br/r2letrasportugu%C3%AAs\" target=\"_blank\" rel=\"noopener noreferrer\">letras Portugues</a></strong></td> <td><strong>1120h</strong></td> </tr> <tr> <td><strong><a href=\"https://www.exataeducacional.com.br/r2matem%C3%A1tica\" target=\"_blank\" rel=\"noopener noreferrer\">Matemática</a></strong></td> <td><strong>1120h</strong></td> </tr> <tr> <td><strong><a href=\"https://www.exataeducacional.com.br/r2qu%C3%ADmica\" target=\"_blank\" rel=\"noopener noreferrer\">Quimica</a></strong></td> <td><strong>1120h</strong></td> </tr> <tr> <td><strong><a href=\"https://www.exataeducacional.com.br/r2sociologia\" target=\"_blank\" rel=\"noopener noreferrer\">Sociologia</a></strong></td> <td><strong>1120h</strong></td> </tr> <tr> <td><strong>Educação Física – Faculdade Dom Bosco</strong></td> <td><strong>1120h</strong></td> </tr> </tbody> </table> <p><strong>Por que escolher nossa Formação Pedagógica?</strong></p> <ul> <li>✅ <strong>Certificação reconhecida pelo MEC</strong></li> <li>✅ <strong>Modalidade 100% online</strong></li> <li>✅ <strong>Corpo docente qualificado e experiente</strong></li> <li>✅ <strong>Acesso rápido ao mercado de trabalho</strong></li> <li>✅ <strong>Metodologia prática e voltada para a sala de aula</strong></li> </ul> <p><strong>Quem pode se matricular?</strong></p> <p>Graduados em cursos de <strong>bacharelado</strong> ou <strong>tecnólogos</strong> que desejam obter habilitação para lecionar na rede pública ou privada. A formação pedagógica é o caminho ideal para ampliar suas oportunidades profissionais e fazer a diferença na vida de milhares de estudantes.</p> <p><em><strong>DOCUMENTOS PARA DIPLOMAÇÃO CURSO SUPERIOR R2:</strong></em></p> <p><em>–<strong>CPF</strong> (é possivel emitir online no site da Receita)</em><br> <em>–<strong>RG</strong> (não serve CNH, tem que ser RG frente e verso)</em><br> <em>–<strong>TITULO DE ELEITOR FRENTE e VERSO</strong> (é possivel emitir o E-Título no site do TSE)</em><br> <em>–<strong>CERTIFICADO ENSINO SUPERIOR</strong> (assinado pelo o aluno)</em><br> <em>–<strong>HISTORICO DO ENSINO SUPERIOR</strong></em><br> <em>–<strong>RESERVISTA</strong> (EQUIVALENTE PARA HOMENS)</em><br> <em>–<strong>CERTIDÃO DE NASCIMENTO OU CASAMENTO</strong></em><br> <em>–<strong>QUITAÇÃO ELEITORAL DO TSE</strong> (é possível emitir online no site do TSE)</em><br> <em>–<strong>COMPROVANTE DE RESIDÊNCIA</strong></em></p> <p>OBS: todas as documentações precisam estar em condições <strong>legíveis</strong>, escaneadas em uma impressora, e em formato <strong>PDF.</strong></p>"
+  },
+  {
+   "slug": "segunda-licenciatura",
+   "wpSlug": "segunda-licenciatura",
+   "titulo": "Segunda Licenciatura",
+   "grupo": "certificacao",
+   "tipo": "CERTIFICACAO",
+   "rotulo": "Certificação",
+   "instituicao": null,
+   "inscricao": null,
+   "pagamento": [],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "A Segunda Licenciatura é a escolha ideal para quem já possui uma formação em licenciatura e deseja expandir sua atuação profissional. Se você é professor e busca novos horizontes, aumentar sua carga horária ou atuar em…",
+   "imagem": "/imagens/cursos/segunda-licenciatura.jpg",
+   "conteudoHtml": "<p><strong>Invista no Seu Futuro com a Segunda Licenciatura</strong></p> <p><strong>Amplie suas oportunidades na educação!</strong></p> <p>A <strong>Segunda Licenciatura</strong> é a escolha ideal para quem já possui uma formação em licenciatura e deseja expandir sua atuação profissional. Se você é <strong>professor </strong>e busca novos horizontes, aumentar sua carga horária ou atuar em uma nova disciplina, esta é a oportunidade perfeita!</p> <p><strong>Por que fazer uma Segunda Licenciatura?</strong></p> <p>✅ <strong>Aumente suas chances no mercado de trabalho</strong><br> Com a habilitação em mais de uma área, você se torna um profissional ainda mais versátil e valorizado pelas instituições de ensino.</p> <p>✅ <strong>Rápido e 100% EAD</strong><br> Cursos com duração reduzida e modalidade totalmente online, pensados para quem já tem experiência e pouco tempo.</p> <p>✅ <strong>Reconhecimento do MEC</strong><br> Todos os nossos cursos são autorizados e reconhecidos pelo Ministério da Educação.</p> <p>✅ <strong>Sem TCC</strong><br> Metodologia prática e direta, com foco na formação eficiente de um novo licenciado.</p> <p><strong>Para quem é?</strong></p> <p>Profissionais já licenciados que desejam:</p> <ul> <li>Assumir novas disciplinas</li> <li>Concorrer a mais vagas em concursos e seleções</li> <li>Expandir sua atuação em escolas públicas e privadas</li> </ul> <p>🎓 <strong>Comece agora sua Segunda Licenciatura e transforme sua carreira na educação!</strong></p> <p><strong>Áreas Disponíveis:</strong></p> <table> <tbody> <tr> <td><a href=\"https://www.exataeducacional.com.br/segunda-licenciatura-em-artes-visuais\" target=\"_blank\" rel=\"noopener noreferrer\">Artes Visuais</a></td> <td>1120h</td> </tr> <tr> <td><a href=\"https://www.exataeducacional.com.br/segundalicenciaturaemci%C3%AAnciasbiol%C3%B3gi\" target=\"_blank\" rel=\"noopener noreferrer\">Ciencias Biológicas</a></td> <td>760h</td> </tr> <tr> <td><a href=\"https://www.exataeducacional.com.br/segundalicenciaturaemeduca%C3%A7%C3%A3oespecia\" target=\"_blank\" rel=\"noopener noreferrer\">Educação Especial</a></td> <td>760h</td> </tr> <tr> <td><a href=\"https://www.exataeducacional.com.br/segundalicenciaturaemf%C3%ADsica\" target=\"_blank\" rel=\"noopener noreferrer\">Filosofia</a></td> <td>760h</td> </tr> <tr> <td><a href=\"https://www.exataeducacional.com.br/segundalicenciaturaemf%C3%ADsica\" target=\"_blank\" rel=\"noopener noreferrer\">Fisica</a></td> <td>760h</td> </tr> <tr> <td><a href=\"https://www.exataeducacional.com.br/segundalicenciaturaemgeografia\" target=\"_blank\" rel=\"noopener noreferrer\">Geografia</a></td> <td>760h</td> </tr> <tr> <td><a href=\"https://www.exataeducacional.com.br/segundalicenciaturaemhist%C3%B3ria\" target=\"_blank\" rel=\"noopener noreferrer\">História</a></td> <td>760h</td> </tr> <tr> <td><a href=\"https://www.exataeducacional.com.br/segundalicenciaturaemletraslibras\" target=\"_blank\" rel=\"noopener noreferrer\">letras Libras</a></td> <td>760h</td> </tr> <tr> <td><a href=\"https://www.exataeducacional.com.br/segunda-licenciatura-em-matem%C3%A1tica\" target=\"_blank\" rel=\"noopener noreferrer\">Matemática</a></td> <td>1120h</td> </tr> <tr> <td><a href=\"https://www.exataeducacional.com.br/c%C3%B3pia-segunda-licenciatura-em-letras\" target=\"_blank\" rel=\"noopener noreferrer\">Quimica</a></td> <td>760h</td> </tr> <tr> <td><a href=\"https://www.exataeducacional.com.br/segundalicenciaturaemci%C3%AAnciassociais\" target=\"_blank\" rel=\"noopener noreferrer\">Sociologia – ciências Sociais</a></td> <td>760h</td> </tr> <tr> </tr> </tbody> </table>"
+  },
+  {
+   "slug": "segunda-graduacao",
+   "wpSlug": "segunda-graduacao",
+   "titulo": "Segunda Graduação",
+   "grupo": "certificacao",
+   "tipo": "CERTIFICACAO",
+   "rotulo": "Certificação",
+   "instituicao": null,
+   "inscricao": "R$ 99,00",
+   "pagamento": [
+    {
+     "rotulo": null,
+     "linhas": [
+      "Valores sob Consulta"
+     ]
+    }
+   ],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "Amplie sua formação acadêmica e conquiste novas oportunidades profissionais com a Segunda Graduação.",
+   "imagem": "/imagens/cursos/segunda-graduacao.jpg",
+   "conteudoHtml": "<h3>Segunda Graduação</h3> <p>Amplie sua formação acadêmica e conquiste novas oportunidades profissionais com a Segunda Graduação.</p> <p>Se você já possui um curso superior, essa é a oportunidade ideal para adquirir uma nova formação de maneira mais rápida, prática e flexível.</p> <p>No CTA Cursos, você encontra opções em diversas áreas, com ensino moderno e focado no mercado de trabalho.</p> <h3>Cursos disponíveis:</h3> <table> <tbody> <tr> <td><strong>ÁREAS DISPONÍVEIS</strong></td> </tr> <tr> <td><strong>ADMINISTRAÇÃO BACHARELADO</strong></td> </tr> <tr> <td><strong>PEDAGOGIA – LICENCIATURA </strong></td> </tr> <tr> <td><strong>EDUCAÇÃO ESPECIAL – LICENCIATURA</strong></td> </tr> <tr> <td><strong>MÚSICA – LICENCIATURA</strong></td> </tr> <tr> <td><strong>RECURSOS HUMANOS – TECNÓLOGO</strong></td> </tr> <tr> <td><strong>GESTÃO PÚBLICA – TECNÓLOGO</strong></td> </tr> <tr> <td><strong>CIÊNCIAS CONTÁBEIS – BACHARELADO</strong></td> </tr> <tr> <td><strong>EDUCAÇÃO FISICA – BACHARELADO</strong></td> </tr> <tr> <td><strong>TECNOLOGIA DA INFORMAÇÃO – TECNÓLOGO</strong></td> </tr> <tr> <td><strong>SISTEMA DA INFORMAÇÃO – BACHARELADO</strong></td> </tr> </tbody> </table> <h3>Vantagens da Segunda Graduação:</h3> <p>✅ Formação acelerada<br>✅ Flexibilidade para estudar<br>✅ Diploma reconhecido<br>✅ Mais oportunidades no mercado<br>✅ Ampliação da área de atuação profissional</p> <p>Invista no seu crescimento pessoal e profissional com uma nova graduação e esteja preparado para novos desafios e conquistas.</p> <p>📲 Entre em contato e saiba mais sobre matrículas, valores e formas de ingresso.</p>"
+  },
+  {
+   "slug": "certificacao-por-notorio-saber",
+   "wpSlug": "certificacao-por-notorio-saber",
+   "titulo": "Certificação por Notório Saber",
+   "grupo": "certificacao",
+   "tipo": "CERTIFICACAO",
+   "rotulo": "Certificação",
+   "instituicao": null,
+   "inscricao": null,
+   "pagamento": [
+    {
+     "rotulo": null,
+     "linhas": [
+      "Valores Sob Consulta"
+     ]
+    }
+   ],
+   "cargaHoraria": null,
+   "duracao": null,
+   "modalidade": "EAD",
+   "resumo": "Você tem vasta experiência prática em uma área, mas ainda não possui um diploma que comprove seus conhecimentos? A Certificação por Notório Saber é a solução ideal para transformar sua trajetória profissional em um…",
+   "imagem": "/imagens/cursos/certificacao-por-notorio-saber.jpg",
+   "conteudoHtml": "<p><strong>Transforme sua experiência em qualificação profissional reconhecida!</strong></p> <p>Você tem vasta experiência prática em uma área, mas ainda não possui um diploma que comprove seus conhecimentos? A Certificação por Notório Saber é a solução ideal para transformar sua trajetória profissional em um título reconhecido oficialmente.</p> <p>Com base na Lei de Diretrizes e Bases da Educação Nacional (LDB), essa modalidade permite que profissionais com comprovada experiência obtenham uma certificação válida em todo o território nacional, sem precisar passar por anos de sala de aula.</p> <p>Vantagens da Certificação por Aproveitamento de Estudos:</p> <p>✅ Reconhecimento oficial da sua experiência<br> ✅ Acesso facilitado a novas oportunidades no mercado de trabalho<br> ✅ Economia de tempo e dinheiro<br> ✅ Valorização profissional e acadêmica<br> ✅ Possibilidade de atuar como professor ou consultor técnico em sua área</p> <p><em><strong>CURSOS</strong></em></p> <p><em>Administração </em></p> <p><em>Ciências Contábeis </em></p> <p><em>Teologia </em></p> <p><em>Música </em></p> <p><em>Gestão Pública </em></p> <p><em>Logística </em></p> <p><em>Recursos Humanos </em></p> <p><em>Sistema da Informação</em></p>"
+  }
+ ],
+ "redirecionarParaLoja": {
+  "eja-ead-ensino-medio": "/cursos/eja",
+  "tecnicos-reagulares-famar": "/cursos/tecnicos",
+  "faculdade-alianca-do-maranhao-famar": "/cursos/graduacao",
+  "licencitura-em-pedagogia-famar": "/cursos/graduacao",
+  "bacharel-em-administracao-famar": "/cursos/graduacao",
+  "pos-graduacao-famar__trashed": "/cursos/pos-graduacao",
+  "curso-superior-sequencial": "/cursos/graduacao",
+  "certificacao-por-competencia": "/cursos/tecnicos"
+ }
+}

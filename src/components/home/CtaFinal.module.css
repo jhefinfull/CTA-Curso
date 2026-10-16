@@ -1,0 +1,124 @@
+.secao {
+  padding-block: 96px 110px;
+  background: var(--branco);
+}
+
+.caixa {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding: 72px 56px;
+  border-radius: var(--r-xl);
+  background: linear-gradient(135deg, var(--escuro-800) 0%, var(--azul-800) 55%, var(--azul-600) 100%);
+  color: rgba(255, 255, 255, 0.82);
+  text-align: center;
+}
+
+.caixa::before {
+  content: "";
+  position: absolute;
+  inset-inline: 0;
+  top: 0;
+  height: 4px;
+  background: var(--gradiente-marca);
+}
+
+.brilho {
+  position: absolute;
+  z-index: -1;
+  width: 520px;
+  height: 520px;
+  border-radius: 50%;
+  background: rgba(233, 168, 0, 0.16);
+  filter: blur(90px);
+  bottom: -260px;
+  right: -120px;
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.olho {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 16px;
+  border-radius: var(--r-pill);
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--amarelo-300);
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-xs);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.titulo {
+  color: #fff;
+  font-size: clamp(1.75rem, 1.1rem + 2.4vw, 2.75rem);
+  max-width: 20ch;
+}
+
+.chamada {
+  max-width: 62ch;
+  font-size: var(--t-lg);
+  line-height: 1.7;
+}
+
+.acoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 8px;
+}
+
+.rodape {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  font-size: var(--t-sm);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.rodape i {
+  color: var(--verde-400);
+}
+
+.rodape a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  .secao {
+    padding-block: 64px 76px;
+  }
+
+  .caixa {
+    padding: 48px 24px;
+  }
+
+  .chamada {
+    font-size: var(--t-md);
+  }
+
+  .acoes {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .rodape {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+}

@@ -1,0 +1,171 @@
+.bloco {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+/* Campo de busca */
+
+.campo {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.campo > i:first-child {
+  position: absolute;
+  left: 18px;
+  font-size: 19px;
+  color: var(--cinza-400);
+  pointer-events: none;
+}
+
+.campo input {
+  width: 100%;
+  padding: 16px 48px 16px 50px;
+  border: 1px solid var(--cinza-200);
+  border-radius: var(--r-pill);
+  background: #fff;
+  font-size: var(--t-md);
+  box-shadow: var(--sombra-sm);
+  transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease);
+}
+
+.campo input::-webkit-search-cancel-button {
+  display: none;
+}
+
+.campo input:focus {
+  outline: none;
+  border-color: var(--azul-400);
+  box-shadow: 0 0 0 4px var(--azul-50);
+}
+
+.campo button {
+  position: absolute;
+  right: 14px;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--cinza-100);
+  color: var(--cinza-600);
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.18s var(--ease);
+}
+
+.campo button:hover {
+  background: var(--cinza-200);
+}
+
+/* Abas */
+
+.abas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.aba {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border: 1px solid var(--cinza-200);
+  border-radius: var(--r-pill);
+  background: #fff;
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  font-weight: 600;
+  color: var(--cinza-600);
+  cursor: pointer;
+  transition: border-color 0.2s var(--ease), color 0.2s var(--ease),
+    background-color 0.2s var(--ease);
+}
+
+.aba:hover:not(:disabled) {
+  border-color: var(--azul-300);
+  color: var(--azul-700);
+}
+
+.aba:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.aba i {
+  font-size: 16px;
+}
+
+.abaAtiva {
+  background: var(--azul-500);
+  border-color: var(--azul-500);
+  color: #fff;
+}
+
+.abaAtiva:hover:not(:disabled) {
+  color: #fff;
+}
+
+/* Resultado */
+
+.resultado {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.contador {
+  font-size: var(--t-sm);
+  color: var(--cinza-500);
+}
+
+.contador strong {
+  color: var(--tinta);
+}
+
+.vazio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 56px 24px;
+  border: 1px dashed var(--cinza-300);
+  border-radius: var(--r-lg);
+  background: var(--cinza-50);
+  text-align: center;
+  color: var(--cinza-600);
+}
+
+.vazio i {
+  font-size: 36px;
+  color: var(--cinza-400);
+}
+
+@media (max-width: 640px) {
+  .abas {
+    /* Vira carrossel horizontal: empilhadas, as cinco abas comeriam meia tela. */
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-inline: -18px;
+    padding-inline: 18px;
+    padding-bottom: 6px;
+    scrollbar-width: none;
+  }
+
+  .abas::-webkit-scrollbar {
+    display: none;
+  }
+
+  .aba {
+    flex-shrink: 0;
+  }
+
+  .campo input {
+    font-size: var(--t-sm);
+    padding: 14px 44px 14px 46px;
+  }
+}

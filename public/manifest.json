@@ -1,0 +1,14 @@
+{
+  "name": "CTA Boa Vista Cursos",
+  "short_name": "CTA BV",
+  "description": "Graduação, técnicos, pós-graduação, EJA, cursos livres online e cursos presenciais no Centro de Boa Vista/RR.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#00467A",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "/imagens/site/marca.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/imagens/site/marca.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

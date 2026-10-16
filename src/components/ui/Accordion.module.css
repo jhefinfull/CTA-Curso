@@ -1,0 +1,95 @@
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.item {
+  border: 1px solid var(--cinza-200);
+  border-radius: var(--r-md);
+  background: #fff;
+  overflow: hidden;
+  transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease);
+}
+
+.item:hover {
+  border-color: var(--azul-200);
+}
+
+.itemAberto {
+  border-color: var(--azul-300);
+  box-shadow: var(--sombra-md);
+}
+
+.cabecalho {
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.botao {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px 22px;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  text-align: left;
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-md);
+  font-weight: 600;
+  color: var(--tinta);
+  line-height: 1.45;
+  transition: color 0.2s var(--ease);
+}
+
+.botao:hover {
+  color: var(--azul-700);
+}
+
+.botao i {
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: var(--azul-50);
+  color: var(--azul-600);
+  font-size: 15px;
+  transition: transform 0.25s var(--ease), background-color 0.2s var(--ease),
+    color 0.2s var(--ease);
+}
+
+.itemAberto .botao i {
+  transform: rotate(45deg);
+  background: var(--azul-500);
+  color: #fff;
+}
+
+.painelCorpo {
+  padding: 0 22px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: var(--cinza-600);
+  border-top: 1px solid var(--cinza-100);
+  padding-top: 18px;
+  margin-top: -1px;
+}
+
+@media (max-width: 640px) {
+  .botao {
+    padding: 16px 18px;
+    font-size: var(--t-sm);
+    gap: 14px;
+  }
+
+  .painelCorpo {
+    padding: 16px 18px 18px;
+    font-size: var(--t-sm);
+  }
+}

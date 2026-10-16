@@ -1,0 +1,110 @@
+/* Página de curso do CTA (inscrição pelo WhatsApp): só o que a página da loja não tem. */
+
+.conteudo {
+  color: var(--cinza-600);
+  line-height: 1.8;
+  display: grid;
+  gap: 12px;
+  overflow-wrap: anywhere;
+}
+
+.conteudo p {
+  margin: 0;
+}
+
+.conteudo strong,
+.conteudo b {
+  color: var(--tinta);
+}
+
+.conteudo h3,
+.conteudo h4 {
+  margin: 12px 0 0;
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-lg);
+  color: var(--tinta);
+}
+
+.conteudo ul,
+.conteudo ol {
+  margin: 0;
+  padding-left: 1.3em;
+  display: grid;
+  gap: 4px;
+}
+
+.conteudo a {
+  color: var(--azul-600);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* Tabelas do site antigo (listas de cursos com carga horária): rolam dentro do bloco. */
+.conteudo table {
+  display: block;
+  max-width: 100%;
+  overflow-x: auto;
+  border-collapse: collapse;
+  font-size: var(--t-sm);
+  line-height: 1.5;
+}
+
+.conteudo td,
+.conteudo th {
+  overflow-wrap: normal;
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--cinza-200);
+  vertical-align: top;
+  text-align: left;
+}
+
+/* Só a primeira coluna (o nome do curso) quebra linha; carga, tempo e % ficam inteiros. */
+.conteudo td:first-child {
+  min-width: 180px;
+}
+
+.conteudo td:not(:first-child),
+.conteudo th:not(:first-child) {
+  white-space: nowrap;
+}
+
+.conteudo tr:nth-child(even) td {
+  background: var(--cinza-50);
+}
+
+.inscricao {
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-2xl);
+  font-weight: 800;
+  color: var(--tinta);
+  margin: 4px 0 10px;
+}
+
+.pagamento {
+  margin: 0;
+  display: grid;
+  gap: 10px;
+  font-size: var(--t-sm);
+  color: var(--cinza-600);
+}
+
+.pagamento dt {
+  font-family: var(--fonte-titulo);
+  font-weight: 700;
+  font-size: var(--t-xs);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--azul-700);
+}
+
+.pagamento dd {
+  margin: 0;
+}
+
+.botaoWhats {
+  background: #1fae53;
+}
+
+.botaoWhats:hover {
+  background: #178f43;
+}

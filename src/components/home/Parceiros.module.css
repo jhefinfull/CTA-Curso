@@ -1,0 +1,148 @@
+.secao {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  padding-block: 88px;
+  background: linear-gradient(120deg, var(--verde-700) 0%, var(--verde-500) 55%, var(--verde-400) 100%);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.pontos {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px);
+  background-size: 22px 22px;
+  mask-image: linear-gradient(115deg, #000 10%, transparent 62%);
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: 1.35fr 1fr;
+  gap: 52px;
+  align-items: center;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.olho {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 16px;
+  border-radius: var(--r-pill);
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-xs);
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.titulo {
+  color: #fff;
+  font-size: clamp(1.7rem, 1.1rem + 2.2vw, 2.6rem);
+  max-width: 20ch;
+}
+
+.chamada {
+  max-width: 58ch;
+  line-height: 1.7;
+}
+
+.vantagens {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.vantagens li {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-size: var(--t-sm);
+  color: #fff;
+}
+
+.vantagens i {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  font-size: 15px;
+  flex-shrink: 0;
+}
+
+.acoes {
+  margin-top: 10px;
+}
+
+/* ─── Cartões das instituições ─────────────────────────────────────────────── */
+
+.inst {
+  display: grid;
+  gap: 14px;
+}
+
+.instItem {
+  display: grid;
+  grid-template-columns: minmax(96px, auto) minmax(0, 1fr);
+  align-items: center;
+  gap: 4px 18px;
+  padding: 20px 22px;
+  background: #fff;
+  border-radius: var(--r-md);
+  box-shadow: 0 16px 36px rgba(0, 60, 10, 0.18);
+}
+
+.instItem b {
+  grid-row: span 2;
+  font-family: var(--fonte-titulo);
+  font-size: 1.375rem;
+  font-weight: 800;
+  color: var(--azul-700);
+}
+
+.instItem strong {
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  font-weight: 700;
+  color: var(--tinta);
+}
+
+.instItem small {
+  font-size: var(--t-sm);
+  color: var(--cinza-500);
+}
+
+@media (max-width: 940px) {
+  .grade {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 640px) {
+  .secao {
+    padding-block: 60px;
+  }
+
+  .acoes {
+    width: 100%;
+  }
+
+  .acoes > * {
+    width: 100%;
+  }
+}
+

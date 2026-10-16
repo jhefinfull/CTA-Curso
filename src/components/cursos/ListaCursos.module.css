@@ -1,0 +1,551 @@
+/* Sem PageHero acima (rota /cursos), a listagem é o topo da página — o padding
+   precisa contar a altura do header fixo, senão o <h1> fica escondido atrás dele. */
+.secao {
+  padding-block: 148px 96px;
+  background: var(--branco);
+}
+
+/* Nas rotas de modalidade o PageHero já empurrou o conteúdo. */
+.secaoComHero {
+  padding-top: 56px;
+}
+
+.envolucro {
+  display: grid;
+  grid-template-columns: 272px 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.semSidebar {
+  grid-template-columns: 1fr;
+}
+
+/* ─── Barra lateral de filtros ─────────────────────────────────────────────── */
+
+.sidebar {
+  position: sticky;
+  top: 126px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.cartaoFiltro {
+  padding: 22px 20px;
+  border: 1px solid var(--cinza-200);
+  border-radius: var(--r-lg);
+  background: #fff;
+}
+
+.tituloFiltro {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: var(--t-sm);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--tinta);
+  padding-bottom: 14px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--cinza-100);
+}
+
+.tituloFiltro i {
+  color: var(--azul-500);
+  font-size: 17px;
+}
+
+.listaFiltro {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  /* Vitrines grandes chegam a 20+ áreas: a lista rola dentro do próprio cartão em
+     vez de esticar a sidebar até o fim da página. */
+  max-height: 420px;
+  overflow-y: auto;
+  margin-inline: -6px;
+  padding-inline: 6px;
+}
+
+.itemFiltro {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 11px;
+  border-radius: var(--r-sm);
+  font-size: var(--t-sm);
+  color: var(--cinza-600);
+  transition: background-color 0.18s var(--ease), color 0.18s var(--ease);
+}
+
+.itemFiltro:hover {
+  background: var(--cinza-50);
+  color: var(--tinta);
+}
+
+.itemFiltro i {
+  font-size: 16px;
+  color: var(--cinza-400);
+  flex-shrink: 0;
+  transition: color 0.18s var(--ease);
+}
+
+.itemAtivo {
+  background: var(--azul-50);
+  color: var(--azul-800);
+  font-weight: 600;
+}
+
+.itemAtivo i {
+  color: var(--azul-600);
+}
+
+.contagem {
+  margin-left: auto;
+  flex-shrink: 0;
+  padding: 1px 9px;
+  border-radius: var(--r-pill);
+  background: var(--cinza-100);
+  color: var(--cinza-500);
+  font-size: var(--t-xs);
+  font-weight: 600;
+}
+
+.itemAtivo .contagem {
+  background: var(--azul-500);
+  color: #fff;
+}
+
+.ajuda {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11px;
+  padding: 22px 20px;
+  border-radius: var(--r-lg);
+  background: linear-gradient(160deg, var(--azul-700), var(--escuro-800));
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.ajuda > i {
+  font-size: 28px;
+  color: var(--amarelo-400);
+}
+
+.ajuda p {
+  font-size: var(--t-sm);
+  line-height: 1.6;
+}
+
+.ajudaBotao {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  border-radius: var(--r-pill);
+  background: #25d366;
+  color: #fff;
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  font-weight: 600;
+  transition: transform 0.2s var(--ease);
+}
+
+.ajudaBotao:hover {
+  transform: translateY(-2px);
+}
+
+/* ─── Chips (mobile) ───────────────────────────────────────────────────────── */
+
+.chips {
+  display: none;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  margin-bottom: 4px;
+  scrollbar-width: none;
+}
+
+.chips::-webkit-scrollbar {
+  display: none;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  flex-shrink: 0;
+  padding: 8px 15px;
+  border: 1px solid var(--cinza-200);
+  border-radius: var(--r-pill);
+  background: #fff;
+  font-size: var(--t-sm);
+  color: var(--cinza-600);
+  white-space: nowrap;
+}
+
+.chip span {
+  padding: 0 7px;
+  border-radius: var(--r-pill);
+  background: var(--cinza-100);
+  font-size: var(--t-xs);
+  font-weight: 600;
+}
+
+.chipAtivo {
+  background: var(--azul-500);
+  border-color: var(--azul-500);
+  color: #fff;
+  font-weight: 600;
+}
+
+.chipAtivo span {
+  background: rgba(255, 255, 255, 0.24);
+  color: #fff;
+}
+
+/* ─── Coluna principal ─────────────────────────────────────────────────────── */
+
+.principal {
+  min-width: 0;
+}
+
+.cabecalho {
+  margin-bottom: 22px;
+}
+
+.titulo {
+  font-size: clamp(1.7rem, 1.2rem + 1.8vw, 2.4rem);
+}
+
+.subtitulo {
+  margin-top: 8px;
+  color: var(--cinza-500);
+  font-size: var(--t-sm);
+}
+
+.contador {
+  margin-bottom: 18px;
+  font-size: var(--t-sm);
+  font-weight: 600;
+  color: var(--cinza-500);
+}
+
+/* Busca + ordenação */
+
+.barraBusca {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.campoBusca {
+  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.campoBusca > i:first-child {
+  position: absolute;
+  left: 16px;
+  color: var(--cinza-400);
+  font-size: 18px;
+  pointer-events: none;
+}
+
+.inputBusca {
+  width: 100%;
+  padding: 13px 44px 13px 46px;
+  border: 1px solid var(--cinza-200);
+  border-radius: var(--r-pill);
+  background: #fff;
+  font-size: var(--t-sm);
+  transition: border-color 0.2s var(--ease), box-shadow 0.2s var(--ease);
+}
+
+.inputBusca::-webkit-search-cancel-button {
+  display: none;
+}
+
+.inputBusca:focus {
+  outline: none;
+  border-color: var(--azul-400);
+  box-shadow: 0 0 0 4px var(--azul-50);
+}
+
+.limparBusca {
+  position: absolute;
+  right: 12px;
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border: 0;
+  border-radius: 50%;
+  background: var(--cinza-100);
+  color: var(--cinza-600);
+  font-size: 12px;
+  cursor: pointer;
+  transition: background-color 0.18s var(--ease);
+}
+
+.limparBusca:hover {
+  background: var(--cinza-200);
+}
+
+.carregando {
+  position: absolute;
+  right: 46px;
+  width: 15px;
+  height: 15px;
+  border: 2px solid var(--cinza-200);
+  border-top-color: var(--azul-500);
+  border-radius: 50%;
+  animation: girar 0.7s linear infinite;
+}
+
+@keyframes girar {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.campoOrdem {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.campoOrdem > i {
+  position: absolute;
+  left: 15px;
+  color: var(--cinza-400);
+  font-size: 17px;
+  pointer-events: none;
+}
+
+.campoOrdem select {
+  appearance: none;
+  padding: 13px 38px 13px 42px;
+  border: 1px solid var(--cinza-200);
+  border-radius: var(--r-pill);
+  background: #fff
+    url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%236a7a92'%3E%3Cpath d='M8 11 3.5 6.5h9z'/%3E%3C/svg%3E")
+    no-repeat right 14px center / 13px;
+  font-size: var(--t-sm);
+  color: var(--cinza-700);
+  cursor: pointer;
+  transition: border-color 0.2s var(--ease);
+}
+
+.campoOrdem select:focus {
+  outline: none;
+  border-color: var(--azul-400);
+}
+
+/* Filtros ativos */
+
+.filtrosAtivos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.filtrosLabel {
+  font-size: var(--t-xs);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--cinza-400);
+}
+
+.pilula {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 13px;
+  border-radius: var(--r-pill);
+  background: var(--azul-50);
+  border: 1px solid var(--azul-100);
+  color: var(--azul-800);
+  font-size: var(--t-xs);
+  font-weight: 600;
+  transition: background-color 0.18s var(--ease);
+}
+
+.pilula:hover {
+  background: var(--azul-100);
+}
+
+.pilula i {
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+.limpar {
+  font-size: var(--t-xs);
+  font-weight: 600;
+  color: var(--cinza-500);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.limpar:hover {
+  color: var(--laranja-600);
+}
+
+/* Grupos e grade */
+
+.grupo + .grupo {
+  margin-top: 48px;
+}
+
+.grupoCabecalho {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--cinza-200);
+}
+
+.grupoCabecalho i {
+  font-size: 20px;
+  color: var(--azul-500);
+}
+
+.grupoCabecalho h2 {
+  font-size: var(--t-xl);
+}
+
+.grupoCabecalho span {
+  font-size: var(--t-xs);
+  color: var(--cinza-500);
+  margin-left: auto;
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(258px, 1fr));
+  gap: 22px;
+}
+
+/* Paginação */
+
+.paginacao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  margin-top: 48px;
+  flex-wrap: wrap;
+}
+
+.pagBotao {
+  display: grid;
+  place-items: center;
+  min-width: 42px;
+  height: 42px;
+  padding-inline: 12px;
+  border: 1px solid var(--cinza-200);
+  border-radius: var(--r-sm);
+  background: #fff;
+  font-family: var(--fonte-titulo);
+  font-size: var(--t-sm);
+  font-weight: 600;
+  color: var(--cinza-600);
+  transition: border-color 0.18s var(--ease), color 0.18s var(--ease),
+    background-color 0.18s var(--ease);
+}
+
+.pagBotao:hover {
+  border-color: var(--azul-300);
+  color: var(--azul-700);
+}
+
+.pagAtivo {
+  background: var(--azul-500);
+  border-color: var(--azul-500);
+  color: #fff;
+}
+
+.pagAtivo:hover {
+  color: #fff;
+}
+
+.pagDesativado {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.pagReticencia {
+  padding-inline: 4px;
+  color: var(--cinza-400);
+}
+
+/* ─── Responsivo ───────────────────────────────────────────────────────────── */
+
+@media (max-width: 1024px) {
+  .envolucro {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .chips {
+    display: flex;
+    /* Estoura o container pra sangrar até a borda da tela, como carrossel. */
+    margin-inline: -24px;
+    padding-inline: 24px;
+  }
+}
+
+@media (max-width: 640px) {
+  .secao {
+    padding-block: 108px 64px;
+  }
+
+  .secaoComHero {
+    padding-top: 32px;
+  }
+
+  .chips {
+    margin-inline: -18px;
+    padding-inline: 18px;
+  }
+
+  .barraBusca {
+    flex-direction: column;
+  }
+
+  .campoOrdem select {
+    width: 100%;
+  }
+
+  .grade {
+    grid-template-columns: repeat(auto-fill, minmax(236px, 1fr));
+    gap: 16px;
+  }
+
+  .grupoCabecalho span {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 420px) {
+  .grade {
+    grid-template-columns: 1fr;
+  }
+}
