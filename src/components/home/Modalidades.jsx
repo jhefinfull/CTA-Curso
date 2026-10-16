@@ -12,8 +12,13 @@ const TEXTOS = {
   },
   graduacao: {
     chamada:
-      "Bacharelado, licenciatura e tecnólogo com UNIP, FAMAR e Unicorp Faculdades, além do curso superior sequencial.",
+      "Bacharelado, licenciatura e tecnólogo com UNIP, FAMAR e Unicorp Faculdades.",
     itens: ["Pedagogia, Administração, Música e mais", "Tecnólogos a partir de 1 ano e meio", "Mensalidade que cabe no mês"],
+  },
+  sequencial: {
+    chamada:
+      "Curso superior de formação específica, focado numa área, para quem já concluiu o Ensino Médio.",
+    itens: ["Formação de nível superior", "Foco numa área de atuação", "Matrícula online"],
   },
   pos: {
     chamada:
