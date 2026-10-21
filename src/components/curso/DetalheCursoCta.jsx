@@ -219,14 +219,29 @@ const DetalheCursoCta = async ({ slug }) => {
             </div>
 
             <div className={styles.rodapeCompra}>
-              <a href={whatsapp} target="_blank" rel="noopener noreferrer" className={`${styles.matricular} ${cta.botaoWhats}`}>
-                <i className="ph-bold ph-whatsapp-logo" aria-hidden="true" />
-                Quero me inscrever
-              </a>
-              <p className={styles.selo}>
-                <i className="ph-fill ph-chats-circle" aria-hidden="true" />
-                Retorno da equipe em até 24 horas, em dia útil
-              </p>
+              {curso.inscricaoUrl ? (
+                <>
+                  <a href={curso.inscricaoUrl} target="_blank" rel="noopener noreferrer" className={styles.matricular}>
+                    Quero me inscrever
+                    <i className="ph-bold ph-arrow-square-out" aria-hidden="true" />
+                  </a>
+                  <p className={styles.selo}>
+                    <i className="ph-fill ph-buildings" aria-hidden="true" />
+                    Inscrição no site oficial da {curso.instituicao}
+                  </p>
+                </>
+              ) : (
+                <>
+                  <a href={whatsapp} target="_blank" rel="noopener noreferrer" className={`${styles.matricular} ${cta.botaoWhats}`}>
+                    <i className="ph-bold ph-whatsapp-logo" aria-hidden="true" />
+                    Quero me inscrever
+                  </a>
+                  <p className={styles.selo}>
+                    <i className="ph-fill ph-chats-circle" aria-hidden="true" />
+                    Retorno da equipe em até 24 horas, em dia útil
+                  </p>
+                </>
+              )}
             </div>
           </div>
         </aside>
