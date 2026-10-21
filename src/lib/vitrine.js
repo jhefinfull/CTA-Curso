@@ -36,6 +36,8 @@ export const CURSOS_CTA = dadosCta.cursos.map((c) => ({
   duracao: c.duracao,
   pagamento: c.pagamento,
   conteudoHtml: c.conteudoHtml,
+  // Inscrição feita no site da própria instituição (UNIP), em vez do WhatsApp do CTA.
+  inscricaoUrl: c.inscricaoUrl || null,
   whatsapp: true,
   rota: `/curso-cta/${c.slug}`,
   idLoja: c.idLoja || null,
