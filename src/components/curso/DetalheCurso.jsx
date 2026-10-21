@@ -9,7 +9,8 @@ import {
   iniciaisDoCurso,
 } from "@/utils/cursoDisplay";
 import { dadosDaArea, ehAreaDeFormacao, iconeDaArea } from "@/config/areas";
-import { TIPO_FIC, labelDoTipo, modalidadeDoTipo } from "@/config/tiposCurso";
+import { TIPO_FIC, TIPO_PRESENCIAL, labelDoTipo, modalidadeDoTipo } from "@/config/tiposCurso";
+import { cursoDaLojaNoSite, ehPresencialDaLoja } from "@/lib/vitrine";
 import { linkWhatsapp, site } from "@/content/site";
 import CursoCard from "@/components/cursos/CursoCard";
 import styles from "./DetalheCurso.module.css";
@@ -121,9 +122,12 @@ const DetalheCurso = async ({ id }) => {
 
   if (!curso) notFound();
 
-  const naVitrine = vitrine.cursos.find((c) => c.id === curso.id);
+  // Os cursos com o tipo que têm no site: o presencial do CTA chega da loja como FIC.
+  const cursosNoSite = vitrine.cursos.map(cursoDaLojaNoSite);
+  const naVitrine = cursosNoSite.find((c) => c.id === curso.id);
   const ehProprio = Boolean(naVitrine?.ehProprio);
-  const tipo = naVitrine?.tipo;
+  const presencial = ehPresencialDaLoja(curso);
+  const tipo = presencial ? TIPO_PRESENCIAL : naVitrine?.tipo;
 
   // Subtipo ("Subsequente", "MBA") não é área: não vira chip nem link de área.
   const temArea = ehAreaDeFormacao(curso.subcategoria);
@@ -149,7 +153,7 @@ const DetalheCurso = async ({ id }) => {
   const chamada = curso.chamada || (curso.sobreOCurso ? curso.resumo : null);
 
   // Relacionados: mesma área quando o curso tem área; senão, a mesma modalidade.
-  const relacionados = vitrine.cursos
+  const relacionados = cursosNoSite
     .filter((c) => c.id !== curso.id && (curso.subcategoria ? c.subcategoria === curso.subcategoria : c.tipo === tipo))
     .slice(0, 4);
 
@@ -166,7 +170,7 @@ const DetalheCurso = async ({ id }) => {
     ...(curso.imagemUrl ? { image: curso.imagemUrl } : {}),
     hasCourseInstance: {
       "@type": "CourseInstance",
-      courseMode: "online",
+      courseMode: presencial ? "onsite" : "online",
       courseWorkload: curso.cargaHoraria > 0 ? `PT${curso.cargaHoraria}H` : undefined,
     },
     ...(typeof preco.valor === "number"
@@ -237,10 +241,10 @@ const DetalheCurso = async ({ id }) => {
 
             <ul className={styles.resumoRapido}>
               <li>
-                <i className="ph-bold ph-monitor-play" aria-hidden="true" />
+                <i className={`ph-bold ${presencial ? "ph-chalkboard-teacher" : "ph-monitor-play"}`} aria-hidden="true" />
                 <span>
-                  <strong>100% online</strong>
-                  <small>estude quando quiser</small>
+                  <strong>{presencial ? "Presencial" : "100% online"}</strong>
+                  <small>{presencial ? "no Centro de Boa Vista" : "estude quando quiser"}</small>
                 </span>
               </li>
               {curso.cargaHoraria > 0 && (
@@ -468,16 +472,22 @@ const DetalheCurso = async ({ id }) => {
                   </li>
                 )}
                 <li>
-                  <i className="ph-bold ph-monitor-play" aria-hidden="true" />
-                  Modalidade: <b>EAD — 100% online</b>
+                  <i className={`ph-bold ${presencial ? "ph-chalkboard-teacher" : "ph-monitor-play"}`} aria-hidden="true" />
+                  Modalidade: <b>{presencial ? "Presencial no CTA" : "EAD — 100% online"}</b>
                 </li>
+                {presencial && (
+                  <li>
+                    <i className="ph-bold ph-map-pin" aria-hidden="true" />
+                    {site.endereco.linha}, Centro
+                  </li>
+                )}
                 <li>
                   <i className="ph-bold ph-certificate" aria-hidden="true" />
                   Certificado de conclusão
                 </li>
                 <li>
                   <i className="ph-bold ph-lightning" aria-hidden="true" />
-                  Acesso liberado após a confirmação
+                  {presencial ? "Matrícula confirmada após o pagamento" : "Acesso liberado após a confirmação"}
                 </li>
                 {formasPagamento.length > 0 && (
                   <li>

@@ -4,12 +4,14 @@
  *
  * Os da loja levam à matrícula online do sistema. Os do site antigo levam a uma página
  * própria (/curso-cta/<slug>) com o botão do WhatsApp — quando a escola cadastrar um
- * deles na loja, basta tirá-lo do JSON e o da loja passa a aparecer no lugar.
+ * deles na loja, basta tirá-lo do JSON e o da loja passa a aparecer no lugar. O curso do
+ * JSON com `idLoja` sai sozinho assim que aquele curso da loja é publicado.
  *
  * Tudo o que lista curso no site passa por aqui, para a contagem do menu, da home e das
  * páginas de modalidade bater sempre.
  */
 import { fetchGsdCursos } from "@/lib/gsdApi";
+import { LABEL_POR_TIPO, TIPO_PRESENCIAL } from "@/config/tiposCurso";
 import dadosCta from "@/content/cursosCta.json";
 
 /** Cursos do site antigo no formato dos cursos da API (os campos que o site usa). */
@@ -36,6 +38,7 @@ export const CURSOS_CTA = dadosCta.cursos.map((c) => ({
   conteudoHtml: c.conteudoHtml,
   whatsapp: true,
   rota: `/curso-cta/${c.slug}`,
+  idLoja: c.idLoja || null,
 }));
 
 /** Slugs de curso do WordPress que já existem na loja → página do site novo. */
@@ -43,6 +46,44 @@ export const WP_PARA_LOJA = dadosCta.redirecionarParaLoja;
 
 export function cursoCtaPorSlug(slug) {
   return CURSOS_CTA.find((c) => c.slug === slug) || null;
+}
+
+// Cursos da loja que são o mesmo de um presencial do site antigo (`idLoja` no JSON). A
+// ligação é pelo id e não pelo nome: a escola cadastrou vários com outra grafia
+// ("Englesh", "Andraide", "Mover Maker"), e casar pelo nome deixava o curso duas vezes.
+const IDS_LOJA_PRESENCIAIS = new Set(
+  dadosCta.cursos.filter((c) => c.tipo === TIPO_PRESENCIAL && c.idLoja).map((c) => c.idLoja)
+);
+
+function normalizar(texto) {
+  return (texto || "").normalize("NFD").replace(/[̀-ͯ]/g, "").trim().toLowerCase();
+}
+
+/**
+ * O curso da loja é presencial no CTA quando a escola pôs "Presenciais no CTA" (ou só
+ * "Presencial") na "Seção no site", ou quando ele é o de um presencial do site antigo.
+ * A loja manda esses cursos como FIC, que no site é "Cursos Livres Online". A palavra
+ * inteira evita que uma seção "Semipresencial" caia aqui.
+ */
+export function ehPresencialDaLoja(curso) {
+  return /\bpresencia(l|is)\b/.test(normalizar(curso.secao)) || IDS_LOJA_PRESENCIAIS.has(curso.id);
+}
+
+/** Curso da loja com o tipo que ele tem no site. */
+export function cursoDaLojaNoSite(curso) {
+  return ehPresencialDaLoja(curso)
+    ? { ...curso, tipo: TIPO_PRESENCIAL, tipoLabel: LABEL_POR_TIPO[TIPO_PRESENCIAL] }
+    : curso;
+}
+
+/**
+ * Id do curso da loja que já tomou o lugar deste curso do site antigo, ou null. A página
+ * antiga redireciona para ele, levando junto os links do WordPress que caem nela.
+ */
+export async function cursoDaLojaNoLugar(cursoCta) {
+  if (!cursoCta?.idLoja) return null;
+  const loja = await fetchGsdCursos();
+  return loja.cursos.some((c) => c.id === cursoCta.idLoja) ? cursoCta.idLoja : null;
 }
 
 function mesmaArea(area, alvo) {
@@ -65,10 +106,13 @@ function ordenar(cursos, ordem) {
   return lista.sort((a, b) => a.titulo.localeCompare(b.titulo, "pt-BR"));
 }
 
-function somarTipos(tiposApi, extras) {
-  const mapa = new Map(tiposApi.map((t) => [t.codigo, { ...t }]));
-  for (const c of extras) {
-    const atual = mapa.get(c.tipo) || { codigo: c.tipo, label: c.tipoLabel, total: 0 };
+// Contado sobre a vitrine do site, e não somado à faceta da API: a API conta o
+// presencial da loja como FIC e não sabe que o curso do JSON que ele substitui saiu.
+function contarTipos(tiposApi, cursos) {
+  const rotulos = new Map(tiposApi.map((t) => [t.codigo, t.label]));
+  const mapa = new Map();
+  for (const c of cursos) {
+    const atual = mapa.get(c.tipo) || { codigo: c.tipo, label: rotulos.get(c.tipo) || c.tipoLabel, total: 0 };
     atual.total += 1;
     mapa.set(c.tipo, atual);
   }
@@ -86,17 +130,21 @@ export async function buscarVitrine({ categoria, tipo, tipos, ordem = "nome" } =
   // Uma chamada só à loja (a mesma URL é reaproveitada pelo cache do Next em todo o site).
   const loja = await fetchGsdCursos({ ordem: ordem === "recentes" ? "recentes" : undefined });
 
-  const daLoja = loja.cursos.filter(
+  const lojaNoSite = loja.cursos.map(cursoDaLojaNoSite);
+  const idsNaLoja = new Set(loja.cursos.map((c) => c.id));
+  const ctaNoSite = CURSOS_CTA.filter((c) => !c.idLoja || !idsNaLoja.has(c.idLoja));
+
+  const daLoja = lojaNoSite.filter(
     (c) => (!filtroTipos || filtroTipos.includes(c.tipo)) && (!categoria || mesmaArea(c.subcategoria, categoria))
   );
-  const doCta = CURSOS_CTA.filter((c) => (!filtroTipos || filtroTipos.includes(c.tipo)) && !categoria);
+  const doCta = ctaNoSite.filter((c) => (!filtroTipos || filtroTipos.includes(c.tipo)) && !categoria);
 
   return {
     ...loja,
     cursos: ordenar([...daLoja, ...doCta], ordem),
-    total: loja.cursos.length + CURSOS_CTA.length,
+    total: lojaNoSite.length + ctaNoSite.length,
     facetas: {
-      tipos: somarTipos(loja.facetas.tipos, CURSOS_CTA),
+      tipos: contarTipos(loja.facetas.tipos, [...lojaNoSite, ...ctaNoSite]),
       categorias: loja.facetas.categorias,
     },
   };
