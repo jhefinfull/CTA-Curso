@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { notFound } from "next/navigation";
-import { buscarVitrine, cursoCtaPorSlug } from "@/lib/vitrine";
+import { notFound, redirect } from "next/navigation";
+import { buscarVitrine, cursoCtaPorSlug, cursoDaLojaNoLugar } from "@/lib/vitrine";
 import { gradienteDaMarca, iniciaisDoCurso } from "@/utils/cursoDisplay";
 import { modalidadeDoTipo } from "@/config/tiposCurso";
 import { linkWhatsappCurso, site } from "@/content/site";
@@ -19,6 +19,10 @@ import cta from "./DetalheCursoCta.module.css";
 const DetalheCursoCta = async ({ slug }) => {
   const curso = cursoCtaPorSlug(slug);
   if (!curso) notFound();
+
+  // Já publicado na loja: o visitante vai para o curso com a matrícula online.
+  const idNaLoja = await cursoDaLojaNoLugar(curso);
+  if (idNaLoja) redirect(`/curso/${idNaLoja}`);
 
   const modalidade = modalidadeDoTipo(curso.tipo);
   const whatsapp = linkWhatsappCurso(curso.titulo);
