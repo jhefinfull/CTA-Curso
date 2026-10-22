@@ -80,7 +80,7 @@ export const MODALIDADES = [
     tipos: [TIPO_FIC],
     icone: "ph-laptop",
     cor: "azul",
-    resumo: "Qualificação de 80 horas, 100% online, com matrícula na hora",
+    resumo: "Qualificação 100% online, com matrícula na hora",
   },
   {
     chave: "eja",

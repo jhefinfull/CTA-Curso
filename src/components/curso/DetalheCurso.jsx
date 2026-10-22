@@ -146,7 +146,6 @@ const DetalheCurso = async ({ id }) => {
   const formasPagamento = preco.formasPagamento || [];
 
   const modulos = (curso.grade || []).filter((m) => (m.disciplinas || []).length > 0);
-  const totalDisciplinas = modulos.reduce((soma, m) => soma + m.disciplinas.length, 0);
 
   // `sobreOCurso` é o texto longo e `resumo` o curto. Quando os dois existem, o resumo
   // vira a chamada do topo em vez de repetir o mesmo conteúdo logo abaixo.
@@ -154,11 +153,7 @@ const DetalheCurso = async ({ id }) => {
   const chamada = curso.chamada || (curso.sobreOCurso ? curso.resumo : null);
   // Pós por área que substituiu a do site antigo: lá o texto tem os links das grades de
   // cada especialização, que não cabem no "Sobre o curso" da loja (só texto).
-  const posPorArea = posDoSiteAntigo(naVitrine);
-  const conteudoHtml = posPorArea?.conteudoHtml || null;
-  // Cada especialização da área tem carga e grade próprias: as horas e o total de
-  // disciplinas da loja não valem para todas, então a página não os mostra.
-  const cargaHoraria = posPorArea ? 0 : curso.cargaHoraria;
+  const conteudoHtml = posDoSiteAntigo(naVitrine)?.conteudoHtml || null;
 
   // Relacionados: mesma área quando o curso tem área; senão, a mesma modalidade.
   const relacionados = cursosNoSite
@@ -179,7 +174,6 @@ const DetalheCurso = async ({ id }) => {
     hasCourseInstance: {
       "@type": "CourseInstance",
       courseMode: presencial ? "onsite" : "online",
-      courseWorkload: cargaHoraria > 0 ? `PT${cargaHoraria}H` : undefined,
     },
     ...(typeof preco.valor === "number"
       ? {
@@ -224,12 +218,6 @@ const DetalheCurso = async ({ id }) => {
                 </span>
               )}
               {curso.tipoLabel && <span className={styles.chipNeutro}>{nomeTipo}</span>}
-              {cargaHoraria > 0 && (
-                <span className={styles.chipTexto}>
-                  <i className="ph-bold ph-clock" aria-hidden="true" />
-                  {cargaHoraria} horas
-                </span>
-              )}
               {preco.promo && (
                 <span className={styles.chipPromo}>
                   <i className="ph-fill ph-fire" aria-hidden="true" />
@@ -255,24 +243,6 @@ const DetalheCurso = async ({ id }) => {
                   <small>{presencial ? "no Centro de Boa Vista" : "estude quando quiser"}</small>
                 </span>
               </li>
-              {cargaHoraria > 0 && (
-                <li>
-                  <i className="ph-bold ph-clock-countdown" aria-hidden="true" />
-                  <span>
-                    <strong>{cargaHoraria}h</strong>
-                    <small>carga horária</small>
-                  </span>
-                </li>
-              )}
-              {!posPorArea && totalDisciplinas > 0 && (
-                <li>
-                  <i className="ph-bold ph-list-checks" aria-hidden="true" />
-                  <span>
-                    <strong>{totalDisciplinas}</strong>
-                    <small>{totalDisciplinas === 1 ? "disciplina" : "disciplinas"}</small>
-                  </span>
-                </li>
-              )}
               <li>
                 <i className="ph-bold ph-certificate" aria-hidden="true" />
                 <span>
@@ -331,19 +301,12 @@ const DetalheCurso = async ({ id }) => {
             </section>
           )}
 
-          {totalDisciplinas > 0 && (
+          {modulos.length > 0 && (
             <section className={styles.bloco}>
               <h2 className={styles.blocoTitulo}>
                 <i className="ph-bold ph-graduation-cap" aria-hidden="true" />
                 O que você vai estudar
               </h2>
-              {!posPorArea && (
-                <p className={styles.blocoMeta}>
-                  {totalDisciplinas} {totalDisciplinas === 1 ? "disciplina" : "disciplinas"}
-                  {cargaHoraria > 0 ? ` · ${cargaHoraria}h no total` : ""}
-                </p>
-              )}
-
               <div className={styles.modulos}>
                 {modulos.map((modulo, i) => (
                   <div key={modulo.periodo ?? i}>
@@ -361,9 +324,6 @@ const DetalheCurso = async ({ id }) => {
                           return (
                             <div key={j} className={styles.disciplina}>
                               <span>{disciplina.nome}</span>
-                              {disciplina.cargaHoraria > 0 && (
-                                <strong>{disciplina.cargaHoraria}h</strong>
-                              )}
                             </div>
                           );
                         }
@@ -372,9 +332,6 @@ const DetalheCurso = async ({ id }) => {
                           <details key={j} className={styles.disciplinaExpansivel}>
                             <summary className={styles.disciplina}>
                               <span>{disciplina.nome}</span>
-                              {disciplina.cargaHoraria > 0 && (
-                                <strong>{disciplina.cargaHoraria}h</strong>
-                              )}
                               <i className="ph-bold ph-caret-down" aria-hidden="true" />
                             </summary>
                             <p className={styles.ementa}>{ementa}</p>
@@ -479,12 +436,6 @@ const DetalheCurso = async ({ id }) => {
               </div>
 
               <ul className={styles.infos}>
-                {cargaHoraria > 0 && (
-                  <li>
-                    <i className="ph-bold ph-clock" aria-hidden="true" />
-                    Carga horária: <b>{cargaHoraria}h</b>
-                  </li>
-                )}
                 <li>
                   <i className={`ph-bold ${presencial ? "ph-chalkboard-teacher" : "ph-monitor-play"}`} aria-hidden="true" />
                   Modalidade: <b>{presencial ? "Presencial no CTA" : "EAD — 100% online"}</b>

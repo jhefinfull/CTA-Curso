@@ -31,7 +31,7 @@ const TEXTOS = {
     itens: ["Aulas às terças e quintas", "Turmas de manhã, tarde e noite", "Inscrição de R$ 150 e parcelas de R$ 200"],
   },
   livres: {
-    chamada: "Cursos de 80 horas, 100% online, em educação, saúde, direito, vendas, gestão e muito mais.",
+    chamada: "Cursos 100% online em educação, saúde, direito, vendas, gestão e muito mais.",
     itens: ["Matrícula e acesso na hora", "Estude de onde estiver", "Certificado ao concluir"],
   },
   eja: {

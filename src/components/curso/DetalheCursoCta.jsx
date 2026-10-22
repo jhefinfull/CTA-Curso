@@ -41,7 +41,6 @@ const DetalheCursoCta = async ({ slug }) => {
     hasCourseInstance: {
       "@type": "CourseInstance",
       courseMode: presencial ? "blended" : "online",
-      courseWorkload: curso.cargaHoraria > 0 ? `PT${curso.cargaHoraria}H` : undefined,
     },
   };
 
@@ -73,12 +72,6 @@ const DetalheCursoCta = async ({ slug }) => {
               {curso.instituicao && curso.instituicao !== "CTA" && (
                 <span className={styles.chipNeutro}>{curso.instituicao}</span>
               )}
-              {curso.cargaHoraria > 0 && (
-                <span className={styles.chipTexto}>
-                  <i className="ph-bold ph-clock" aria-hidden="true" />
-                  {curso.cargaHoraria} horas
-                </span>
-              )}
             </div>
 
             <h1 className={styles.titulo}>{curso.titulo}</h1>
@@ -92,15 +85,6 @@ const DetalheCursoCta = async ({ slug }) => {
                   <small>modalidade</small>
                 </span>
               </li>
-              {curso.cargaHoraria > 0 && (
-                <li>
-                  <i className="ph-bold ph-clock-countdown" aria-hidden="true" />
-                  <span>
-                    <strong>{curso.cargaHoraria}h</strong>
-                    <small>carga horária</small>
-                  </span>
-                </li>
-              )}
               {curso.duracao && (
                 <li>
                   <i className="ph-bold ph-calendar" aria-hidden="true" />
@@ -217,12 +201,6 @@ const DetalheCursoCta = async ({ slug }) => {
               </div>
 
               <ul className={styles.infos}>
-                {curso.cargaHoraria > 0 && (
-                  <li>
-                    <i className="ph-bold ph-clock" aria-hidden="true" />
-                    Carga horária: <b>{curso.cargaHoraria}h</b>
-                  </li>
-                )}
                 <li>
                   <i className="ph-bold ph-monitor-play" aria-hidden="true" />
                   Modalidade: <b>{curso.modalidadeTexto}</b>
