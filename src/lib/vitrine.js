@@ -5,13 +5,14 @@
  * Os da loja levam à matrícula online do sistema. Os do site antigo levam a uma página
  * própria (/curso-cta/<slug>) com o botão do WhatsApp — quando a escola cadastrar um
  * deles na loja, basta tirá-lo do JSON e o da loja passa a aparecer no lugar. O curso do
- * JSON com `idLoja` sai sozinho assim que aquele curso da loja é publicado.
+ * JSON com `idLoja` sai sozinho assim que aquele curso da loja é publicado; a pós sai
+ * também quando a loja publica uma pós com o mesmo nome.
  *
  * Tudo o que lista curso no site passa por aqui, para a contagem do menu, da home e das
  * páginas de modalidade bater sempre.
  */
 import { fetchGsdCursos } from "@/lib/gsdApi";
-import { LABEL_POR_TIPO, TIPO_PRESENCIAL } from "@/config/tiposCurso";
+import { LABEL_POR_TIPO, TIPO_POS, TIPO_PRESENCIAL } from "@/config/tiposCurso";
 import dadosCta from "@/content/cursosCta.json";
 
 /** Cursos do site antigo no formato dos cursos da API (os campos que o site usa). */
@@ -78,14 +79,34 @@ export function cursoDaLojaNoSite(curso) {
     : curso;
 }
 
+// Título sem acento, caixa nem pontuação: "Pós Graduação" e "Pós-Graduação" são o mesmo.
+function chaveDoTitulo(titulo) {
+  return normalizar(titulo).replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+/**
+ * Id do curso da loja que tomou o lugar deste curso do site antigo, ou null.
+ *
+ * Pelo `idLoja` do JSON e, na pós, também pelo nome: a pós é vendida por área
+ * ("Pós-Graduação Unicorp em Direito") e a escola cadastra na loja com o mesmo nome do site
+ * antigo, então cada área sai sozinha quando é publicada, sem mexer no JSON. Nos
+ * presenciais o nome não serve (ver IDS_LOJA_PRESENCIAIS).
+ */
+function idDaLojaNoLugar(cursoCta, cursosLoja) {
+  if (cursoCta.idLoja) return cursosLoja.some((c) => c.id === cursoCta.idLoja) ? cursoCta.idLoja : null;
+  if (cursoCta.tipo !== TIPO_POS) return null;
+  const chave = chaveDoTitulo(cursoCta.titulo);
+  return cursosLoja.find((c) => c.tipo === TIPO_POS && chaveDoTitulo(c.titulo) === chave)?.id || null;
+}
+
 /**
  * Id do curso da loja que já tomou o lugar deste curso do site antigo, ou null. A página
  * antiga redireciona para ele, levando junto os links do WordPress que caem nela.
  */
 export async function cursoDaLojaNoLugar(cursoCta) {
-  if (!cursoCta?.idLoja) return null;
+  if (!cursoCta) return null;
   const loja = await fetchGsdCursos();
-  return loja.cursos.some((c) => c.id === cursoCta.idLoja) ? cursoCta.idLoja : null;
+  return idDaLojaNoLugar(cursoCta, loja.cursos);
 }
 
 function mesmaArea(area, alvo) {
@@ -133,8 +154,7 @@ export async function buscarVitrine({ categoria, tipo, tipos, ordem = "nome" } =
   const loja = await fetchGsdCursos({ ordem: ordem === "recentes" ? "recentes" : undefined });
 
   const lojaNoSite = loja.cursos.map(cursoDaLojaNoSite);
-  const idsNaLoja = new Set(loja.cursos.map((c) => c.id));
-  const ctaNoSite = CURSOS_CTA.filter((c) => !c.idLoja || !idsNaLoja.has(c.idLoja));
+  const ctaNoSite = CURSOS_CTA.filter((c) => !idDaLojaNoLugar(c, loja.cursos));
 
   const daLoja = lojaNoSite.filter(
     (c) => (!filtroTipos || filtroTipos.includes(c.tipo)) && (!categoria || mesmaArea(c.subcategoria, categoria))
