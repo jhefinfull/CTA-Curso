@@ -100,6 +100,16 @@ function idDaLojaNoLugar(cursoCta, cursosLoja) {
 }
 
 /**
+ * Pós do site antigo que este curso da loja (item da vitrine, com `tipo`) substituiu, ou
+ * null. O "Sobre o curso" da loja é só texto: a escola colou nele a tabela das
+ * especializações e os links das grades se perderam — o conteúdo do site antigo tem eles.
+ */
+export function posDoSiteAntigo(cursoLoja) {
+  if (!cursoLoja) return null;
+  return CURSOS_CTA.find((c) => c.tipo === TIPO_POS && idDaLojaNoLugar(c, [cursoLoja]) === cursoLoja.id) || null;
+}
+
+/**
  * Id do curso da loja que já tomou o lugar deste curso do site antigo, ou null. A página
  * antiga redireciona para ele, levando junto os links do WordPress que caem nela.
  */
