@@ -72,11 +72,15 @@ export function ehPresencialDaLoja(curso) {
   return /\bpresencia(l|is)\b/.test(normalizar(curso.secao)) || IDS_LOJA_PRESENCIAIS.has(curso.id);
 }
 
-/** Curso da loja com o tipo que ele tem no site. */
+/**
+ * Curso da loja com o tipo que ele tem no site. A pós por área fica sem carga horária:
+ * cada especialização dela tem a sua, e a da loja não vale para todas.
+ */
 export function cursoDaLojaNoSite(curso) {
-  return ehPresencialDaLoja(curso)
+  const noSite = ehPresencialDaLoja(curso)
     ? { ...curso, tipo: TIPO_PRESENCIAL, tipoLabel: LABEL_POR_TIPO[TIPO_PRESENCIAL] }
     : curso;
+  return posDoSiteAntigo(noSite) ? { ...noSite, cargaHoraria: 0 } : noSite;
 }
 
 // Título sem acento, caixa nem pontuação: "Pós Graduação" e "Pós-Graduação" são o mesmo.
