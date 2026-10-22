@@ -135,16 +135,6 @@
   white-space: nowrap;
 }
 
-.carga {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  flex-shrink: 0;
-  font-size: var(--t-xs);
-  font-weight: 500;
-  color: var(--cinza-500);
-}
-
 .titulo {
   font-size: var(--t-lg);
   line-height: 1.32;

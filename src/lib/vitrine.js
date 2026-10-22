@@ -28,7 +28,6 @@ export const CURSOS_CTA = dadosCta.cursos.map((c) => ({
   subcategoria: null,
   secao: null,
   ehProprio: false,
-  cargaHoraria: c.cargaHoraria || 0,
   preco: null,
   precoTexto: c.inscricao ? `Inscrição ${c.inscricao.replace(",00", "")}` : null,
   rotulo: c.rotulo,
@@ -72,15 +71,11 @@ export function ehPresencialDaLoja(curso) {
   return /\bpresencia(l|is)\b/.test(normalizar(curso.secao)) || IDS_LOJA_PRESENCIAIS.has(curso.id);
 }
 
-/**
- * Curso da loja com o tipo que ele tem no site. A pós por área fica sem carga horária:
- * cada especialização dela tem a sua, e a da loja não vale para todas.
- */
+/** Curso da loja com o tipo que ele tem no site. */
 export function cursoDaLojaNoSite(curso) {
-  const noSite = ehPresencialDaLoja(curso)
+  return ehPresencialDaLoja(curso)
     ? { ...curso, tipo: TIPO_PRESENCIAL, tipoLabel: LABEL_POR_TIPO[TIPO_PRESENCIAL] }
     : curso;
-  return posDoSiteAntigo(noSite) ? { ...noSite, cargaHoraria: 0 } : noSite;
 }
 
 // Título sem acento, caixa nem pontuação: "Pós Graduação" e "Pós-Graduação" são o mesmo.

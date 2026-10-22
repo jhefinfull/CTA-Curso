@@ -74,15 +74,11 @@ const CursoCard = ({ curso, destaque = false, prioridade = false }) => {
       </div>
 
       <div className={styles.corpo}>
-        <div className={styles.meta}>
-          {rotuloArea && <span className={styles.area}>{rotuloArea}</span>}
-          {curso.cargaHoraria > 0 && (
-            <span className={styles.carga}>
-              <i className="ph-bold ph-clock" aria-hidden="true" />
-              {curso.cargaHoraria}h
-            </span>
-          )}
-        </div>
+        {rotuloArea && (
+          <div className={styles.meta}>
+            <span className={styles.area}>{rotuloArea}</span>
+          </div>
+        )}
 
         <h3 className={styles.titulo}>{curso.titulo}</h3>
 

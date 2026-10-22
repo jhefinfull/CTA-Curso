@@ -8,7 +8,7 @@ const PASSOS = [
     icone: "ph-magnifying-glass",
     titulo: "Escolha o curso",
     texto:
-      "Navegue pelas modalidades ou pela lista completa. Cada curso mostra carga horária, modalidade e valores antes de você decidir.",
+      "Navegue pelas modalidades ou pela lista completa. Cada curso mostra conteúdo, modalidade e valores antes de você decidir.",
   },
   {
     numero: "02",
