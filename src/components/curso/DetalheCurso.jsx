@@ -10,10 +10,11 @@ import {
 } from "@/utils/cursoDisplay";
 import { dadosDaArea, ehAreaDeFormacao, iconeDaArea } from "@/config/areas";
 import { TIPO_FIC, TIPO_PRESENCIAL, labelDoTipo, modalidadeDoTipo } from "@/config/tiposCurso";
-import { cursoDaLojaNoSite, ehPresencialDaLoja } from "@/lib/vitrine";
+import { cursoDaLojaNoSite, ehPresencialDaLoja, posDoSiteAntigo } from "@/lib/vitrine";
 import { linkWhatsapp, site } from "@/content/site";
 import CursoCard from "@/components/cursos/CursoCard";
 import styles from "./DetalheCurso.module.css";
+import cta from "./DetalheCursoCta.module.css";
 
 /**
  * Cada plano é um caminho de compra fechado: clicar leva ao checkout do sistema
@@ -151,6 +152,9 @@ const DetalheCurso = async ({ id }) => {
   // vira a chamada do topo em vez de repetir o mesmo conteúdo logo abaixo.
   const descricao = curso.sobreOCurso || curso.resumo;
   const chamada = curso.chamada || (curso.sobreOCurso ? curso.resumo : null);
+  // Pós por área que substituiu a do site antigo: lá o texto tem os links das grades de
+  // cada especialização, que não cabem no "Sobre o curso" da loja (só texto).
+  const conteudoHtml = posDoSiteAntigo(naVitrine)?.conteudoHtml || null;
 
   // Relacionados: mesma área quando o curso tem área; senão, a mesma modalidade.
   const relacionados = cursosNoSite
@@ -275,13 +279,17 @@ const DetalheCurso = async ({ id }) => {
             </ul>
           </header>
 
-          {descricao && (
+          {(conteudoHtml || descricao) && (
             <section className={styles.bloco}>
               <h2 className={styles.blocoTitulo}>
                 <i className="ph-bold ph-book-open" aria-hidden="true" />
                 Sobre o curso
               </h2>
-              <p className={styles.paragrafo}>{descricao}</p>
+              {conteudoHtml ? (
+                <div className={cta.conteudo} dangerouslySetInnerHTML={{ __html: conteudoHtml }} />
+              ) : (
+                <p className={styles.paragrafo}>{descricao}</p>
+              )}
             </section>
           )}
 
