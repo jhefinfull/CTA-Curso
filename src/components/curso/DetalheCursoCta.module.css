@@ -108,3 +108,12 @@
 .botaoWhats:hover {
   background: #178f43;
 }
+
+/* Botão que leva ao site da instituição (UNIP): laranja, como o "Quero me inscrever". */
+.botaoSite {
+  background: var(--laranja-500);
+}
+
+.botaoSite:hover {
+  background: var(--laranja-600);
+}

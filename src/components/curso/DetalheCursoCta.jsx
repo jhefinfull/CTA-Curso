@@ -12,7 +12,8 @@ import cta from "./DetalheCursoCta.module.css";
 /**
  * Página de um curso do CTA que ainda não está na loja do sistema (presenciais,
  * semipresenciais, Unicorp, UNIP, certificações). O conteúdo veio do site antigo e a
- * inscrição é com a equipe, pelo WhatsApp — por isso não há checkout aqui.
+ * inscrição é com a equipe, pelo WhatsApp — por isso não há checkout aqui. Curso com
+ * `inscricaoUrl` (Graduação UNIP) leva todos os botões de inscrição ao site da instituição.
  *
  * Usa o mesmo CSS da página de curso da loja, para as duas parecerem a mesma coisa.
  */
@@ -109,13 +110,23 @@ const DetalheCursoCta = async ({ slug }) => {
                   </span>
                 </li>
               )}
-              <li>
-                <i className="ph-bold ph-whatsapp-logo" aria-hidden="true" />
-                <span>
-                  <strong>WhatsApp</strong>
-                  <small>inscrição com a equipe</small>
-                </span>
-              </li>
+              {curso.inscricaoUrl ? (
+                <li>
+                  <i className="ph-bold ph-buildings" aria-hidden="true" />
+                  <span>
+                    <strong>Site da {curso.instituicao}</strong>
+                    <small>inscrição oficial</small>
+                  </span>
+                </li>
+              ) : (
+                <li>
+                  <i className="ph-bold ph-whatsapp-logo" aria-hidden="true" />
+                  <span>
+                    <strong>WhatsApp</strong>
+                    <small>inscrição com a equipe</small>
+                  </span>
+                </li>
+              )}
             </ul>
           </header>
 
@@ -130,20 +141,37 @@ const DetalheCursoCta = async ({ slug }) => {
             </section>
           )}
 
-          <section className={styles.blocoDuvida}>
-            <i className="ph-fill ph-chat-circle-dots" aria-hidden="true" />
-            <div>
-              <h2>Quer se inscrever ou tirar uma dúvida?</h2>
-              <p>
-                Chame a equipe do CTA no WhatsApp. A gente confirma turma, horário, valores e
-                documentos com você — {site.horario.toLowerCase()}.
-              </p>
-            </div>
-            <a href={whatsapp} target="_blank" rel="noopener noreferrer" className={styles.duvidaBotao}>
-              <i className="ph-bold ph-whatsapp-logo" aria-hidden="true" />
-              Falar no WhatsApp
-            </a>
-          </section>
+          {curso.inscricaoUrl ? (
+            <section className={styles.blocoDuvida}>
+              <i className="ph-fill ph-graduation-cap" aria-hidden="true" />
+              <div>
+                <h2>Quer se inscrever?</h2>
+                <p>
+                  A inscrição é feita direto no site oficial da {curso.instituicao}. Clique no
+                  botão para continuar a sua inscrição por lá.
+                </p>
+              </div>
+              <a href={curso.inscricaoUrl} target="_blank" rel="noopener noreferrer" className={`${styles.duvidaBotao} ${cta.botaoSite}`}>
+                Inscrever-se no site da {curso.instituicao}
+                <i className="ph-bold ph-arrow-square-out" aria-hidden="true" />
+              </a>
+            </section>
+          ) : (
+            <section className={styles.blocoDuvida}>
+              <i className="ph-fill ph-chat-circle-dots" aria-hidden="true" />
+              <div>
+                <h2>Quer se inscrever ou tirar uma dúvida?</h2>
+                <p>
+                  Chame a equipe do CTA no WhatsApp. A gente confirma turma, horário, valores e
+                  documentos com você — {site.horario.toLowerCase()}.
+                </p>
+              </div>
+              <a href={whatsapp} target="_blank" rel="noopener noreferrer" className={styles.duvidaBotao}>
+                <i className="ph-bold ph-whatsapp-logo" aria-hidden="true" />
+                Falar no WhatsApp
+              </a>
+            </section>
+          )}
         </article>
 
         <aside className={styles.lateral}>
@@ -267,15 +295,27 @@ const DetalheCursoCta = async ({ slug }) => {
       )}
 
       {/* Barra fixa no celular: a coluna da inscrição fica muito abaixo em tela estreita. */}
-      <div className={styles.barraMobile}>
-        <div className={styles.barraPreco}>
-          <small>Inscrição</small>
-          <strong>{curso.precoTexto ? curso.precoTexto.replace("Inscrição ", "") : "pelo WhatsApp"}</strong>
+      {curso.inscricaoUrl ? (
+        <div className={styles.barraMobile}>
+          <div className={styles.barraPreco}>
+            <small>Inscrição</small>
+            <strong>no site da {curso.instituicao}</strong>
+          </div>
+          <a href={curso.inscricaoUrl} target="_blank" rel="noopener noreferrer" className={styles.barraBotao}>
+            Inscrever-se
+          </a>
         </div>
-        <a href={whatsapp} target="_blank" rel="noopener noreferrer" className={`${styles.barraBotao} ${cta.botaoWhats}`}>
-          WhatsApp
-        </a>
-      </div>
+      ) : (
+        <div className={styles.barraMobile}>
+          <div className={styles.barraPreco}>
+            <small>Inscrição</small>
+            <strong>{curso.precoTexto ? curso.precoTexto.replace("Inscrição ", "") : "pelo WhatsApp"}</strong>
+          </div>
+          <a href={whatsapp} target="_blank" rel="noopener noreferrer" className={`${styles.barraBotao} ${cta.botaoWhats}`}>
+            WhatsApp
+          </a>
+        </div>
+      )}
     </div>
   );
 };
