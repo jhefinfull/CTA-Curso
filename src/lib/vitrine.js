@@ -12,7 +12,7 @@
  * páginas de modalidade bater sempre.
  */
 import { fetchGsdCursos } from "@/lib/gsdApi";
-import { LABEL_POR_TIPO, TIPO_POS, TIPO_PRESENCIAL } from "@/config/tiposCurso";
+import { LABEL_POR_TIPO, TIPO_CERTIFICACAO, TIPO_POS, TIPO_PRESENCIAL } from "@/config/tiposCurso";
 import dadosCta from "@/content/cursosCta.json";
 
 /** Cursos do site antigo no formato dos cursos da API (os campos que o site usa). */
@@ -71,11 +71,32 @@ export function ehPresencialDaLoja(curso) {
   return /\bpresencia(l|is)\b/.test(normalizar(curso.secao)) || IDS_LOJA_PRESENCIAIS.has(curso.id);
 }
 
-/** Curso da loja com o tipo que ele tem no site. */
+/**
+ * O curso da loja é uma certificação do CTA (Certificação por Competência) quando a escola
+ * pôs "Certificações" ou "... por Competência" na "Seção no site", ou quando o título começa
+ * com "Certificação" ou tem "por Competência". A loja não tem esse tipo: manda como técnico
+ * ou FIC, e o curso cairia em Técnicos ou em Cursos Livres em vez de Certificações.
+ */
+export function ehCertificacaoDaLoja(curso) {
+  return (
+    /\bcertificac(ao|oes)\b|\bpor competencias?\b/.test(normalizar(curso.secao)) ||
+    /^certificacao\b|\bpor competencias?\b/.test(normalizar(curso.titulo))
+  );
+}
+
+/**
+ * Curso da loja com o tipo que ele tem no site. A pós por área cadastrada sem chamada nem
+ * resumo leva o resumo da página antiga, para o cartão não ficar só com o título.
+ */
 export function cursoDaLojaNoSite(curso) {
-  return ehPresencialDaLoja(curso)
-    ? { ...curso, tipo: TIPO_PRESENCIAL, tipoLabel: LABEL_POR_TIPO[TIPO_PRESENCIAL] }
-    : curso;
+  if (ehPresencialDaLoja(curso)) {
+    return { ...curso, tipo: TIPO_PRESENCIAL, tipoLabel: LABEL_POR_TIPO[TIPO_PRESENCIAL] };
+  }
+  if (ehCertificacaoDaLoja(curso)) {
+    return { ...curso, tipo: TIPO_CERTIFICACAO, tipoLabel: LABEL_POR_TIPO[TIPO_CERTIFICACAO] };
+  }
+  const antiga = !curso.chamada && !curso.resumo ? posDoSiteAntigo(curso) : null;
+  return antiga ? { ...curso, resumo: antiga.resumo } : curso;
 }
 
 // Título sem acento, caixa nem pontuação: "Pós Graduação" e "Pós-Graduação" são o mesmo.

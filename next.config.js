@@ -66,6 +66,8 @@ const nextConfig = {
       { source: "/todos-os-cursos/:rest*", destination: "/cursos", permanent: true },
       { source: "/politicas-de-privacidade", destination: "/politica-privacidade", permanent: true },
       { source: "/termos-de-uso", destination: "/politica-privacidade", permanent: true },
+      // Saiu do site: a Pedagogia para Graduados é oferecida dentro da Segunda Graduação.
+      { source: "/curso-cta/pedagogia-para-graduados", destination: "/curso-cta/segunda-graduacao", permanent: true },
       ...cursosAntigos,
     ];
   },

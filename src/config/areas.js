@@ -229,9 +229,14 @@ const SUBTIPOS_DA_API = new Set(
   ].map(chaveNormalizada)
 );
 
+// A pós vendida por área ("Pós-Graduação Unicorp em Direito") vem com o próprio nome na
+// área. Cada uma virava uma "área" de um curso só no menu, repetindo o nome do curso.
+const NOME_DE_POS = /^pos[\s-]*graduacao\b/;
+
 /** A categoria da API é uma área de formação de verdade (e não um subtipo de curso)? */
 export function ehAreaDeFormacao(nome) {
-  return Boolean(nome) && !SUBTIPOS_DA_API.has(chaveNormalizada(nome));
+  const chave = chaveNormalizada(nome);
+  return Boolean(nome) && !SUBTIPOS_DA_API.has(chave) && !NOME_DE_POS.test(chave);
 }
 
 /** "Segurança no Trabalho" → "seguranca-no-trabalho" */

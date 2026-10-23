@@ -157,7 +157,7 @@ const DetalheCurso = async ({ id }) => {
 
   // Relacionados: mesma área quando o curso tem área; senão, a mesma modalidade.
   const relacionados = cursosNoSite
-    .filter((c) => c.id !== curso.id && (curso.subcategoria ? c.subcategoria === curso.subcategoria : c.tipo === tipo))
+    .filter((c) => c.id !== curso.id && (temArea ? c.subcategoria === curso.subcategoria : c.tipo === tipo))
     .slice(0, 4);
 
   const dadosEstruturados = {
