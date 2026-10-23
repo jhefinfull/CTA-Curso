@@ -23,13 +23,16 @@ const BuscaCursosBar = ({ buscaInicial = "", ordemInicial = "nome" }) => {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const [busca, setBusca] = useState(buscaInicial);
+  const [buscaDaUrl, setBuscaDaUrl] = useState(buscaInicial);
   const [pendente, iniciarTransicao] = useTransition();
   const debounce = useRef(null);
 
-  // A busca pode mudar por fora (limpar filtro, botão voltar) — o campo acompanha.
-  useEffect(() => {
+  // A busca pode mudar por fora (limpar filtro, botão voltar) — o campo acompanha. Ajustado
+  // durante a renderização, e não num efeito, para o campo não piscar com o valor antigo.
+  if (buscaInicial !== buscaDaUrl) {
+    setBuscaDaUrl(buscaInicial);
     setBusca(buscaInicial);
-  }, [buscaInicial]);
+  }
 
   const atualizarUrl = (mudancas) => {
     const params = new URLSearchParams(searchParams.toString());
