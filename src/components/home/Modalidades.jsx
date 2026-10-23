@@ -40,7 +40,7 @@ const TEXTOS = {
   },
   certificacoes: {
     chamada:
-      "Segunda graduação, segunda licenciatura, formação pedagógica (R2), pedagogia para graduados e notório saber.",
+      "Segunda graduação, segunda licenciatura, formação pedagógica (R2), certificação por competência e notório saber.",
     itens: ["Para quem já tem formação", "Cursos a distância", "Atendimento pelo WhatsApp"],
   },
 };

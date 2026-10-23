@@ -23,7 +23,7 @@ export const FAQ = [
     pergunta: "Como faço para me matricular em um curso?",
     resposta: [
       "Escolha o curso na página de cursos. Nos cursos da nossa loja, o botão “Matricule-se” leva ao sistema acadêmico do CTA: você informa seus dados, escolhe a forma de pagamento e finaliza.",
-      "Nos cursos presenciais, nos técnicos semipresenciais e nos das parceiras Unicorp e UNIP, o botão abre o WhatsApp do CTA e a equipe conclui a sua inscrição com você.",
+      "Nos cursos que ainda não têm matrícula online, como os técnicos semipresenciais e os técnicos e a graduação da Unicorp, o botão abre o WhatsApp do CTA e a equipe conclui a sua inscrição com você. Na Graduação UNIP, a inscrição é feita no site oficial da UNIP.",
     ],
   },
   {
