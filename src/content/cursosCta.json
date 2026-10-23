@@ -1319,8 +1319,15 @@
    "tipo": "CERTIFICACAO",
    "rotulo": "Certificação",
    "instituicao": null,
-   "inscricao": null,
-   "pagamento": [],
+   "inscricao": "R$ 99,00",
+   "pagamento": [
+    {
+     "rotulo": null,
+     "linhas": [
+      "Valores sob Consulta"
+     ]
+    }
+   ],
    "cargaHoraria": null,
    "duracao": null,
    "modalidade": "EAD",
