@@ -23,6 +23,26 @@ export const TIPO_CERTIFICACAO = "CERTIFICACAO";
  */
 export const MODALIDADES = [
   {
+    chave: "eja",
+    titulo: "EJA EAD",
+    menu: "EJA EAD",
+    rota: "/cursos/eja",
+    tipos: [TIPO_EJA],
+    icone: "ph-student",
+    cor: "verde",
+    resumo: "Conclua o Ensino Médio estudando pela plataforma",
+  },
+  {
+    chave: "sequencial",
+    titulo: "Superior Sequencial",
+    menu: "Superior Sequencial",
+    rota: "/cursos/superior-sequencial",
+    tipos: [TIPO_SEQUENCIAL],
+    icone: "ph-books",
+    cor: "noite",
+    resumo: "Formação de nível superior focada numa área",
+  },
+  {
     chave: "tecnicos",
     titulo: "Cursos Técnicos",
     menu: "Técnicos",
@@ -41,16 +61,6 @@ export const MODALIDADES = [
     icone: "ph-graduation-cap",
     cor: "azul",
     resumo: "Bacharelado, licenciatura e tecnólogo",
-  },
-  {
-    chave: "sequencial",
-    titulo: "Superior Sequencial",
-    menu: "Superior Sequencial",
-    rota: "/cursos/superior-sequencial",
-    tipos: [TIPO_SEQUENCIAL],
-    icone: "ph-books",
-    cor: "noite",
-    resumo: "Formação de nível superior focada numa área",
   },
   {
     chave: "pos",
@@ -81,16 +91,6 @@ export const MODALIDADES = [
     icone: "ph-laptop",
     cor: "azul",
     resumo: "Qualificação 100% online, com matrícula na hora",
-  },
-  {
-    chave: "eja",
-    titulo: "EJA EAD",
-    menu: "EJA EAD",
-    rota: "/cursos/eja",
-    tipos: [TIPO_EJA],
-    icone: "ph-student",
-    cor: "verde",
-    resumo: "Conclua o Ensino Médio estudando pela plataforma",
   },
   {
     chave: "certificacoes",
