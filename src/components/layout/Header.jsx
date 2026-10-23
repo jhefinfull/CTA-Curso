@@ -29,6 +29,7 @@ const Header = ({ areas = [], totais = {} }) => {
   const [cursosAberto, setCursosAberto] = useState(false);
   const [mobileCursos, setMobileCursos] = useState(false);
   const [alunoAberto, setAlunoAberto] = useState(false);
+  const [paginaAtual, setPaginaAtual] = useState(pathname);
   const refCursos = useRef(null);
   const refAluno = useRef(null);
 
@@ -40,12 +41,14 @@ const Header = ({ areas = [], totais = {} }) => {
   }, []);
 
   // Trocar de página tem que fechar tudo — senão o menu mobile fica por cima da página nova.
-  useEffect(() => {
+  // Ajustado durante a renderização, e não num efeito, para a página nova já abrir sem menu.
+  if (pathname !== paginaAtual) {
+    setPaginaAtual(pathname);
     setMobileAberto(false);
     setCursosAberto(false);
     setMobileCursos(false);
     setAlunoAberto(false);
-  }, [pathname]);
+  }
 
   // O menu da Área do Aluno (três portais) fecha por clique fora e por Esc.
   useEffect(() => {
