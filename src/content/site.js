@@ -37,11 +37,11 @@ export const site = {
 
   urlSite: "https://ctabv.com.br",
 
-  /** Portais da Área do Aluno — os mesmos três do site antigo. */
+  /** Portais da Área do Aluno (links passados pelo cliente em 23/10/2026). */
   portais: {
     lista: [
-      { nome: "EAD", descricao: "Cursos a distância", url: "https://www.ctaboavista.com.br/metodo/login.php" },
-      { nome: "Presencial", descricao: "Cursos no CTA", url: "https://www.ctaeja.com.br/ead/login" },
+      { nome: "EAD", descricao: "Cursos a distância", url: "https://cta-cursos.acadgsd.com/aluno/login" },
+      { nome: "Presencial", descricao: "Cursos no CTA", url: "https://ctaeja.com.br/acesso-escola" },
       { nome: "UNICORP", descricao: "Alunos Unicorp", url: "https://unicorp.loja.srv.br/sga_alunos_login/" },
     ],
     loja: "https://cta-cursos.acadgsd.com/loja",
